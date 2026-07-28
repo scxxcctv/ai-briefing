@@ -1,0 +1,16 @@
+# 环境配置（含密钥）
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+
+# 采集数据（本地缓存，不推送到仓库）
+storage/raw/
+storage/briefings/
+
+# IDE
+.vscode/
+.idea/
