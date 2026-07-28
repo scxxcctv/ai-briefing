@@ -11,7 +11,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 STORAGE_DIR = BASE_DIR / "storage"
 RAW_DIR = STORAGE_DIR / "raw"
 BRIEFINGS_DIR = STORAGE_DIR / "briefings"
-WEB_DIR = BASE_DIR / "web"
+WEB_DIR = BASE_DIR / "docs"
 WEB_BRIEFINGS_DIR = WEB_DIR / "briefings"
 
 # 确保目录存在
