@@ -17,6 +17,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 获取完整历史，确保push不会冲突
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -38,4 +40,4 @@ jobs:
           git config user.name "AI Briefing Bot"
           git config user.email "bot@ai-briefing.local"
           git add docs/briefings/ storage/
-          git diff --staged --quiet || (git commit -m "Auto: daily briefing $(date +%Y-%m-%d)" && git push)
+          git diff --staged --quiet || (git commit -m "Auto: daily briefing $(date +%Y-%m-%d)" && git pull --rebase origin master && git push origin master)
