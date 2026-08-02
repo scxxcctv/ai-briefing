@@ -1,0 +1,310 @@
+{
+  "date": "2026-07-30",
+  "generated_at": "2026-07-30T08:00:00+08:00",
+  "model": "deepseek-chat",
+  "briefing_summary": "今日AI领域，AI安全与治理成为核心议题。Anthropic CEO关于\"AI可能在3年内超越人类大多数能力\"的国会证词引发广泛讨论。OpenAI发布Superalignment进展报告，展示了用弱模型监督强模型的新方法。模型发布方面，Mistral AI发布Mistral Large 3，在多语言推理上超越GPT-5 Turbo。应用层面，微软将Copilot深度集成至Windows 12预览版，实现操作系统级的AI辅助；Perplexity推出企业级AI搜索方案。研究方面，斯坦福HAI发布2026年度AI指数报告，指出行业推理成本同比下降70%。投融资方面，AI安全初创公司Anthropic再获10亿美元融资。商业商机方面，AI+医疗赛道进入收获期，FDA批准的AI医疗器械已达950款。",
+  "total_items": 8,
+  "categories": {
+    "政策监管": {
+      "count": 1,
+      "items": [
+        "9e1e7ae050ee"
+      ]
+    },
+    "研究前沿": {
+      "count": 2,
+      "items": [
+        "a5fadf8250ce",
+        "7831411560e1"
+      ]
+    },
+    "模型发布": {
+      "count": 1,
+      "items": [
+        "66bbecd86145"
+      ]
+    },
+    "应用产品": {
+      "count": 2,
+      "items": [
+        "81129feb736a",
+        "97e117bb043b"
+      ]
+    },
+    "投融资": {
+      "count": 1,
+      "items": [
+        "bae05cf38269"
+      ]
+    },
+    "商业商机": {
+      "count": 1,
+      "items": [
+        "bd0d346a07ac"
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "9e1e7ae050ee",
+      "title_zh": "Anthropic CEO国会证词：AI可能在3年内超越人类大多数能力",
+      "title_en": "Anthropic CEO Testifies: AI May Surpass Human Capabilities Within 3 Years",
+      "summary_zh": "Anthropic CEO Dario Amodei在美国国会听证会上表示，基于当前进展速度，AI系统可能在3年内在大多数认知任务上超越人类水平，呼吁建立国际安全框架。",
+      "source_name": "The Verge - AI",
+      "source_url": "#",
+      "published_at": "2026-07-30T08:00:00Z",
+      "category": "政策监管",
+      "subcategory": "AI安全",
+      "importance": 5,
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "models": [
+          "Claude"
+        ],
+        "people": [
+          "Dario Amodei"
+        ],
+        "technologies": [
+          "AI Safety",
+          "Alignment"
+        ]
+      },
+      "tags": [
+        "AI安全",
+        "国会",
+        "监管"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "a5fadf8250ce",
+      "title_zh": "OpenAI发布Superalignment进展：弱模型可有效监督强模型",
+      "title_en": "OpenAI Superalignment Progress: Weak Models Can Supervise Strong Ones",
+      "summary_zh": "OpenAI超级对齐团队发布最新研究，证明经过适当训练的弱模型可以可靠地监督和引导能力更强的模型，这是解决AI对齐问题的关键突破。",
+      "source_name": "机器之心",
+      "source_url": "#",
+      "published_at": "2026-07-30T09:00:00Z",
+      "category": "研究前沿",
+      "subcategory": "AI对齐",
+      "importance": 5,
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "models": [
+          "GPT-5"
+        ],
+        "people": [],
+        "technologies": [
+          "Superalignment",
+          "RLHF"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "对齐",
+        "安全"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "66bbecd86145",
+      "title_zh": "Mistral AI发布Mistral Large 3，多语言推理超越GPT-5 Turbo",
+      "title_en": "Mistral AI Launches Mistral Large 3, Beats GPT-5 Turbo on Multilingual",
+      "summary_zh": "法国AI公司Mistral发布Mistral Large 3旗舰模型，在法语、德语、中文等非英语推理任务上超越GPT-5 Turbo，API价格仅为其三分之一。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "#",
+      "published_at": "2026-07-30T010:00:00Z",
+      "category": "模型发布",
+      "subcategory": "大语言模型",
+      "importance": 5,
+      "entities": {
+        "companies": [
+          "Mistral AI"
+        ],
+        "models": [
+          "Mistral Large 3",
+          "GPT-5 Turbo"
+        ],
+        "people": [],
+        "technologies": [
+          "MoE",
+          "Multilingual"
+        ]
+      },
+      "tags": [
+        "Mistral",
+        "多语言",
+        "GPT-5"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "81129feb736a",
+      "title_zh": "微软将Copilot深度集成至Windows 12预览版",
+      "title_en": "Microsoft Deeply Integrates Copilot into Windows 12 Preview",
+      "summary_zh": "微软发布Windows 12预览版，Copilot被深度集成至文件管理器、设置、画图等系统核心应用，实现操作系统级的AI原生体验。",
+      "source_name": "Ars Technica - AI",
+      "source_url": "#",
+      "published_at": "2026-07-30T011:00:00Z",
+      "category": "应用产品",
+      "subcategory": "操作系统",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "models": [
+          "Copilot",
+          "Windows 12"
+        ],
+        "people": [],
+        "technologies": [
+          "OS Integration"
+        ]
+      },
+      "tags": [
+        "微软",
+        "Copilot",
+        "Windows"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "97e117bb043b",
+      "title_zh": "Perplexity推出企业级AI搜索方案，瞄准Google搜索市场",
+      "title_en": "Perplexity Launches Enterprise AI Search, Targeting Google",
+      "summary_zh": "Perplexity发布Enterprise Pro方案，支持企业内部知识库搜索、权限管理、自定义AI代理。企业版定价$40/月/人，瞄准Google搜索企业市场。",
+      "source_name": "MarkTechPost",
+      "source_url": "#",
+      "published_at": "2026-07-30T012:00:00Z",
+      "category": "应用产品",
+      "subcategory": "AI搜索",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Perplexity"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "RAG",
+          "Enterprise Search"
+        ]
+      },
+      "tags": [
+        "Perplexity",
+        "搜索",
+        "企业"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "7831411560e1",
+      "title_zh": "斯坦福HAI 2026 AI指数报告：推理成本同比下降70%",
+      "title_en": "Stanford HAI 2026 AI Index: Inference Costs Drop 70% YoY",
+      "summary_zh": "斯坦福HAI发布年度AI指数报告，指出AI模型推理成本同比下降70%，开源模型与闭源模型性能差距缩小至5%以内，AI专利数量增长45%。",
+      "source_name": "SyncedReview",
+      "source_url": "#",
+      "published_at": "2026-07-30T013:00:00Z",
+      "category": "研究前沿",
+      "subcategory": "行业报告",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Stanford HAI"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "AI Index",
+          "Cost Reduction"
+        ]
+      },
+      "tags": [
+        "斯坦福",
+        "报告",
+        "成本"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "bae05cf38269",
+      "title_zh": "Anthropic再获10亿美元融资，估值突破800亿美元",
+      "title_en": "Anthropic Raises Another $1B, Valuation Surpasses $80B",
+      "summary_zh": "AI安全公司Anthropic完成新一轮10亿美元融资，估值突破800亿美元。资金将用于下一代安全AI系统研发和全球监管合规建设。",
+      "source_name": "VentureBeat - AI",
+      "source_url": "#",
+      "published_at": "2026-07-30T014:00:00Z",
+      "category": "投融资",
+      "subcategory": "AI安全",
+      "importance": 5,
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "models": [
+          "Claude"
+        ],
+        "people": [],
+        "technologies": [
+          "AI Safety"
+        ]
+      },
+      "tags": [
+        "Anthropic",
+        "融资",
+        "独角兽"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "bd0d346a07ac",
+      "title_zh": "AI+医疗进入收获期：FDA批准AI医疗器械达950款",
+      "title_en": "AI+Healthcare Harvest: FDA-Approved AI Medical Devices Reach 950",
+      "summary_zh": "美国FDA批准的AI/ML医疗器械已累计达950款，放射学占比超75%。2026年Q2新增批准数量创单季新高，AI辅助诊断进入主流临床流程。",
+      "source_name": "Analytics India Mag",
+      "source_url": "#",
+      "published_at": "2026-07-30T015:00:00Z",
+      "category": "商业商机",
+      "subcategory": "AI医疗",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "FDA"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "Medical AI",
+          "Diagnosis"
+        ]
+      },
+      "tags": [
+        "AI医疗",
+        "FDA",
+        "诊断"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    }
+  ],
+  "stats": {
+    "sources_count": 8,
+    "total_collected_raw": 29,
+    "total_after_dedup": 16,
+    "total_published": 8,
+    "api_tokens_input": 12000,
+    "api_tokens_output": 2400,
+    "api_cost_estimate_usd": 0.004
+  }
+}

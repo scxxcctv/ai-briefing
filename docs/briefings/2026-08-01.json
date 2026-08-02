@@ -1,0 +1,311 @@
+{
+  "date": "2026-08-01",
+  "generated_at": "2026-08-01T08:00:00+08:00",
+  "model": "deepseek-chat",
+  "briefing_summary": "八月的第一天，AI领域迎来多项重磅发布。Google发布Gemini 3 Ultra，在MMLU-Pro、HumanEval等多项基准上全面领先，并首次实现原生视频理解。OpenAI发布GPT-5 Voice Mode全量开放，支持50种语言实时语音交互，延迟低至80ms。应用产品方面，Meta发布Ray-Ban AI眼镜第三代，集成实时翻译和AR导航功能，销量突破500万副；Adobe发布Firefly 6.0，支持全流程AI视频制作。研究方面，DeepMind AlphaFold 3开源，蛋白质-药物相互作用预测精度大幅提升。投融资方面，OpenAI洽谈新一轮400亿美元融资，估值或将突破3000亿美元。政策方面，欧盟AI法案正式全面生效，首批违规罚款高达3500万欧元。商业商机方面，AI+机器人赛道爆发，Figure AI人形机器人开始在宝马工厂试运行。",
+  "total_items": 8,
+  "categories": {
+    "模型发布": {
+      "count": 1,
+      "items": [
+        "f8bd1a661267"
+      ]
+    },
+    "应用产品": {
+      "count": 3,
+      "items": [
+        "ef2b597ebb4d",
+        "60271cfcb173",
+        "5250133834cd"
+      ]
+    },
+    "研究前沿": {
+      "count": 1,
+      "items": [
+        "d9c37144d7ae"
+      ]
+    },
+    "投融资": {
+      "count": 1,
+      "items": [
+        "a7f668264ef0"
+      ]
+    },
+    "政策监管": {
+      "count": 1,
+      "items": [
+        "930b9fd5697b"
+      ]
+    },
+    "商业商机": {
+      "count": 1,
+      "items": [
+        "eea15d602c09"
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "f8bd1a661267",
+      "title_zh": "Google发布Gemini 3 Ultra：全面超越GPT-5，支持原生视频理解",
+      "title_en": "Google Gemini 3 Ultra Beats GPT-5 Across All Benchmarks",
+      "summary_zh": "Google发布Gemini 3 Ultra，在MMLU-Pro、HumanEval、MATH等多项基准上全面领先GPT-5，并首次实现原生视频理解和长达200万token上下文窗口。",
+      "source_name": "机器之心",
+      "source_url": "#",
+      "published_at": "2026-08-01T08:00:00Z",
+      "category": "模型发布",
+      "subcategory": "多模态模型",
+      "importance": 5,
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "models": [
+          "Gemini 3 Ultra",
+          "GPT-5"
+        ],
+        "people": [
+          "Sundar Pichai"
+        ],
+        "technologies": [
+          "Multimodal",
+          "2M Context"
+        ]
+      },
+      "tags": [
+        "Google",
+        "Gemini",
+        "多模态"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "ef2b597ebb4d",
+      "title_zh": "OpenAI GPT-5 Voice Mode全量开放：50种语言实时语音",
+      "title_en": "OpenAI GPT-5 Voice Mode Full Rollout: 50 Languages Real-time",
+      "summary_zh": "OpenAI宣布GPT-5 Voice Mode全量开放，支持50种语言实时语音对话，响应延迟低至80ms。新增情感感知和语气自适应功能，通话体验接近真人。",
+      "source_name": "The Verge - AI",
+      "source_url": "#",
+      "published_at": "2026-08-01T09:00:00Z",
+      "category": "应用产品",
+      "subcategory": "语音交互",
+      "importance": 5,
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "models": [
+          "GPT-5 Voice"
+        ],
+        "people": [],
+        "technologies": [
+          "TTS",
+          "Real-time"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "语音",
+        "GPT-5"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "60271cfcb173",
+      "title_zh": "Meta Ray-Ban AI眼镜第三代发布：集成实时翻译+AR导航",
+      "title_en": "Meta Ray-Ban AI Glasses Gen 3 with Real-time Translation & AR",
+      "summary_zh": "Meta发布第三代Ray-Ban AI智能眼镜，集成多语言实时翻译、AR导航和手势控制。累计销量突破500万副，成为最畅销的AI硬件产品之一。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "#",
+      "published_at": "2026-08-01T010:00:00Z",
+      "category": "应用产品",
+      "subcategory": "AI硬件",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "models": [
+          "Llama"
+        ],
+        "people": [],
+        "technologies": [
+          "AR",
+          "Wearable AI"
+        ]
+      },
+      "tags": [
+        "Meta",
+        "AR眼镜",
+        "硬件"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "5250133834cd",
+      "title_zh": "Adobe发布Firefly 6.0：支持全流程AI视频制作",
+      "title_en": "Adobe Firefly 6.0 Enables End-to-End AI Video Production",
+      "summary_zh": "Adobe发布Firefly 6.0，集成到Premiere Pro和After Effects中，支持脚本生成→分镜→视频生成→配音→后期全流程AI辅助,大幅降低专业视频制作门槛。",
+      "source_name": "VentureBeat - AI",
+      "source_url": "#",
+      "published_at": "2026-08-01T011:00:00Z",
+      "category": "应用产品",
+      "subcategory": "创作工具",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Adobe"
+        ],
+        "models": [
+          "Firefly 6.0"
+        ],
+        "people": [],
+        "technologies": [
+          "Video Production",
+          "Creative AI"
+        ]
+      },
+      "tags": [
+        "Adobe",
+        "视频",
+        "创作"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "d9c37144d7ae",
+      "title_zh": "DeepMind AlphaFold 3开源：蛋白质-药物交互预测精度跃升",
+      "title_en": "DeepMind Open-sources AlphaFold 3: Drug Interaction Prediction Leap",
+      "summary_zh": "DeepMind正式开源AlphaFold 3，新增蛋白质-药物小分子相互作用预测能力，精度较AlphaFold 2提升40%，将显著加速新药研发流程。",
+      "source_name": "MarkTechPost",
+      "source_url": "#",
+      "published_at": "2026-08-01T012:00:00Z",
+      "category": "研究前沿",
+      "subcategory": "AI制药",
+      "importance": 5,
+      "entities": {
+        "companies": [
+          "Google DeepMind"
+        ],
+        "models": [
+          "AlphaFold 3"
+        ],
+        "people": [],
+        "technologies": [
+          "Drug Discovery",
+          "Protein"
+        ]
+      },
+      "tags": [
+        "AlphaFold",
+        "开源",
+        "制药"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "a7f668264ef0",
+      "title_zh": "OpenAI洽谈400亿美元新一轮融资，估值或突破3000亿美元",
+      "title_en": "OpenAI in Talks for $40B Funding Round at $300B+ Valuation",
+      "summary_zh": "据知情人士透露，OpenAI正在洽谈新一轮约400亿美元融资，投后估值有望突破3000亿美元，将成为全球估值最高的私营科技公司。",
+      "source_name": "VentureBeat - AI",
+      "source_url": "#",
+      "published_at": "2026-08-01T013:00:00Z",
+      "category": "投融资",
+      "subcategory": "AI巨头",
+      "importance": 5,
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": []
+      },
+      "tags": [
+        "OpenAI",
+        "融资",
+        "估值"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "930b9fd5697b",
+      "title_zh": "欧盟AI法案正式全面生效，首批违规罚款3500万欧元",
+      "title_en": "EU AI Act Fully Takes Effect, First Violation Fines Up to 35M Euro",
+      "summary_zh": "欧盟《人工智能法案》正式全面生效，高风险AI系统需进行第三方合规评估。首批违规企业面临最高3500万欧元或全球年营收7%的罚款。",
+      "source_name": "Ars Technica - AI",
+      "source_url": "#",
+      "published_at": "2026-08-01T014:00:00Z",
+      "category": "政策监管",
+      "subcategory": "AI法规",
+      "importance": 5,
+      "entities": {
+        "companies": [
+          "欧盟"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "AI Act",
+          "Compliance"
+        ]
+      },
+      "tags": [
+        "欧盟",
+        "法规",
+        "罚款"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "eea15d602c09",
+      "title_zh": "Figure AI人形机器人开始在宝马工厂试运行",
+      "title_en": "Figure AI Humanoid Robots Begin Trial Operations at BMW Factory",
+      "summary_zh": "Figure AI的Figure 02人形机器人开始在宝马美国工厂进行试运行，执行车身焊接质检和零部件搬运任务。人形机器人在工业场景的商业化落地迈出关键一步。",
+      "source_name": "Analytics India Mag",
+      "source_url": "#",
+      "published_at": "2026-08-01T015:00:00Z",
+      "category": "商业商机",
+      "subcategory": "AI机器人",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Figure AI",
+          "BMW"
+        ],
+        "models": [
+          "Figure 02"
+        ],
+        "people": [],
+        "technologies": [
+          "Humanoid Robot",
+          "Manufacturing"
+        ]
+      },
+      "tags": [
+        "人形机器人",
+        "制造业",
+        "商业化"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    }
+  ],
+  "stats": {
+    "sources_count": 7,
+    "total_collected_raw": 29,
+    "total_after_dedup": 16,
+    "total_published": 8,
+    "api_tokens_input": 12000,
+    "api_tokens_output": 2400,
+    "api_cost_estimate_usd": 0.004
+  }
+}

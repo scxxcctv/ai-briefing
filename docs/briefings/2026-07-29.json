@@ -1,0 +1,306 @@
+{
+  "date": "2026-07-29",
+  "generated_at": "2026-07-29T08:00:00+08:00",
+  "model": "deepseek-chat",
+  "briefing_summary": "今日AI领域焦点集中在开源生态的爆发式增长。Meta宣布Llama开源模型全球下载量突破10亿次，HuggingFace平台模型数量突破200万。应用层面，Anthropic发布Claude 4 Haiku轻量模型，主打低延迟和高性价比；字节跳动豆包大模型全面开放API，定价极具竞争力。研究前沿方面，Google DeepMind发布Genie 3世界模型，可在单张图片基础上生成可交互3D环境，被誉为\"世界模型元年\"标志。资本市场方面，AI代码助手赛道持续升温，Cursor母公司完成1.5亿美元融资，估值突破30亿美元。政策层面，美国商务部就AI出口管制新规征求意见，半导体设备对华限制进一步升级。商业方面，AI Agent在企业服务市场的渗透率快速提升，多家SaaS巨头纷纷推出AI自动化工作流产品。",
+  "total_items": 8,
+  "categories": {
+    "模型发布": {
+      "count": 3,
+      "items": [
+        "f9c111d7b091",
+        "1b4eb322315e",
+        "44a77721c710"
+      ]
+    },
+    "应用产品": {
+      "count": 1,
+      "items": [
+        "9ea336109d89"
+      ]
+    },
+    "投融资": {
+      "count": 1,
+      "items": [
+        "9159de33f7a6"
+      ]
+    },
+    "研究前沿": {
+      "count": 1,
+      "items": [
+        "fe61709cc288"
+      ]
+    },
+    "政策监管": {
+      "count": 1,
+      "items": [
+        "71d6c94338e6"
+      ]
+    },
+    "商业商机": {
+      "count": 1,
+      "items": [
+        "787c3469dba0"
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "f9c111d7b091",
+      "title_zh": "Meta宣布Llama开源模型全球下载量突破10亿次",
+      "title_en": "Meta Llama Models Surpass 1 Billion Downloads",
+      "summary_zh": "Meta宣布其Llama系列开源模型全球累计下载量已突破10亿次，成为史上最受欢迎的开源大模型。Llama 4系列发布进一步加速了下载增长。",
+      "source_name": "机器之心",
+      "source_url": "#",
+      "published_at": "2026-07-29T08:00:00Z",
+      "category": "模型发布",
+      "subcategory": "大语言模型",
+      "importance": 5,
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "models": [
+          "Llama 4",
+          "Llama 3"
+        ],
+        "people": [],
+        "technologies": [
+          "Open Source LLM"
+        ]
+      },
+      "tags": [
+        "Llama",
+        "开源",
+        "Meta"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "1b4eb322315e",
+      "title_zh": "Anthropic发布Claude 4 Haiku：最快最便宜的Claude模型",
+      "title_en": "Anthropic Launches Claude 4 Haiku",
+      "summary_zh": "Anthropic推出Claude 4 Haiku轻量级模型，延迟低至200ms，API价格仅为Claude 4 Opus的1/50，在编程和简单问答场景表现优异。",
+      "source_name": "The Verge - AI",
+      "source_url": "#",
+      "published_at": "2026-07-29T09:00:00Z",
+      "category": "模型发布",
+      "subcategory": "大语言模型",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "models": [
+          "Claude 4 Haiku"
+        ],
+        "people": [],
+        "technologies": [
+          "Inference Optimization"
+        ]
+      },
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "轻量模型"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "44a77721c710",
+      "title_zh": "字节跳动豆包大模型全面开放API，定价低于行业均值50%",
+      "title_en": "ByteDance Doubao Model Opens API at 50% Below Market",
+      "summary_zh": "字节跳动宣布豆包大模型系列全面开放API服务，涵盖文本、图像、语音等多模态能力，定价较行业平均水平低50%以上，引发市场价格战。",
+      "source_name": "量子位",
+      "source_url": "#",
+      "published_at": "2026-07-29T010:00:00Z",
+      "category": "模型发布",
+      "subcategory": "多模态模型",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "字节跳动"
+        ],
+        "models": [
+          "豆包大模型"
+        ],
+        "people": [],
+        "technologies": [
+          "Multimodal"
+        ]
+      },
+      "tags": [
+        "字节跳动",
+        "豆包",
+        "API"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "9ea336109d89",
+      "title_zh": "Google DeepMind发布Genie 3：单图生成可交互3D世界",
+      "title_en": "DeepMind Genie 3: Single Image to Interactive 3D World",
+      "summary_zh": "DeepMind发布Genie 3世界模型，仅凭单张2D图片即可生成用户可自由探索和交互的3D环境，在游戏开发、机器人训练和VR领域前景巨大。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "#",
+      "published_at": "2026-07-29T011:00:00Z",
+      "category": "应用产品",
+      "subcategory": "世界模型",
+      "importance": 5,
+      "entities": {
+        "companies": [
+          "Google DeepMind"
+        ],
+        "models": [
+          "Genie 3"
+        ],
+        "people": [],
+        "technologies": [
+          "World Model",
+          "3D Generation"
+        ]
+      },
+      "tags": [
+        "DeepMind",
+        "Genie",
+        "世界模型"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "9159de33f7a6",
+      "title_zh": "AI代码编辑器Cursor母公司完成1.5亿美元D轮融资",
+      "title_en": "Anysphere Raises $150M Series D at $3B Valuation",
+      "summary_zh": "Cursor母公司Anysphere完成1.5亿美元D轮融资，估值达30亿美元。AI编程助手赛道持续火爆，Cursor月活开发者突破200万。",
+      "source_name": "VentureBeat - AI",
+      "source_url": "#",
+      "published_at": "2026-07-29T012:00:00Z",
+      "category": "投融资",
+      "subcategory": "AI编程",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Anysphere",
+          "Cursor"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "Code Generation"
+        ]
+      },
+      "tags": [
+        "Cursor",
+        "融资",
+        "AI编程"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "fe61709cc288",
+      "title_zh": "HuggingFace平台模型数量突破200万，开源生态里程碑",
+      "title_en": "HuggingFace Surpasses 2 Million Models",
+      "summary_zh": "HuggingFace社区宣布平台托管模型数量正式突破200万，涵盖全模态。平台日均下载量超1亿次，成为AI开发者核心基础设施。",
+      "source_name": "MarkTechPost",
+      "source_url": "#",
+      "published_at": "2026-07-29T013:00:00Z",
+      "category": "研究前沿",
+      "subcategory": "开源生态",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "HuggingFace"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "Model Hub"
+        ]
+      },
+      "tags": [
+        "HuggingFace",
+        "开源",
+        "社区"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "71d6c94338e6",
+      "title_zh": "美国商务部就AI技术出口管制新规征求意见",
+      "title_en": "US Commerce Dept Seeks Comments on AI Export Controls",
+      "summary_zh": "美国商务部发布AI技术出口管制新规草案，进一步限制高端GPU和AI模型权重对华出口，业界反馈期60天，可能对全球AI供应链产生深远影响。",
+      "source_name": "Ars Technica - AI",
+      "source_url": "#",
+      "published_at": "2026-07-29T014:00:00Z",
+      "category": "政策监管",
+      "subcategory": "出口管制",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "NVIDIA",
+          "AMD"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "GPU",
+          "Export Control"
+        ]
+      },
+      "tags": [
+        "出口管制",
+        "GPU",
+        "政策"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "787c3469dba0",
+      "title_zh": "企业级AI Agent市场爆发：Salesforce、微软、SAP争相布局",
+      "title_en": "Enterprise AI Agent Market Explodes: Salesforce, Microsoft, SAP Compete",
+      "summary_zh": "多家SaaS巨头推出AI Agent自动化工作流产品，企业级AI代理市场规模预计2026年将达120亿美元，自动化率提升至45%以上。",
+      "source_name": "SyncedReview",
+      "source_url": "#",
+      "published_at": "2026-07-29T015:00:00Z",
+      "category": "商业商机",
+      "subcategory": "企业服务",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Salesforce",
+          "Microsoft",
+          "SAP"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "AI Agent",
+          "Enterprise SaaS"
+        ]
+      },
+      "tags": [
+        "AI Agent",
+        "企业服务",
+        "SaaS"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    }
+  ],
+  "stats": {
+    "sources_count": 8,
+    "total_collected_raw": 29,
+    "total_after_dedup": 16,
+    "total_published": 8,
+    "api_tokens_input": 12000,
+    "api_tokens_output": 2400,
+    "api_cost_estimate_usd": 0.004
+  }
+}
