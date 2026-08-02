@@ -4,7 +4,7 @@ on:
   schedule:
     # 北京时间每天凌晨5点 = UTC 21:00 (前一天)
     - cron: '0 21 * * *'
-  workflow_dispatch:  # 支持手动触发
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -18,7 +18,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # 获取完整历史，确保push不会冲突
+          ref: master
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -40,4 +40,10 @@ jobs:
           git config user.name "AI Briefing Bot"
           git config user.email "bot@ai-briefing.local"
           git add docs/briefings/ storage/
-          git diff --staged --quiet || (git commit -m "Auto: daily briefing $(date +%Y-%m-%d)" && git pull --rebase origin master && git push origin master)
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto: daily briefing $(date +%Y-%m-%d)"
+            git pull --rebase origin master
+            git push origin master
+          fi
