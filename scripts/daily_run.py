@@ -13,7 +13,7 @@ import os
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -102,7 +102,8 @@ def main(target_date: str | None = None):
         sys.exit(1)
 
     if target_date is None:
-        target_date = date.today().isoformat()
+        beijing_tz = timezone(timedelta(hours=8))
+        target_date = datetime.now(beijing_tz).strftime("%Y-%m-%d")
 
     logger.info("=" * 60)
     logger.info("AI Daily Briefing - %s", target_date)

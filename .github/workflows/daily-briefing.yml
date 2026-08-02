@@ -28,6 +28,7 @@ jobs:
 
       - name: Run daily briefing
         env:
+          TZ: Asia/Shanghai
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           DEEPSEEK_MODEL: deepseek-chat
           DEEPSEEK_BASE_URL: https://api.deepseek.com
@@ -35,6 +36,7 @@ jobs:
 
       - name: Upload briefing via API
         env:
+          TZ: Asia/Shanghai
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           DATE=$(date +%Y-%m-%d)
@@ -47,17 +49,14 @@ jobs:
 
           CONTENT=$(cat "$FILE" | python3 -c "import sys,json; print(json.dumps(json.load(sys.stdin), ensure_ascii=False))")
 
-          # Get current file SHA (if file exists on remote)
           SHA=$(gh api "repos/${{ github.repository }}/contents/$FILE" --jq '.sha' 2>/dev/null || echo "")
 
           if [ -n "$SHA" ]; then
-            # Update existing file
             gh api --method PUT "repos/${{ github.repository }}/contents/$FILE" \
               -f message="Auto: daily briefing ${DATE}" \
               -f content="$(echo -n "$CONTENT" | base64 -w0)" \
               -f sha="$SHA"
           else
-            # Create new file
             gh api --method PUT "repos/${{ github.repository }}/contents/$FILE" \
               -f message="Auto: daily briefing ${DATE}" \
               -f content="$(echo -n "$CONTENT" | base64 -w0)"
