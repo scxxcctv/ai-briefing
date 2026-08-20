@@ -1,0 +1,337 @@
+{
+  "date": "2026-08-07",
+  "generated_at": "2026-08-07T08:00:00+08:00",
+  "model": "deepseek-chat",
+  "briefing_summary": "今日AI领域，AI Agent 与多智能体系统成为最热话题。OpenAI发布Swarm框架，支持数百个AI Agent协同工作完成复杂任务；Anthropic推出Claude Agent SDK，简化企业级智能体开发。模型发布方面，Mistral发布Mistral Small 3.2，在边缘设备上实现高效推理；百度文心大模型4.5 Turbo发布，推理成本再降60%。应用层面，微软Teams集成AI会议纪要Agent，Notion推出AI工作区自动化。研究方面，斯坦福发布V-IRL，让Agent通过真实世界交互学习。投融资方面，AI Agent平台LangChain完成8000万美元B轮融资。政策方面，中国网信办发布生成式AI服务备案新规。商业商机方面，AI Agent在企业自动化的落地加速，RPA巨头UiPath转型AI原生平台。",
+  "total_items": 9,
+  "categories": {
+    "模型发布": {
+      "count": 3,
+      "items": [
+        "3172076d1e44",
+        "880c5651a573",
+        "285d25cd600b"
+      ]
+    },
+    "应用产品": {
+      "count": 2,
+      "items": [
+        "f2aaa0b86605",
+        "80194ce1f801"
+      ]
+    },
+    "研究前沿": {
+      "count": 1,
+      "items": [
+        "d60bbd84e7b4"
+      ]
+    },
+    "投融资": {
+      "count": 1,
+      "items": [
+        "a4a9ea679b57"
+      ]
+    },
+    "政策监管": {
+      "count": 1,
+      "items": [
+        "c99152e5aa58"
+      ]
+    },
+    "商业商机": {
+      "count": 1,
+      "items": [
+        "c6e3d9c7c48d"
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "3172076d1e44",
+      "title_zh": "OpenAI发布Swarm框架：数百个AI Agent协同工作",
+      "title_en": "OpenAI Releases Swarm: Hundreds of AI Agents Collaborate",
+      "summary_zh": "OpenAI开源Swarm多智能体框架，支持数百个AI Agent通过角色分工和消息传递协同完成复杂任务，显著降低多智能体系统开发门槛。",
+      "source_name": "机器之心",
+      "source_url": "#",
+      "published_at": "2026-08-07T08:00:00Z",
+      "category": "模型发布",
+      "subcategory": "AI Agent",
+      "importance": 5,
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "models": [
+          "Swarm"
+        ],
+        "people": [],
+        "technologies": [
+          "Multi-Agent",
+          "Orchestration"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "Agent",
+        "多智能体"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "f2aaa0b86605",
+      "title_zh": "Anthropic推出Claude Agent SDK，简化企业智能体开发",
+      "title_en": "Anthropic Launches Claude Agent SDK for Enterprise",
+      "summary_zh": "Anthropic发布Claude Agent SDK，提供工具调用、记忆管理、权限控制等开箱即用能力，帮助企业快速构建生产级AI智能体。",
+      "source_name": "The Verge - AI",
+      "source_url": "#",
+      "published_at": "2026-08-07T09:00:00Z",
+      "category": "应用产品",
+      "subcategory": "AI Agent",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "models": [
+          "Claude"
+        ],
+        "people": [],
+        "technologies": [
+          "Agent SDK",
+          "Tool Use"
+        ]
+      },
+      "tags": [
+        "Claude",
+        "SDK",
+        "智能体"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "880c5651a573",
+      "title_zh": "Mistral Small 3.2发布：边缘设备高效推理",
+      "title_en": "Mistral Small 3.2 Enables Efficient Edge Inference",
+      "summary_zh": "Mistral发布Small 3.2模型，仅70亿参数即可在手机和边缘设备上高效运行，推理速度提升4倍，能耗降低75%。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "#",
+      "published_at": "2026-08-07T010:00:00Z",
+      "category": "模型发布",
+      "subcategory": "大语言模型",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Mistral AI"
+        ],
+        "models": [
+          "Mistral Small 3.2"
+        ],
+        "people": [],
+        "technologies": [
+          "Edge AI",
+          "Quantization"
+        ]
+      },
+      "tags": [
+        "Mistral",
+        "边缘计算",
+        "轻量模型"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "285d25cd600b",
+      "title_zh": "百度文心大模型4.5 Turbo发布，推理成本再降60%",
+      "title_en": "Baidu ERNIE 4.5 Turbo Cuts Inference Cost by 60%",
+      "summary_zh": "百度发布文心大模型4.5 Turbo版，通过稀疏激活和模型蒸馏技术将推理成本再降60%，API调用价格进入每百万token仅需几元时代。",
+      "source_name": "量子位",
+      "source_url": "#",
+      "published_at": "2026-08-07T011:00:00Z",
+      "category": "模型发布",
+      "subcategory": "大语言模型",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "百度"
+        ],
+        "models": [
+          "文心4.5 Turbo"
+        ],
+        "people": [],
+        "technologies": [
+          "Sparse Activation",
+          "Distillation"
+        ]
+      },
+      "tags": [
+        "百度",
+        "文心",
+        "降本"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "80194ce1f801",
+      "title_zh": "微软Teams集成AI会议纪要Agent",
+      "title_en": "Microsoft Teams Integrates AI Meeting Notes Agent",
+      "summary_zh": "微软Teams推出AI会议纪要Agent，可自动生成会议摘要、行动项分配和跨会议知识关联，团队协作效率大幅提升。",
+      "source_name": "Ars Technica - AI",
+      "source_url": "#",
+      "published_at": "2026-08-07T012:00:00Z",
+      "category": "应用产品",
+      "subcategory": "办公效率",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "models": [
+          "Copilot"
+        ],
+        "people": [],
+        "technologies": [
+          "Meeting AI",
+          "NLP"
+        ]
+      },
+      "tags": [
+        "微软",
+        "Teams",
+        "会议"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "d60bbd84e7b4",
+      "title_zh": "斯坦福发布V-IRL：让Agent通过真实世界交互学习",
+      "title_en": "Stanford V-IRL: Agents Learn via Real-World Interaction",
+      "summary_zh": "斯坦福大学发布V-IRL框架，让AI Agent在真实世界环境中通过与环境的持续交互自主学习，而非仅依赖静态数据集，为具身智能开辟新路径。",
+      "source_name": "MarkTechPost",
+      "source_url": "#",
+      "published_at": "2026-08-07T013:00:00Z",
+      "category": "研究前沿",
+      "subcategory": "具身智能",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Stanford"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "Embodied AI",
+          "RL"
+        ]
+      },
+      "tags": [
+        "斯坦福",
+        "具身智能",
+        "强化学习"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "a4a9ea679b57",
+      "title_zh": "AI Agent平台LangChain完成8000万美元B轮融资",
+      "title_en": "LangChain Raises $80M Series B for AI Agent Platform",
+      "summary_zh": "LangChain完成8000万美元B轮融资，估值达6亿美元。其LangGraph框架已成为企业构建复杂AI Agent工作流的首选工具。",
+      "source_name": "VentureBeat - AI",
+      "source_url": "#",
+      "published_at": "2026-08-07T014:00:00Z",
+      "category": "投融资",
+      "subcategory": "AI Agent",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "LangChain"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "Agent Framework",
+          "Workflow"
+        ]
+      },
+      "tags": [
+        "LangChain",
+        "融资",
+        "Agent"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "c99152e5aa58",
+      "title_zh": "中国网信办发布生成式AI服务备案新规",
+      "title_en": "China CAC Issues New Rules for Generative AI Service Registration",
+      "summary_zh": "国家网信办发布生成式AI服务备案管理办法，要求面向公众的生成式AI服务须在30日内完成备案，并建立内容安全评估机制。",
+      "source_name": "量子位",
+      "source_url": "#",
+      "published_at": "2026-08-07T015:00:00Z",
+      "category": "政策监管",
+      "subcategory": "AI监管",
+      "importance": 4,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "AI Regulation",
+          "Content Safety"
+        ]
+      },
+      "tags": [
+        "网信办",
+        "备案",
+        "监管"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "c6e3d9c7c48d",
+      "title_zh": "RPA巨头UiPath转型AI原生平台",
+      "title_en": "RPA Giant UiPath Transforms into AI-Native Platform",
+      "summary_zh": "UiPath发布AI原生自动化平台，将传统RPA与AI Agent深度融合，企业可一键部署文档理解、流程挖掘、智能决策等AI能力。",
+      "source_name": "SyncedReview",
+      "source_url": "#",
+      "published_at": "2026-08-07T016:00:00Z",
+      "category": "商业商机",
+      "subcategory": "企业自动化",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "UiPath"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "RPA",
+          "AI Agent"
+        ]
+      },
+      "tags": [
+        "UiPath",
+        "自动化",
+        "RPA"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    }
+  ],
+  "stats": {
+    "sources_count": 8,
+    "total_collected_raw": 32,
+    "total_after_dedup": 18,
+    "total_published": 9,
+    "api_tokens_input": 12500,
+    "api_tokens_output": 2700,
+    "api_cost_estimate_usd": 0.0045
+  }
+}

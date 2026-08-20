@@ -1,0 +1,341 @@
+{
+  "date": "2026-08-13",
+  "generated_at": "2026-08-13T08:00:00+08:00",
+  "model": "deepseek-chat",
+  "briefing_summary": "今日AI领域，AI编程工具进入全新阶段。GitHub Copilot推出Workspace功能，实现从需求到代码的端到端生成；Cursor 2.0发布，支持全仓库语义理解和自主重构。模型发布方面，谷歌发布Gemma 3，开源小模型性能媲美大模型；腾讯混元发布视频生成模型HunyuanVideo 2.0。应用层面，Anthropic推出Claude Projects企业版，Anysphere发布AI代码审查工具。研究方面，英伟达发布Nemotron-4，专为AI Agent优化的架构。投融资方面，AI编程公司Poolside完成5亿美元融资。政策方面，欧盟就AI生成内容标识达成协议。商业方面，AI编程助手订阅收入快速增长，成为最快商业化的AI应用赛道。",
+  "total_items": 9,
+  "categories": {
+    "应用产品": {
+      "count": 3,
+      "items": [
+        "19d1caef21fa",
+        "9688ba09bf06",
+        "ed03b1b02142"
+      ]
+    },
+    "模型发布": {
+      "count": 2,
+      "items": [
+        "7b8d2b0e24f7",
+        "73cdbbeffc4d"
+      ]
+    },
+    "研究前沿": {
+      "count": 1,
+      "items": [
+        "39d6b47c0034"
+      ]
+    },
+    "投融资": {
+      "count": 1,
+      "items": [
+        "81ad785c893a"
+      ]
+    },
+    "政策监管": {
+      "count": 1,
+      "items": [
+        "de23e52b3ce7"
+      ]
+    },
+    "商业商机": {
+      "count": 1,
+      "items": [
+        "ae15b0a59fbc"
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "19d1caef21fa",
+      "title_zh": "GitHub Copilot Workspace：从需求到代码端到端生成",
+      "title_en": "GitHub Copilot Workspace: End-to-End Code Generation",
+      "summary_zh": "GitHub推出Copilot Workspace功能，开发者只需描述需求，AI即可完成需求分析、架构设计、代码实现到测试的全流程，大幅提升开发效率。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "#",
+      "published_at": "2026-08-13T08:00:00Z",
+      "category": "应用产品",
+      "subcategory": "AI编程",
+      "importance": 5,
+      "entities": {
+        "companies": [
+          "GitHub",
+          "Microsoft"
+        ],
+        "models": [
+          "Copilot"
+        ],
+        "people": [],
+        "technologies": [
+          "Code Generation",
+          "Software Engineering"
+        ]
+      },
+      "tags": [
+        "Copilot",
+        "编程",
+        "自动化"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "9688ba09bf06",
+      "title_zh": "Cursor 2.0发布：全仓库语义理解与自主重构",
+      "title_en": "Cursor 2.0: Full-Repo Semantic Understanding and Auto-Refactoring",
+      "summary_zh": "Cursor发布2.0版本，支持全仓库语义理解，可自主完成跨文件重构、代码迁移和复杂bug修复，被开发者誉为\"最强AI编程工具\"。",
+      "source_name": "The Verge - AI",
+      "source_url": "#",
+      "published_at": "2026-08-13T09:00:00Z",
+      "category": "应用产品",
+      "subcategory": "AI编程",
+      "importance": 5,
+      "entities": {
+        "companies": [
+          "Anysphere"
+        ],
+        "models": [
+          "Cursor 2.0"
+        ],
+        "people": [],
+        "technologies": [
+          "Semantic Understanding",
+          "Refactoring"
+        ]
+      },
+      "tags": [
+        "Cursor",
+        "编程",
+        "重构"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "7b8d2b0e24f7",
+      "title_zh": "谷歌发布Gemma 3：开源小模型性能媲美大模型",
+      "title_en": "Google Gemma 3: Small Open-Source Model Matches Large Models",
+      "summary_zh": "谷歌发布Gemma 3系列开源小模型，通过知识蒸馏和高效架构，270亿参数即可媲美700亿参数大模型的性能。",
+      "source_name": "机器之心",
+      "source_url": "#",
+      "published_at": "2026-08-13T010:00:00Z",
+      "category": "模型发布",
+      "subcategory": "大语言模型",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "models": [
+          "Gemma 3"
+        ],
+        "people": [],
+        "technologies": [
+          "Distillation",
+          "Efficient Architecture"
+        ]
+      },
+      "tags": [
+        "Gemma",
+        "开源",
+        "小模型"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "73cdbbeffc4d",
+      "title_zh": "腾讯混元发布视频生成模型HunyuanVideo 2.0",
+      "title_en": "Tencent HunyuanVideo 2.0 Released",
+      "summary_zh": "腾讯发布混元视频生成模型HunyuanVideo 2.0，支持15秒1080p视频生成，在动作一致性和场景连贯性上达到国际领先水平。",
+      "source_name": "量子位",
+      "source_url": "#",
+      "published_at": "2026-08-13T011:00:00Z",
+      "category": "模型发布",
+      "subcategory": "视频生成",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "腾讯"
+        ],
+        "models": [
+          "HunyuanVideo 2.0"
+        ],
+        "people": [],
+        "technologies": [
+          "Video Generation",
+          "DiT"
+        ]
+      },
+      "tags": [
+        "腾讯",
+        "混元",
+        "视频"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "ed03b1b02142",
+      "title_zh": "Anthropic推出Claude Projects企业版",
+      "title_en": "Anthropic Launches Claude Projects Enterprise Edition",
+      "summary_zh": "Anthropic发布Claude Projects企业版，支持团队共享AI工作区、知识库整合和权限管理，满足企业对AI协作的安全合规需求。",
+      "source_name": "MarkTechPost",
+      "source_url": "#",
+      "published_at": "2026-08-13T012:00:00Z",
+      "category": "应用产品",
+      "subcategory": "企业协作",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "models": [
+          "Claude"
+        ],
+        "people": [],
+        "technologies": [
+          "Enterprise AI",
+          "Collaboration"
+        ]
+      },
+      "tags": [
+        "Claude",
+        "企业版",
+        "协作"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "39d6b47c0034",
+      "title_zh": "英伟达发布Nemotron-4：专为AI Agent优化的架构",
+      "title_en": "NVIDIA Nemotron-4: Architecture Optimized for AI Agents",
+      "summary_zh": "英伟达发布Nemotron-4模型，专门针对AI Agent场景优化，在工具调用、多步推理和长程规划任务上表现优异，推理效率提升2.5倍。",
+      "source_name": "SyncedReview",
+      "source_url": "#",
+      "published_at": "2026-08-13T013:00:00Z",
+      "category": "研究前沿",
+      "subcategory": "模型架构",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "models": [
+          "Nemotron-4"
+        ],
+        "people": [],
+        "technologies": [
+          "Agent Optimization",
+          "Tool Use"
+        ]
+      },
+      "tags": [
+        "英伟达",
+        "Agent",
+        "架构"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "81ad785c893a",
+      "title_zh": "AI编程公司Poolside完成5亿美元融资",
+      "title_en": "Poolside Raises $500M for AI Coding",
+      "summary_zh": "AI编程公司Poolside完成5亿美元融资，估值达30亿美元。其自主研发的代码模型在复杂软件工程任务上表现优异。",
+      "source_name": "VentureBeat - AI",
+      "source_url": "#",
+      "published_at": "2026-08-13T014:00:00Z",
+      "category": "投融资",
+      "subcategory": "AI编程",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Poolside"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "Code Model",
+          "Software Engineering"
+        ]
+      },
+      "tags": [
+        "Poolside",
+        "融资",
+        "AI编程"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "de23e52b3ce7",
+      "title_zh": "欧盟就AI生成内容标识达成协议",
+      "title_en": "EU Reaches Agreement on AI Content Labeling",
+      "summary_zh": "欧盟立法机构就AI生成内容标识义务达成协议，要求AI生成的文字、图片、音视频须添加可识别的标识或水印，防止深度伪造滥用。",
+      "source_name": "Ars Technica - AI",
+      "source_url": "#",
+      "published_at": "2026-08-13T015:00:00Z",
+      "category": "政策监管",
+      "subcategory": "内容标识",
+      "importance": 4,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "Content Labeling",
+          "Deepfake"
+        ]
+      },
+      "tags": [
+        "欧盟",
+        "标识",
+        "深度伪造"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "ae15b0a59fbc",
+      "title_zh": "AI编程助手订阅收入爆发：最快商业化的AI赛道",
+      "title_en": "AI Coding Assistant Revenue Explodes: Fastest-Commercializing AI",
+      "summary_zh": "AI编程助手成为商业化最快的AI应用赛道，GitHub Copilot、Cursor等工具订阅收入年增300%，企业付费渗透率快速提升。",
+      "source_name": "Analytics India Mag",
+      "source_url": "#",
+      "published_at": "2026-08-13T016:00:00Z",
+      "category": "商业商机",
+      "subcategory": "AI编程",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "GitHub",
+          "Anysphere"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "Subscription Economy",
+          "Developer Tools"
+        ]
+      },
+      "tags": [
+        "AI编程",
+        "订阅",
+        "商业化"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    }
+  ],
+  "stats": {
+    "sources_count": 9,
+    "total_collected_raw": 32,
+    "total_after_dedup": 18,
+    "total_published": 9,
+    "api_tokens_input": 12500,
+    "api_tokens_output": 2700,
+    "api_cost_estimate_usd": 0.0045
+  }
+}

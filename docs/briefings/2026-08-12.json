@@ -1,0 +1,343 @@
+{
+  "date": "2026-08-12",
+  "generated_at": "2026-08-12T08:00:00+08:00",
+  "model": "deepseek-chat",
+  "briefing_summary": "今日AI领域，开源模型与国产大模型竞争白热化。Meta发布Llama 4.1，首次在开源模型中实现原生多模态理解；阿里通义千问Qwen3-235B开源，多项基准超越Llama 4；DeepSeek发布DeepSeek-V4技术报告，MoE架构再创新。应用层面，字节跳动发布AI视频生成工具即梦2.0，免费开放10秒视频生成；Google发布Gemini Live实时视频理解功能。研究方面，DeepMind发布Imagen 4，图像生成质量达到摄影级。投融资方面，中国AI公司月之暗面完成30亿元融资。政策方面，美国加州AI安全法案SB 1047正式签署。商业方面，AI视频生成赛道爆发，多家公司推出商业级视频生成API。",
+  "total_items": 9,
+  "categories": {
+    "模型发布": {
+      "count": 2,
+      "items": [
+        "a98f10b27ef7",
+        "3729638e468a"
+      ]
+    },
+    "研究前沿": {
+      "count": 2,
+      "items": [
+        "147793b993ea",
+        "62c0319d5d9a"
+      ]
+    },
+    "应用产品": {
+      "count": 2,
+      "items": [
+        "4aaa95f95d69",
+        "058223ddddd4"
+      ]
+    },
+    "投融资": {
+      "count": 1,
+      "items": [
+        "af6d769c6b12"
+      ]
+    },
+    "政策监管": {
+      "count": 1,
+      "items": [
+        "af4ae797ab3a"
+      ]
+    },
+    "商业商机": {
+      "count": 1,
+      "items": [
+        "99fa55b72265"
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "a98f10b27ef7",
+      "title_zh": "Meta发布Llama 4.1：开源模型首次原生多模态",
+      "title_en": "Meta Llama 4.1: First Native Multimodal Open-Source Model",
+      "summary_zh": "Meta发布Llama 4.1，首次在开源模型中实现原生多模态理解，可同时处理文本、图像、音频输入。在多项多模态基准上超越GPT-5 Turbo。",
+      "source_name": "机器之心",
+      "source_url": "#",
+      "published_at": "2026-08-12T08:00:00Z",
+      "category": "模型发布",
+      "subcategory": "多模态模型",
+      "importance": 5,
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "models": [
+          "Llama 4.1"
+        ],
+        "people": [],
+        "technologies": [
+          "Multimodal",
+          "Open Source"
+        ]
+      },
+      "tags": [
+        "Llama",
+        "开源",
+        "多模态"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "3729638e468a",
+      "title_zh": "阿里通义千问Qwen3-235B开源，多项基准超越Llama 4",
+      "title_en": "Alibaba Qwen3-235B Open-Sourced, Beats Llama 4 on Benchmarks",
+      "summary_zh": "阿里开源Qwen3-235B模型，2350亿参数的MoE架构，在MMLU、GSM8K等多项基准上超越Llama 4，成为最强开源大模型。",
+      "source_name": "量子位",
+      "source_url": "#",
+      "published_at": "2026-08-12T09:00:00Z",
+      "category": "模型发布",
+      "subcategory": "大语言模型",
+      "importance": 5,
+      "entities": {
+        "companies": [
+          "阿里巴巴"
+        ],
+        "models": [
+          "Qwen3-235B",
+          "Llama 4"
+        ],
+        "people": [],
+        "technologies": [
+          "MoE",
+          "Open Source"
+        ]
+      },
+      "tags": [
+        "通义千问",
+        "开源",
+        "国产"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "147793b993ea",
+      "title_zh": "DeepSeek发布V4技术报告：MoE架构再创新",
+      "title_en": "DeepSeek Releases V4 Technical Report: MoE Architecture Innovation",
+      "summary_zh": "DeepSeek发布DeepSeek-V4技术报告，创新性地提出动态专家路由机制，在保持性能的同时将推理成本降低40%，MoE架构再迎突破。",
+      "source_name": "SyncedReview",
+      "source_url": "#",
+      "published_at": "2026-08-12T010:00:00Z",
+      "category": "研究前沿",
+      "subcategory": "模型架构",
+      "importance": 5,
+      "entities": {
+        "companies": [
+          "DeepSeek"
+        ],
+        "models": [
+          "DeepSeek-V4"
+        ],
+        "people": [],
+        "technologies": [
+          "MoE",
+          "Dynamic Routing"
+        ]
+      },
+      "tags": [
+        "DeepSeek",
+        "MoE",
+        "架构"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "4aaa95f95d69",
+      "title_zh": "字节跳动发布即梦2.0：免费开放10秒视频生成",
+      "title_en": "ByteDance Jimeng 2.0: Free 10-Second Video Generation",
+      "summary_zh": "字节跳动发布AI视频生成工具即梦2.0，免费向所有用户开放10秒高清视频生成，在人物一致性和动作流畅度上达到行业领先水平。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "#",
+      "published_at": "2026-08-12T011:00:00Z",
+      "category": "应用产品",
+      "subcategory": "视频生成",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "字节跳动"
+        ],
+        "models": [
+          "即梦2.0"
+        ],
+        "people": [],
+        "technologies": [
+          "Video Generation"
+        ]
+      },
+      "tags": [
+        "字节跳动",
+        "视频",
+        "免费"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "058223ddddd4",
+      "title_zh": "Google发布Gemini Live实时视频理解",
+      "title_en": "Google Gemini Live Enables Real-time Video Understanding",
+      "summary_zh": "Google发布Gemini Live实时视频理解功能，用户可通过摄像头实时获得AI对周围环境的描述和解答，标志着AI助手向视觉智能进化。",
+      "source_name": "The Verge - AI",
+      "source_url": "#",
+      "published_at": "2026-08-12T012:00:00Z",
+      "category": "应用产品",
+      "subcategory": "多模态助手",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "models": [
+          "Gemini Live"
+        ],
+        "people": [],
+        "technologies": [
+          "Real-time Vision",
+          "Multimodal"
+        ]
+      },
+      "tags": [
+        "Google",
+        "Gemini",
+        "视频理解"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "62c0319d5d9a",
+      "title_zh": "DeepMind发布Imagen 4：图像生成质量达摄影级",
+      "title_en": "DeepMind Imagen 4: Photographic-Quality Image Generation",
+      "summary_zh": "DeepMind发布Imagen 4，图像生成质量达到摄影级，在纹理细节、光影处理上媲美真实照片，并支持精确的文本渲染。",
+      "source_name": "MarkTechPost",
+      "source_url": "#",
+      "published_at": "2026-08-12T013:00:00Z",
+      "category": "研究前沿",
+      "subcategory": "图像生成",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Google DeepMind"
+        ],
+        "models": [
+          "Imagen 4"
+        ],
+        "people": [],
+        "technologies": [
+          "Diffusion",
+          "Image Generation"
+        ]
+      },
+      "tags": [
+        "Imagen",
+        "图像生成",
+        "摄影级"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "af6d769c6b12",
+      "title_zh": "中国AI公司月之暗面完成30亿元融资",
+      "title_en": "Moonshot AI Raises 3 Billion Yuan",
+      "summary_zh": "月之暗面完成30亿元新一轮融资，投资方包括多家国资基金。其Kimi智能助手月活用户突破5000万，成为国产AI应用明星产品。",
+      "source_name": "量子位",
+      "source_url": "#",
+      "published_at": "2026-08-12T014:00:00Z",
+      "category": "投融资",
+      "subcategory": "国产大模型",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "月之暗面"
+        ],
+        "models": [
+          "Kimi"
+        ],
+        "people": [],
+        "technologies": [
+          "LLM",
+          "AI Chatbot"
+        ]
+      },
+      "tags": [
+        "月之暗面",
+        "Kimi",
+        "融资"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "af4ae797ab3a",
+      "title_zh": "美国加州AI安全法案SB 1047正式签署",
+      "title_en": "California AI Safety Act SB 1047 Signed into Law",
+      "summary_zh": "加州州长正式签署SB 1047法案，要求大型AI模型开发商进行安全测试和风险披露，成为美国首个针对前沿AI模型的州级立法。",
+      "source_name": "Ars Technica - AI",
+      "source_url": "#",
+      "published_at": "2026-08-12T015:00:00Z",
+      "category": "政策监管",
+      "subcategory": "AI安全",
+      "importance": 5,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "AI Safety",
+          "Legislation"
+        ]
+      },
+      "tags": [
+        "加州",
+        "AI法案",
+        "安全"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "99fa55b72265",
+      "title_zh": "AI视频生成赛道爆发：多家公司推出商业级API",
+      "title_en": "AI Video Generation Booms: Companies Launch Commercial APIs",
+      "summary_zh": "随着Runway、Pika、即梦等工具成熟，AI视频生成API市场规模快速扩大，多家公司推出面向企业客户的商业级视频生成服务，单价降至每条视频不足1元。",
+      "source_name": "VentureBeat - AI",
+      "source_url": "#",
+      "published_at": "2026-08-12T016:00:00Z",
+      "category": "商业商机",
+      "subcategory": "视频生成",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Runway",
+          "Pika",
+          "字节跳动"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "Video Generation",
+          "API Economy"
+        ]
+      },
+      "tags": [
+        "视频生成",
+        "API",
+        "商业化"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    }
+  ],
+  "stats": {
+    "sources_count": 8,
+    "total_collected_raw": 32,
+    "total_after_dedup": 18,
+    "total_published": 9,
+    "api_tokens_input": 12500,
+    "api_tokens_output": 2700,
+    "api_cost_estimate_usd": 0.0045
+  }
+}
