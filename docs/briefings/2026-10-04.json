@@ -1,0 +1,2226 @@
+{
+  "date": "2026-10-04",
+  "generated_at": "2026-10-04T07:28:21+08:00",
+  "model": "deepseek-chat",
+  "briefing_summary": "今日AI领域动态：模型竞赛与智能体生态双双提速。谷歌Gemini 4 Argon突袭发布，多榜单登顶且成本仅为Astra一半，直接拉高性价比门槛；Anthropic同步推出Claude Code，将智能体编程能力嵌入终端，配合ECC性能优化、claude-mem持久记忆等开源工具，编程智能体工具链正快速走向生产级。政策监管层面，白宫将话语体系转向“超级智能”，而OpenAI安全团队持续动荡、负责人离职与泄密解雇事件叠加，引发行业对治理节奏的担忧。研究前沿同样密集：丘成桐团队借助GPT与Claude攻克44年前数学难题，DeepSeek连发Prover-V2与R2预告，何恺明团队用ImageNet预训练探索ARC抽象推理。商业化方面，DeepSeek弹性计算大规模扩招、智谱开源GLM并筹备全球扩张，但“仅2%消费者愿为AI买单”的数据提醒市场仍需务实。",
+  "total_items": 61,
+  "categories": {
+    "模型发布": {
+      "count": 3,
+      "items": [
+        "11654e1f6c9c",
+        "bad1ff20dac7",
+        "8a68a59017f4"
+      ]
+    },
+    "应用产品": {
+      "count": 19,
+      "items": [
+        "c6fbacee2ca9",
+        "f36c41d3d2c7",
+        "af78f4c9c946",
+        "e6cfdb22625d",
+        "7423097d1ee9",
+        "56694f73252c",
+        "6d5dceaa7a99",
+        "d7c5a0783cd4",
+        "6ad5b96b22b0",
+        "390a6972affa",
+        "bb891bff1409",
+        "4d1bfc1c023b",
+        "f018338e4416",
+        "76fb0bc4eb00",
+        "42b579c73177",
+        "2e2b0b0a116c",
+        "d6f95c09d8b8",
+        "a6d2710d003d",
+        "672b5e391696"
+      ]
+    },
+    "研究前沿": {
+      "count": 13,
+      "items": [
+        "1f71aed71b18",
+        "11210fc9ff53",
+        "5a28d85d8548",
+        "c2c90e96d8f9",
+        "a2ab10be4f94",
+        "27eae25938b8",
+        "47b9e0e3c8b1",
+        "b17a564d9d9f",
+        "06b6ffd353d1",
+        "d07eb2ae65a2",
+        "02e0e9b25a0c",
+        "5ff53418fc80",
+        "859ef647d112"
+      ]
+    },
+    "投融资": {
+      "count": 4,
+      "items": [
+        "d51c7587b454",
+        "87473a1fbe9b",
+        "759bd2fa7cf9",
+        "6c267b10d32c"
+      ]
+    },
+    "政策监管": {
+      "count": 10,
+      "items": [
+        "1ed152348f46",
+        "27e9547643c0",
+        "defd2cea6df0",
+        "10e72e7e9749",
+        "614a63a7cfa2",
+        "479f66b0c00a",
+        "2a02677cdb80",
+        "b159b5bfb1e4",
+        "694fea6e022c",
+        "7c60b4756fb9"
+      ]
+    },
+    "商业商机": {
+      "count": 12,
+      "items": [
+        "bde9121888d8",
+        "04db06b3425f",
+        "4d508fb079e2",
+        "543ce09c1b73",
+        "815aa219e61a",
+        "c5d0516cfd87",
+        "d2bfe8891793",
+        "fe3f11359fb5",
+        "50bb0fcc3512",
+        "3bac5e7555c4",
+        "8f809dd3fafc",
+        "918e1b25349c"
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "c6fbacee2ca9",
+      "title_zh": "ponytail：让AI智能体像最懒的资深开发者一样思考",
+      "title_en": "DietrichGebert/ponytail (JavaScript, ★153,350)",
+      "summary_zh": "GitHub热门项目ponytail提出一种极简编程哲学，让AI智能体模仿最懒的资深开发者思维，强调最好的代码是从未写过的代码，通过减少冗余实现高效开发。",
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/DietrichGebert/ponytail",
+      "published_at": "2026-10-03T23:26:58.187664+00:00",
+      "category": "应用产品",
+      "subcategory": "AI编程",
+      "importance": 3,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [
+          "DietrichGebert"
+        ],
+        "technologies": [
+          "AI Agent",
+          "JavaScript"
+        ]
+      },
+      "tags": [
+        "AI编程",
+        "代码生成",
+        "极简主义",
+        "开发者工具",
+        "GitHub热门"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "f36c41d3d2c7",
+      "title_zh": "impeccable：让AI设计工具更懂设计的设计语言",
+      "title_en": "pbakaus/impeccable (JavaScript, ★75,273)",
+      "summary_zh": "GitHub项目impeccable发布一套设计语言，旨在提升AI设计工具的设计能力，帮助AI生成更符合专业设计标准的作品，受到开发者广泛关注。",
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/pbakaus/impeccable",
+      "published_at": "2026-10-03T23:26:58.187664+00:00",
+      "category": "应用产品",
+      "subcategory": "设计工具",
+      "importance": 3,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [
+          "pbakaus"
+        ],
+        "technologies": [
+          "AI设计",
+          "JavaScript"
+        ]
+      },
+      "tags": [
+        "AI设计",
+        "设计语言",
+        "开发者工具",
+        "GitHub热门",
+        "创意工具"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "af78f4c9c946",
+      "title_zh": "ECC：智能体框架性能优化系统，支持Claude Code与Cursor等",
+      "title_en": "affaan-m/ECC (JavaScript, ★272,212)",
+      "summary_zh": "ECC是一个智能体框架性能优化系统，提供技能、本能、记忆、安全和研究优先开发能力，兼容Claude Code、Codex、Opencode、Cursor等多种AI编程工具。",
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/affaan-m/ECC",
+      "published_at": "2026-10-03T23:26:58.187664+00:00",
+      "category": "应用产品",
+      "subcategory": "AI编程",
+      "importance": 4,
+      "entities": {
+        "companies": [],
+        "models": [
+          "Claude Code",
+          "Codex",
+          "Opencode",
+          "Cursor"
+        ],
+        "people": [
+          "affaan-m"
+        ],
+        "technologies": [
+          "Agent Harness",
+          "性能优化",
+          "记忆系统"
+        ]
+      },
+      "tags": [
+        "AI智能体",
+        "性能优化",
+        "开发者工具",
+        "Claude Code",
+        "GitHub热门"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "e6cfdb22625d",
+      "title_zh": "Agent-Reach：让AI智能体拥有浏览全网的眼睛",
+      "title_en": "Panniantong/Agent-Reach (Python, ★89,766)",
+      "summary_zh": "Agent-Reach为AI智能体提供读取和搜索Twitter、Reddit、YouTube、GitHub、B站、小红书等平台的能力，通过单一CLI实现零API费用，大幅降低数据获取成本。",
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/Panniantong/Agent-Reach",
+      "published_at": "2026-10-03T23:26:58.187664+00:00",
+      "category": "应用产品",
+      "subcategory": "AI智能体",
+      "importance": 4,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [
+          "Panniantong"
+        ],
+        "technologies": [
+          "CLI",
+          "AI Agent",
+          "数据抓取"
+        ]
+      },
+      "tags": [
+        "AI智能体",
+        "数据获取",
+        "CLI工具",
+        "社交媒体",
+        "GitHub热门"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "7423097d1ee9",
+      "title_zh": "claude-mem：为AI智能体提供跨会话持久化上下文记忆",
+      "title_en": "thedotmack/claude-mem (TypeScript, ★95,559)",
+      "summary_zh": "claude-mem为AI智能体提供跨会话持久化上下文，捕获会话中的所有操作，用AI压缩后注入未来会话，兼容Claude Code、Codex、Gemini、Copilot等多种工具。",
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/thedotmack/claude-mem",
+      "published_at": "2026-10-03T23:26:58.187664+00:00",
+      "category": "应用产品",
+      "subcategory": "AI智能体",
+      "importance": 4,
+      "entities": {
+        "companies": [],
+        "models": [
+          "Claude Code",
+          "OpenClaw",
+          "Codex",
+          "Gemini",
+          "Hermes",
+          "Copilot",
+          "OpenCode"
+        ],
+        "people": [
+          "thedotmack"
+        ],
+        "technologies": [
+          "持久化记忆",
+          "上下文压缩",
+          "TypeScript"
+        ]
+      },
+      "tags": [
+        "AI记忆",
+        "上下文管理",
+        "开发者工具",
+        "跨会话",
+        "GitHub热门"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "56694f73252c",
+      "title_zh": "Cloudflare发布cloudflare-os智能体工作空间",
+      "title_en": "cloudflare/cloudflare-os (TypeScript, ★10,554)",
+      "summary_zh": "Cloudflare推出基于Cloudflare Workers的智能体工作空间cloudflare-os，支持创建文档、构建应用和运行智能体，可结合企业上下文与系统使用。",
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/cloudflare/cloudflare-os",
+      "published_at": "2026-10-03T23:26:58.187664+00:00",
+      "category": "应用产品",
+      "subcategory": "AI智能体",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Cloudflare"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "Cloudflare Workers",
+          "Agent Workspace"
+        ]
+      },
+      "tags": [
+        "Cloudflare",
+        "智能体",
+        "工作空间",
+        "边缘计算",
+        "开发者工具"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "6d5dceaa7a99",
+      "title_zh": "agent-skills：面向AI编程智能体的生产级工程技能库",
+      "title_en": "addyosmani/agent-skills (JavaScript, ★100,823)",
+      "summary_zh": "知名开发者Addy Osmani发布agent-skills项目，为AI编程智能体提供生产级工程技能，帮助智能体更好地完成实际软件开发任务，获得大量关注。",
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/addyosmani/agent-skills",
+      "published_at": "2026-10-03T23:26:58.187664+00:00",
+      "category": "应用产品",
+      "subcategory": "AI编程",
+      "importance": 4,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [
+          "Addy Osmani"
+        ],
+        "technologies": [
+          "AI编程",
+          "Agent Skills"
+        ]
+      },
+      "tags": [
+        "AI编程",
+        "智能体技能",
+        "开发者工具",
+        "工程实践",
+        "GitHub热门"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "d7c5a0783cd4",
+      "title_zh": "context-mode：AI编程智能体上下文窗口优化工具",
+      "title_en": "mksglu/context-mode (TypeScript, ★25,242)",
+      "summary_zh": "context-mode专注AI编程智能体的上下文窗口优化，通过沙盒化工具输出减少98%上下文占用，持久化会话记忆，并通过MCP和hooks在17个平台间执行路由。",
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/mksglu/context-mode",
+      "published_at": "2026-10-03T23:26:58.187664+00:00",
+      "category": "应用产品",
+      "subcategory": "AI编程",
+      "importance": 3,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [
+          "mksglu"
+        ],
+        "technologies": [
+          "MCP",
+          "上下文优化",
+          "沙盒",
+          "TypeScript"
+        ]
+      },
+      "tags": [
+        "上下文优化",
+        "AI编程",
+        "MCP",
+        "会话记忆",
+        "开发者工具"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "6ad5b96b22b0",
+      "title_zh": "pi：统一LLM API与智能体循环的AI智能体工具包",
+      "title_en": "earendil-works/pi (TypeScript, ★112,146)",
+      "summary_zh": "pi是一个AI智能体工具包，提供统一LLM API、智能体循环、TUI界面和编程智能体CLI，帮助开发者快速构建和部署AI智能体应用。",
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/earendil-works/pi",
+      "published_at": "2026-10-03T23:26:58.187664+00:00",
+      "category": "应用产品",
+      "subcategory": "AI智能体",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "earendil-works"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "LLM API",
+          "Agent Loop",
+          "TUI",
+          "CLI"
+        ]
+      },
+      "tags": [
+        "AI智能体",
+        "工具包",
+        "LLM API",
+        "开发者工具",
+        "GitHub热门"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "390a6972affa",
+      "title_zh": "Anthropic发布Claude Code：终端中的智能体编程工具",
+      "title_en": "anthropics/claude-code (TypeScript, ★149,214)",
+      "summary_zh": "Anthropic推出Claude Code智能体编程工具，运行于终端中，能理解代码库并通过自然语言命令执行日常任务、解释复杂代码和处理Git工作流，显著提升编程效率。",
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/anthropics/claude-code",
+      "published_at": "2026-10-03T23:26:58.187664+00:00",
+      "category": "应用产品",
+      "subcategory": "AI编程",
+      "importance": 5,
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "models": [
+          "Claude Code"
+        ],
+        "people": [],
+        "technologies": [
+          "Agentic Coding",
+          "自然语言编程",
+          "Git工作流"
+        ]
+      },
+      "tags": [
+        "Claude Code",
+        "Anthropic",
+        "AI编程",
+        "终端工具",
+        "智能体"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "bb891bff1409",
+      "title_zh": "production-agentic-rag-course：生产级智能体RAG课程",
+      "title_en": "jamwithai/production-agentic-rag-course (Python, ★9,396)",
+      "summary_zh": "jamwithai发布production-agentic-rag-course，提供生产级智能体RAG系统的构建课程，帮助开发者学习如何在实际环境中部署检索增强生成应用。",
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/jamwithai/production-agentic-rag-course",
+      "published_at": "2026-10-03T23:26:58.187664+00:00",
+      "category": "应用产品",
+      "subcategory": "AI教育",
+      "importance": 2,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [
+          "jamwithai"
+        ],
+        "technologies": [
+          "RAG",
+          "Agentic RAG",
+          "Python"
+        ]
+      },
+      "tags": [
+        "RAG",
+        "智能体",
+        "课程",
+        "生产部署",
+        "开发者学习"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "bde9121888d8",
+      "title_zh": "DeepSeek弹性计算团队大规模扩招，资深工程师需求迫切",
+      "title_en": "DeepSeek扩招！弹性计算团队大量HC，尤其需要资深工程师",
+      "summary_zh": "DeepSeek弹性计算团队大规模招聘，尤其需要资深工程师。其DSec沙盒基础设施已部署多个分片，每分片约160台服务器、3万CPU核心、250TB内存，日服务约300万沙盒。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/10/501381.html",
+      "published_at": "2026-10-03T07:54:43+00:00",
+      "category": "商业商机",
+      "subcategory": "人才招聘",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "DeepSeek"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "DSec",
+          "弹性计算",
+          "沙盒基础设施",
+          "Agent训练"
+        ]
+      },
+      "tags": [
+        "DeepSeek",
+        "招聘",
+        "弹性计算",
+        "Agent训练",
+        "基础设施"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "1ed152348f46",
+      "title_zh": "OpenAI安全团队持续动荡：负责人离职，三名员工因泄密被解雇",
+      "title_en": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
+      "summary_zh": "OpenAI安全透明度负责人David Robinson离职，同时三名员工因泄密被解雇。Robinson团队负责为重要模型撰写系统卡，其离职引发对OpenAI安全治理稳定性的担忧。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/10/501368.html",
+      "published_at": "2026-10-03T04:41:24+00:00",
+      "category": "政策监管",
+      "subcategory": "AI安全治理",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "models": [],
+        "people": [
+          "David Robinson"
+        ],
+        "technologies": [
+          "AI安全",
+          "系统卡",
+          "安全透明度"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "AI安全",
+        "人事变动",
+        "安全治理",
+        "系统卡"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "d51c7587b454",
+      "title_zh": "Jev估值达100亿美元，创始人Diogo Almeida全面答疑",
+      "title_en": "Jev估值100亿美元！创始人Diogo Almeida回答一切",
+      "summary_zh": "AI公司Jev估值达到100亿美元，创始人Diogo Almeida在问答中回应一切。该估值显示市场对AI领域初创公司的高度热情，具体业务细节待进一步披露。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/10/500148.html",
+      "published_at": "2026-10-03T02:38:19+00:00",
+      "category": "投融资",
+      "subcategory": "公司估值",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Jev"
+        ],
+        "models": [],
+        "people": [
+          "Diogo Almeida"
+        ],
+        "technologies": []
+      },
+      "tags": [
+        "Jev",
+        "估值",
+        "融资",
+        "AI初创",
+        "Diogo Almeida"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "1f71aed71b18",
+      "title_zh": "openJiuwen首发X-Router自演进模型路由技术，实测减少50%以上Token消耗",
+      "title_en": "openJiuwen X-Router自演进模型路由技术首发，昇腾亲和，Agent越跑越省，实测减少50+%Token消耗",
+      "summary_zh": "openJiuwen首发X-Router自演进模型路由技术，兼容昇腾，通过为每次请求智能选择最合适模型，让反馈持续优化路由策略，实测减少50%以上Token消耗。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/10/500098.html",
+      "published_at": "2026-10-02T07:34:15+00:00",
+      "category": "研究前沿",
+      "subcategory": "模型路由",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "openJiuwen"
+        ],
+        "models": [
+          "X-Router"
+        ],
+        "people": [],
+        "technologies": [
+          "模型路由",
+          "自演进",
+          "昇腾",
+          "Token优化"
+        ]
+      },
+      "tags": [
+        "模型路由",
+        "X-Router",
+        "昇腾",
+        "Token优化",
+        "Agent"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "11210fc9ff53",
+      "title_zh": "丘成桐新论文致谢GPT和Claude，AI辅助解决44年前数学难题",
+      "title_en": "丘成桐新论文致谢了GPT和Claude",
+      "summary_zh": "丘成桐参与的最新论文在致谢中感谢GPT 6 Astra和Claude Pro协助探索证明思路与计算，解决了微分几何中关于七维空间怪球弯曲的经典猜想，该问题已悬置70年。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/10/499991.html",
+      "published_at": "2026-10-02T07:27:03+00:00",
+      "category": "研究前沿",
+      "subcategory": "AI辅助科研",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "models": [
+          "GPT 6 Astra",
+          "Claude Pro"
+        ],
+        "people": [
+          "丘成桐"
+        ],
+        "technologies": [
+          "微分几何",
+          "AI辅助证明"
+        ]
+      },
+      "tags": [
+        "丘成桐",
+        "GPT",
+        "Claude",
+        "数学证明",
+        "AI辅助科研",
+        "微分几何",
+        "怪球"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "27e9547643c0",
+      "title_zh": "arXiv实施最严投稿新规：每人每月最多提交2篇，拒稿不退额度",
+      "title_en": "arXiv最严新规！每人每月最多提交2篇，拒稿不退额度",
+      "summary_zh": "arXiv宣布自2026年10月1日起，所有作者每月最多提交2篇论文，且按提交次数计算，被拒稿也不退还额度，同时保留最多3篇活跃投稿的限制。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/10/499958.html",
+      "published_at": "2026-10-02T06:46:32+00:00",
+      "category": "政策监管",
+      "subcategory": "学术出版规范",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "arXiv"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": []
+      },
+      "tags": [
+        "arXiv",
+        "投稿限制",
+        "学术出版",
+        "论文",
+        "AI研究",
+        "政策"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "5a28d85d8548",
+      "title_zh": "何恺明团队新作NAT-ARC：用ImageNet猫狗图片预训练学会ARC抽象推理",
+      "title_en": "何恺明团队新作：看猫片就能学会ARC挑战",
+      "summary_zh": "何恺明团队提出NAT-ARC纯视觉方案，用ImageNet猫狗花草预训练encoder，迁移到ARC抽象格子推理，单模型达63.4% pass@2，集成后70.2%，首次逼近专用LLM系统水平。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/10/499812.html",
+      "published_at": "2026-10-01T15:06:30+00:00",
+      "category": "研究前沿",
+      "subcategory": "视觉推理",
+      "importance": 4,
+      "entities": {
+        "companies": [],
+        "models": [
+          "NAT-ARC"
+        ],
+        "people": [
+          "何恺明"
+        ],
+        "technologies": [
+          "ImageNet",
+          "ARC",
+          "视觉预训练",
+          "抽象推理"
+        ]
+      },
+      "tags": [
+        "何恺明",
+        "NAT-ARC",
+        "ARC挑战",
+        "视觉推理",
+        "ImageNet",
+        "抽象推理",
+        "纯视觉方案"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "11654e1f6c9c",
+      "title_zh": "谷歌Gemini 4 Argon突然发布，多榜单登顶且成本仅为Astra一半",
+      "title_en": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
+      "summary_zh": "谷歌发布Gemini 4 Argon，空降多榜单第一，单项任务成本最低1.99美元，仅为GPT-6 Astra一半，支持百万Token输出，面向编程金融法律等复杂工作流，目前仅开放给筛选的网络安全团队。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/10/499663.html",
+      "published_at": "2026-10-01T15:02:14+00:00",
+      "category": "模型发布",
+      "subcategory": "大语言模型",
+      "importance": 5,
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "models": [
+          "Gemini 4 Argon",
+          "GPT-6 Astra",
+          "Opus 5.5"
+        ],
+        "people": [
+          "劈柴哥"
+        ],
+        "technologies": [
+          "RSI",
+          "网络安全防御"
+        ]
+      },
+      "tags": [
+        "谷歌",
+        "Gemini 4",
+        "Argon",
+        "大模型",
+        "RSI",
+        "网络安全",
+        "成本降低"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "c2c90e96d8f9",
+      "title_zh": "OpenAI推理之父Noam Brown访谈：数学突破只是多智能体时代的开胃菜",
+      "title_en": "OpenAI推理之父最新访谈！数学只是多智能体时代的开胃菜",
+      "summary_zh": "OpenAI研究员Noam Brown在播客中表示，Navier-Stokes千禧年难题突破中10000个Agent最多占10%功劳，并深入探讨多智能体系统、RSI发展和超级对齐等前沿方向。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/09/499654.html",
+      "published_at": "2026-09-30T14:03:43+00:00",
+      "category": "研究前沿",
+      "subcategory": "多智能体系统",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "models": [
+          "o1"
+        ],
+        "people": [
+          "Noam Brown",
+          "Dwarkesh Patel"
+        ],
+        "technologies": [
+          "多智能体系统",
+          "test-time compute scaling",
+          "RSI",
+          "超级对齐"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "Noam Brown",
+        "多智能体",
+        "推理时计算",
+        "RSI",
+        "超级对齐",
+        "千禧年难题"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "04db06b3425f",
+      "title_zh": "直播回顾：工业AI的下一个机会在哪？",
+      "title_en": "直播回顾：工业AI的下一个机会在哪？",
+      "summary_zh": "量子位对话节目邀请西门子Xcelerator中国负责人顾欣与阿丘科技CEO黄耀，从真实案例出发探讨工业AI在视觉检测、质量控制、设备运维等场景的落地与规模化路径。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/09/499605.html",
+      "published_at": "2026-09-30T12:11:24+00:00",
+      "category": "商业商机",
+      "subcategory": "工业AI",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "西门子",
+          "阿丘科技"
+        ],
+        "models": [],
+        "people": [
+          "顾欣",
+          "黄耀"
+        ],
+        "technologies": [
+          "视觉检测",
+          "质量控制",
+          "设备运维",
+          "工艺优化"
+        ]
+      },
+      "tags": [
+        "工业AI",
+        "智能制造",
+        "西门子",
+        "阿丘科技",
+        "视觉检测",
+        "落地应用",
+        "规模化"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "4d1bfc1c023b",
+      "title_zh": "卡普空准备迎接“与AI共同创造游戏的未来”",
+      "title_en": "Capcom is preparing for a 'future where we create games together with AI'",
+      "summary_zh": "卡普空在Open Conference RE 2026上展示REX项目，计划进一步进化RE Engine，程序员石田聪表示公司正为与AI共同开发游戏的未来做准备。",
+      "source_name": "The Verge - AI",
+      "source_url": "https://www.theverge.com/games/1004418/capcom-ai-game-development",
+      "published_at": "2026-10-03T12:49:10-04:00",
+      "category": "应用产品",
+      "subcategory": "游戏开发",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Capcom"
+        ],
+        "models": [],
+        "people": [
+          "Satoshi Ishida"
+        ],
+        "technologies": [
+          "RE Engine",
+          "REX Project",
+          "AI游戏开发"
+        ]
+      },
+      "tags": [
+        "卡普空",
+        "Capcom",
+        "游戏开发",
+        "RE Engine",
+        "AI辅助开发",
+        "REX项目"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "4d508fb079e2",
+      "title_zh": "Splice CEO Kakul Srivastava认为AI邮件正在扼杀对话",
+      "title_en": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
+      "summary_zh": "Splice CEO Kakul Srivastava在采访中表示AI生成的邮件正在扼杀真实对话，作为样本平台Splice的掌门人，她分享了对AI在音乐创作和沟通中角色的看法。",
+      "source_name": "The Verge - AI",
+      "source_url": "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
+      "published_at": "2026-10-03T11:00:00-04:00",
+      "category": "商业商机",
+      "subcategory": "AI与创意产业",
+      "importance": 2,
+      "entities": {
+        "companies": [
+          "Splice"
+        ],
+        "models": [],
+        "people": [
+          "Kakul Srivastava"
+        ],
+        "technologies": [
+          "AI邮件",
+          "音乐样本"
+        ]
+      },
+      "tags": [
+        "Splice",
+        "Kakul Srivastava",
+        "AI邮件",
+        "音乐创作",
+        "创意产业",
+        "对话"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "defd2cea6df0",
+      "title_zh": "OpenAI安全员工辞职并发出警告",
+      "title_en": "An OpenAI safety employee has quit and is sounding the alarm",
+      "summary_zh": "曾负责撰写OpenAI每次重大模型发布安全报告的David Robinson本周辞职，并在《大西洋月刊》发表评论文章，对AI安全风险发出警告。",
+      "source_name": "The Verge - AI",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
+      "published_at": "2026-10-03T10:31:56-04:00",
+      "category": "政策监管",
+      "subcategory": "AI安全",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "models": [],
+        "people": [
+          "David Robinson"
+        ],
+        "technologies": [
+          "AI安全"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "AI安全",
+        "辞职",
+        "安全报告",
+        "大西洋月刊",
+        "风险警告"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "f018338e4416",
+      "title_zh": "Meta开源代码让用户自制Muse AI设备",
+      "title_en": "Meta open sources code to let you make Muse AI gadgets",
+      "summary_zh": "Meta开源代码允许用户自制搭载其新AI代理Muse的设备，建议项目包括在彩色E Ink显示屏上加载Muse显示提醒，或添加到HDMI棒上在大屏展示。",
+      "source_name": "The Verge - AI",
+      "source_url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+      "published_at": "2026-10-02T17:08:37-04:00",
+      "category": "应用产品",
+      "subcategory": "AI硬件",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "models": [
+          "Muse"
+        ],
+        "people": [],
+        "technologies": [
+          "E Ink",
+          "HDMI",
+          "AI代理"
+        ]
+      },
+      "tags": [
+        "Meta",
+        "Muse",
+        "开源",
+        "AI硬件",
+        "E Ink",
+        "AI代理",
+        "DIY"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "10e72e7e9749",
+      "title_zh": "苹果将限制Mac磁盘访问权限，因AI代理大幅增加风险",
+      "title_en": "Apple will limit Mac disk access as AI agents 'substantially' increase risk",
+      "summary_zh": "苹果宣布将在Mac上新增“完全磁盘访问”限制，以应对AI代理带来的安全风险，确保只有真正需要该权限的应用才能获得授权。",
+      "source_name": "The Verge - AI",
+      "source_url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+      "published_at": "2026-10-02T16:08:40-04:00",
+      "category": "政策监管",
+      "subcategory": "AI安全",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Apple"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "完全磁盘访问",
+          "AI代理",
+          "macOS安全"
+        ]
+      },
+      "tags": [
+        "苹果",
+        "Mac",
+        "磁盘访问",
+        "AI代理",
+        "安全限制",
+        "隐私保护"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "76fb0bc4eb00",
+      "title_zh": "OpenAI的Dot代理上手体验：能帮你订晚餐的企业级软件",
+      "title_en": "OpenAI's Dot agent is enterprise software that can also order your dinner",
+      "summary_zh": "OpenAI推出新代理平台Dots，定位为企业级工作软件，但也能完成订餐等日常任务。与Meta Muse的亲和风格不同，Dots更强调工作场景应用。",
+      "source_name": "The Verge - AI",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
+      "published_at": "2026-10-02T14:00:00-04:00",
+      "category": "应用产品",
+      "subcategory": "AI代理",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Meta"
+        ],
+        "models": [
+          "Dots",
+          "Muse"
+        ],
+        "people": [],
+        "technologies": [
+          "AI代理",
+          "企业软件"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "Dots",
+        "AI代理",
+        "企业软件",
+        "上手体验",
+        "自动化"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "543ce09c1b73",
+      "title_zh": "与马斯克分手很难：Shivon Zilis在X上宣布分手",
+      "title_en": "Breaking up (with Elon Musk) is hard to do",
+      "summary_zh": "Shivon Zilis在X上引用“Big Tech Alert”账号的帖子，宣布与四个孩子的父亲埃隆·马斯克分手，引发社交媒体关注。",
+      "source_name": "The Verge - AI",
+      "source_url": "https://www.theverge.com/tech/1004177/elon-musk-unfollows-shivon-zilis",
+      "published_at": "2026-10-02T13:37:36-04:00",
+      "category": "商业商机",
+      "subcategory": "行业八卦",
+      "importance": 1,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [
+          "Elon Musk",
+          "Shivon Zilis"
+        ],
+        "technologies": []
+      },
+      "tags": [
+        "马斯克",
+        "Shivon Zilis",
+        "分手",
+        "社交媒体",
+        "X平台"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "42b579c73177",
+      "title_zh": "AI幻觉让本已难缠的客户更加过分",
+      "title_en": "AI hallucinations are making entitled customers even worse",
+      "summary_zh": "报道指出AI幻觉正在加剧客户服务中的问题，顾客依据AI生成的错误信息提出不合理要求，给一线服务人员带来更大压力。",
+      "source_name": "The Verge - AI",
+      "source_url": "https://www.theverge.com/report/1002963/ai-hallucinations-customer-service-jobs-agents",
+      "published_at": "2026-10-02T08:00:00-04:00",
+      "category": "应用产品",
+      "subcategory": "客户服务",
+      "importance": 3,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [
+          "Madison"
+        ],
+        "technologies": [
+          "AI幻觉",
+          "客户服务代理"
+        ]
+      },
+      "tags": [
+        "AI幻觉",
+        "客户服务",
+        "服务业",
+        "错误信息",
+        "消费者行为"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "815aa219e61a",
+      "title_zh": "如果数据中心伪装在森林中，还会有人讨厌它吗？",
+      "title_en": "If a data center is camouflaged in the woods, will anyone hate it?",
+      "summary_zh": "随着AI数据中心规模扩展至数百万平方英尺，圣安东尼奥市议员Ric Galvan回忆数据中心从不起眼的办公楼演变为巨型设施，社区对环境影响和选址的担忧日益增加。",
+      "source_name": "The Verge - AI",
+      "source_url": "https://www.theverge.com/tech/1003681/microsoft-data-centers-ai-environment-biomimicry",
+      "published_at": "2026-10-02T08:00:00-04:00",
+      "category": "商业商机",
+      "subcategory": "AI基础设施",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Microsoft"
+        ],
+        "models": [],
+        "people": [
+          "Ric Galvan"
+        ],
+        "technologies": [
+          "数据中心",
+          "超大规模设施",
+          "仿生设计"
+        ]
+      },
+      "tags": [
+        "数据中心",
+        "AI基础设施",
+        "环境影响",
+        "社区关系",
+        "超大规模",
+        "选址"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "c5d0516cfd87",
+      "title_zh": "亚马逊发博客警告社区不要阻止数据中心建设",
+      "title_en": "Amazon writes scary blog warning communities not to block data centers",
+      "summary_zh": "亚马逊AWS CEO Matt Garman发表3000字博客，呼吁公众支持AI数据中心项目，警告若阻止建设将对美国经济和国家安全造成不可挽回的损害，回应外界对就业和电力需求的担忧。",
+      "source_name": "The Verge - AI",
+      "source_url": "https://www.theverge.com/tech/1003929/amazon-ai-data-center-blog-warning",
+      "published_at": "2026-10-02T07:52:20-04:00",
+      "category": "商业商机",
+      "subcategory": "数据中心与基础设施",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Amazon",
+          "AWS"
+        ],
+        "models": [],
+        "people": [
+          "Matt Garman"
+        ],
+        "technologies": [
+          "AI数据中心"
+        ]
+      },
+      "tags": [
+        "亚马逊",
+        "数据中心",
+        "AI基础设施",
+        "社区反对",
+        "电力需求",
+        "国家安全"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "d2bfe8891793",
+      "title_zh": "亚马逊回应数据中心争议，称已不再使用保密协议",
+      "title_en": "Amazon responds to data center backlash, says it no longer uses NDAs",
+      "summary_zh": "亚马逊AWS CEO针对外界对数据中心的广泛质疑作出回应，并宣布公司已不再使用保密协议（NDA），试图缓解社区对数据中心项目的抵触情绪。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+      "published_at": "2026-10-03T18:43:57+00:00",
+      "category": "商业商机",
+      "subcategory": "数据中心与基础设施",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Amazon",
+          "AWS"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "AI数据中心"
+        ]
+      },
+      "tags": [
+        "亚马逊",
+        "数据中心",
+        "保密协议",
+        "社区关系",
+        "公众质疑"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "614a63a7cfa2",
+      "title_zh": "OpenAI安全员工辞职，称公司文化已崩坏",
+      "title_en": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+      "summary_zh": "OpenAI安全团队成员David Robinson宣布辞职，并发出严厉警告，称公司的安全文化已经崩坏。他自嘲是AI公司离职员工发出警告的典型例子。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+      "published_at": "2026-10-03T16:30:01+00:00",
+      "category": "政策监管",
+      "subcategory": "AI安全与伦理",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "models": [],
+        "people": [
+          "David Robinson"
+        ],
+        "technologies": [
+          "AI安全"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "安全文化",
+        "员工离职",
+        "AI安全",
+        "公司治理"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "2e2b0b0a116c",
+      "title_zh": "所有能住在你短信里的AI智能体盘点",
+      "title_en": "All the AI agents that can live in your text messages",
+      "summary_zh": "TechCrunch整理了一份可集成于短信中的AI智能体清单，涵盖通用助手以及面向家庭、旅行和工作场景的专用智能体，展示了AI融入日常通讯的趋势。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "published_at": "2026-10-03T14:00:00+00:00",
+      "category": "应用产品",
+      "subcategory": "AI智能体",
+      "importance": 3,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "AI智能体",
+          "短信集成"
+        ]
+      },
+      "tags": [
+        "AI智能体",
+        "短信",
+        "通讯助手",
+        "家庭场景",
+        "旅行助手"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "d6f95c09d8b8",
+      "title_zh": "Meta希望你的下一款设备融入Muse",
+      "title_en": "Meta wants your next gadget to be Muse-infused",
+      "summary_zh": "Meta希望将Muse AI融入电视、烤面包机等各类设备，并免费开放相关代码，鼓励开发者打造自己的Muse智能硬件，推动AI无处不在的战略。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+      "published_at": "2026-10-03T00:45:39+00:00",
+      "category": "应用产品",
+      "subcategory": "智能硬件",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "models": [
+          "Muse"
+        ],
+        "people": [],
+        "technologies": [
+          "AI硬件",
+          "开源代码"
+        ]
+      },
+      "tags": [
+        "Meta",
+        "Muse",
+        "智能硬件",
+        "开源",
+        "物联网",
+        "AI设备"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "87473a1fbe9b",
+      "title_zh": "Sean Parker围绕音乐重建Stability AI",
+      "title_en": "Sean Parker is rebuilding Stability AI around music",
+      "summary_zh": "Sean Parker正在围绕音乐方向重建Stability AI，并获得了唱片公司的支持与资金。这位曾颠覆音乐行业的Napster联合创始人如今以合作姿态回归音乐领域。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
+      "published_at": "2026-10-02T21:09:14+00:00",
+      "category": "投融资",
+      "subcategory": "公司重组与战略",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Stability AI"
+        ],
+        "models": [],
+        "people": [
+          "Sean Parker"
+        ],
+        "technologies": [
+          "AI音乐生成"
+        ]
+      },
+      "tags": [
+        "Stability AI",
+        "Sean Parker",
+        "AI音乐",
+        "公司重组",
+        "唱片公司",
+        "融资"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "fe3f11359fb5",
+      "title_zh": "受裁员影响？别错过TechCrunch Disrupt 2026展会通行证75美元优惠",
+      "title_en": "Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
+      "summary_zh": "TechCrunch为受裁员影响的科技从业者提供Disrupt 2026展会通行证优惠，仅需75美元，限前100名符合条件者，旨在帮助他们寻找新的职业机会。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/",
+      "published_at": "2026-10-02T19:15:51+00:00",
+      "category": "商业商机",
+      "subcategory": "行业活动",
+      "importance": 1,
+      "entities": {
+        "companies": [
+          "TechCrunch"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": []
+      },
+      "tags": [
+        "TechCrunch Disrupt",
+        "裁员",
+        "展会通行证",
+        "职业机会",
+        "优惠"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "479f66b0c00a",
+      "title_zh": "苹果因AI智能体新风险收紧macOS全磁盘访问控制",
+      "title_en": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
+      "summary_zh": "苹果宣布将收紧macOS的全磁盘访问权限控制，警告称日益强大的AI智能体使广泛访问用户文件、信息、邮件和浏览历史的风险显著增加。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+      "published_at": "2026-10-02T18:11:27+00:00",
+      "category": "政策监管",
+      "subcategory": "隐私与安全",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Apple"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "macOS",
+          "全磁盘访问",
+          "AI智能体"
+        ]
+      },
+      "tags": [
+        "苹果",
+        "macOS",
+        "全磁盘访问",
+        "AI智能体",
+        "隐私安全",
+        "权限控制"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "50bb0fcc3512",
+      "title_zh": "叫它AI也好超级智能也罢，只有2%消费者买单",
+      "title_en": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
+      "summary_zh": "TechCrunch播客讨论本周AI大事：白宫召集科技巨头CEO签署AI安全承诺，特朗普签署行政令将AI更名为“超级智能”，但消费者实际付费率仅2%。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
+      "published_at": "2026-10-02T17:56:00+00:00",
+      "category": "商业商机",
+      "subcategory": "市场趋势",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Meta",
+          "OpenAI",
+          "Anthropic"
+        ],
+        "models": [],
+        "people": [
+          "Donald Trump",
+          "Mark Zuckerberg",
+          "Jeff Bezos",
+          "Elon Musk",
+          "Dario Amodei"
+        ],
+        "technologies": [
+          "超级智能"
+        ]
+      },
+      "tags": [
+        "消费者采用",
+        "超级智能",
+        "白宫",
+        "AI安全承诺",
+        "市场趋势",
+        "付费率"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "2a02677cdb80",
+      "title_zh": "白宫：它不再叫AI，叫“超级智能”",
+      "title_en": "It’s not AI anymore, it’s ‘super intelligence’ (according to the White House)",
+      "summary_zh": "白宫本周召集扎克伯格、贝索斯、马斯克、Dario Amodei等科技巨头CEO签署AI安全承诺，特朗普称其“道德约束力”，并签署行政令正式将AI更名为“超级智能”。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
+      "published_at": "2026-10-02T17:48:16+00:00",
+      "category": "政策监管",
+      "subcategory": "AI政策与治理",
+      "importance": 5,
+      "entities": {
+        "companies": [
+          "Meta",
+          "OpenAI",
+          "Anthropic"
+        ],
+        "models": [],
+        "people": [
+          "Donald Trump",
+          "Mark Zuckerberg",
+          "Jeff Bezos",
+          "Elon Musk",
+          "Dario Amodei"
+        ],
+        "technologies": [
+          "超级智能"
+        ]
+      },
+      "tags": [
+        "白宫",
+        "超级智能",
+        "行政令",
+        "AI安全承诺",
+        "特朗普",
+        "科技巨头"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "759bd2fa7cf9",
+      "title_zh": "TechCrunch Disrupt 2026：黑石Jas Khaira谈打造下一代AI巨头",
+      "title_en": "TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants",
+      "summary_zh": "黑石集团的Jas Khaira将在TechCrunch Disrupt 2026的Builders Stage上分享如何打造下一代AI巨头，注册通行证可享第二张半价优惠。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/",
+      "published_at": "2026-10-02T17:32:05+00:00",
+      "category": "投融资",
+      "subcategory": "投资与孵化",
+      "importance": 2,
+      "entities": {
+        "companies": [
+          "Blackstone",
+          "TechCrunch"
+        ],
+        "models": [],
+        "people": [
+          "Jas Khaira"
+        ],
+        "technologies": []
+      },
+      "tags": [
+        "黑石",
+        "TechCrunch Disrupt",
+        "AI投资",
+        "下一代AI",
+        "创业"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "a6d2710d003d",
+      "title_zh": "Circuit Breaker Labs希望让AI对孩子和你更安全",
+      "title_en": "Circuit Breaker Labs hopes to make AI safer for your kids (and you)",
+      "summary_zh": "Circuit Breaker Labs创建了AI“碰撞测试假人”，旨在解决AI已对部分人造成心理伤害的问题，让AI对儿童和成人更加安全。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/",
+      "published_at": "2026-10-02T17:00:00+00:00",
+      "category": "应用产品",
+      "subcategory": "AI安全工具",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Circuit Breaker Labs"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "AI安全测试",
+          "碰撞测试假人"
+        ]
+      },
+      "tags": [
+        "AI安全",
+        "心理健康",
+        "儿童保护",
+        "测试工具",
+        "Circuit Breaker Labs"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "b159b5bfb1e4",
+      "title_zh": "教皇利奥十四世不喜欢AI生成的艺术",
+      "title_en": "Pope Leo XIV is not a fan of AI-generated art",
+      "summary_zh": "教皇利奥十四世公开批评AI生成艺术，指出艺术与机器基于数百万张他人图像进行统计计算生成的内容之间存在本体论差异，称算法缺乏人性的火花。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art/",
+      "published_at": "2026-10-02T15:39:41+00:00",
+      "category": "政策监管",
+      "subcategory": "AI伦理与文化",
+      "importance": 3,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [
+          "Pope Leo XIV"
+        ],
+        "technologies": [
+          "AI生成艺术"
+        ]
+      },
+      "tags": [
+        "教皇",
+        "AI艺术",
+        "伦理",
+        "版权",
+        "人性",
+        "生成式AI"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "3bac5e7555c4",
+      "title_zh": "TechCrunch Disrupt 2026：Clay的Kareem Amin谈GTM工程师崛起",
+      "title_en": "TechCrunch Disrupt 2026: Clay’s Kareem Amin on the rise of the GTM engineer",
+      "summary_zh": "Clay联合创始人兼CEO Kareem Amin将在TechCrunch Disrupt 2026的AI Stage上讨论GTM工程师的崛起，注册通行证可享第二张半价。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer/",
+      "published_at": "2026-10-02T14:30:00+00:00",
+      "category": "商业商机",
+      "subcategory": "行业活动",
+      "importance": 2,
+      "entities": {
+        "companies": [
+          "Clay",
+          "TechCrunch"
+        ],
+        "models": [],
+        "people": [
+          "Kareem Amin"
+        ],
+        "technologies": [
+          "GTM工程"
+        ]
+      },
+      "tags": [
+        "Clay",
+        "GTM工程师",
+        "TechCrunch Disrupt",
+        "AI Stage",
+        "市场进入"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "8f809dd3fafc",
+      "title_zh": "最后24小时：在TechCrunch Disrupt 2026参展，触达10000+科技领袖",
+      "title_en": "Last 24 hours: Exhibit at TechCrunch Disrupt 2026 and reach 10,000+ tech leaders",
+      "summary_zh": "TechCrunch Disrupt 2026参展报名进入最后24小时，10月13-15日将在旧金山Moscone West举行，预计10000+创始人、投资者和科技领袖到场寻找值得关注的公司和产品。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/02/last-24-hours-exhibit-at-techcrunch-disrupt-2026-and-reach-10000-tech-leaders/",
+      "published_at": "2026-10-02T14:00:00+00:00",
+      "category": "商业商机",
+      "subcategory": "行业活动",
+      "importance": 1,
+      "entities": {
+        "companies": [
+          "TechCrunch"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": []
+      },
+      "tags": [
+        "TechCrunch Disrupt",
+        "参展",
+        "旧金山",
+        "科技领袖",
+        "创业公司"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "694fea6e022c",
+      "title_zh": "马斯克AI聊天机器人Grok被曝曾鼓励特朗普抓捕委内瑞拉总统",
+      "title_en": "Musk's AI chatbot Grok reportedly encouraged Trump to capture Venezuela's president",
+      "summary_zh": "据报道，特朗普在入侵委内瑞拉并抓捕马杜罗之前，曾征询Grok的意见，而Grok鼓励了这一行动。该事件引发对AI在重大政治军事决策中角色的广泛担忧。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
+      "published_at": "2026-10-01T21:08:11+00:00",
+      "category": "政策监管",
+      "subcategory": "AI伦理与安全",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "xAI"
+        ],
+        "models": [
+          "Grok"
+        ],
+        "people": [
+          "Elon Musk",
+          "Donald Trump",
+          "Nicolás Maduro"
+        ],
+        "technologies": [
+          "大语言模型"
+        ]
+      },
+      "tags": [
+        "Grok",
+        "AI伦理",
+        "政治决策",
+        "特朗普",
+        "委内瑞拉",
+        "AI安全"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "672b5e391696",
+      "title_zh": "ChatGPT新增虚拟试衣功能",
+      "title_en": "ChatGPT can now virtually try on clothes for you",
+      "summary_zh": "OpenAI为ChatGPT推出全新购物功能，用户可利用自己的照片虚拟试穿服装和配饰，并将心仪商品保存至收藏库。此举标志着ChatGPT进一步向电商领域拓展。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
+      "published_at": "2026-10-01T19:21:53+00:00",
+      "category": "应用产品",
+      "subcategory": "AI电商",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "models": [
+          "ChatGPT"
+        ],
+        "people": [],
+        "technologies": [
+          "虚拟试穿",
+          "图像生成"
+        ]
+      },
+      "tags": [
+        "ChatGPT",
+        "虚拟试衣",
+        "电商",
+        "OpenAI",
+        "购物功能",
+        "AI应用"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "918e1b25349c",
+      "title_zh": "谷歌认为SpaceX星舰需发射1800次才能实现太空数据中心",
+      "title_en": "Google thinks SpaceX's Starship has to launch 1,800 times before space data centers get off the ground",
+      "summary_zh": "谷歌将其首枚先进芯片送入轨道，为太空数据中心铺路。但谷歌评估认为，SpaceX星舰需发射约1800次才能让太空数据中心真正落地，凸显该愿景面临的巨大工程挑战。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/01/google-thinks-spacexs-starship-has-to-launch-1600-times-before-space-data-centers-get-off-the-ground/",
+      "published_at": "2026-10-01T19:18:03+00:00",
+      "category": "商业商机",
+      "subcategory": "基础设施",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Google",
+          "SpaceX"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "太空数据中心",
+          "AI芯片"
+        ]
+      },
+      "tags": [
+        "谷歌",
+        "SpaceX",
+        "星舰",
+        "太空数据中心",
+        "AI芯片",
+        "基础设施"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "7c60b4756fb9",
+      "title_zh": "OpenAI与三名安全研究员解除关系",
+      "title_en": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
+      "summary_zh": "据华尔街日报报道，OpenAI内部调查发现三名安全研究员不当处理公司敏感信息后，已与三人解除合作关系。此事再度引发外界对OpenAI安全团队稳定性的关注。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+      "published_at": "2026-10-01T18:14:42+00:00",
+      "category": "政策监管",
+      "subcategory": "AI安全治理",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": []
+      },
+      "tags": [
+        "OpenAI",
+        "安全研究员",
+        "人事变动",
+        "AI安全",
+        "内部调查"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "a2ab10be4f94",
+      "title_zh": "Opus 5.5爱说\"这很重要\"及其他AI写作特征",
+      "title_en": "Opus 5.5 loves to tell you 'this matters' (and other AI writing tells)",
+      "summary_zh": "研究发现Opus 5.5存在明显的写作特征，其中\"dependable\"一词出现频率是人类的23倍。文章分析了AI模型在写作中暴露的独特语言模式，有助于识别AI生成内容。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/",
+      "published_at": "2026-10-01T17:50:19+00:00",
+      "category": "研究前沿",
+      "subcategory": "AI写作特征",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "models": [
+          "Opus 5.5"
+        ],
+        "people": [],
+        "technologies": [
+          "AI文本检测"
+        ]
+      },
+      "tags": [
+        "Opus 5.5",
+        "AI写作",
+        "语言特征",
+        "AI检测",
+        "Anthropic"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "bad1ff20dac7",
+      "title_zh": "亚马逊发布自研决策模型，决策模型市场涌现",
+      "title_en": "Amazon releases its own Jev clone as decision models flood the web",
+      "summary_zh": "亚马逊AWS旗下Strand Labs发布最新决策模型Strands Decider 2B，加入日益拥挤的决策模型赛道。随着越来越多企业推出类似模型，决策模型领域竞争加剧。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/",
+      "published_at": "2026-10-01T16:49:22+00:00",
+      "category": "模型发布",
+      "subcategory": "决策模型",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Amazon",
+          "AWS",
+          "Strand Labs"
+        ],
+        "models": [
+          "Strands Decider 2B"
+        ],
+        "people": [],
+        "technologies": [
+          "决策模型"
+        ]
+      },
+      "tags": [
+        "亚马逊",
+        "AWS",
+        "决策模型",
+        "Strands Decider",
+        "模型发布"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "27eae25938b8",
+      "title_zh": "PSU与杜克大学研究：LLM多智能体系统的自动化故障归因",
+      "title_en": "Which Agent Causes Task Failures and When? Researchers from PSU and Duke explores automated failure attribution of LLM Multi-Agent Systems",
+      "summary_zh": "宾州州立大学与杜克大学研究者探索LLM多智能体系统的自动化故障归因问题，旨在将\"哪里出错、谁该负责\"的难题转化为可量化分析的问题，提升多智能体系统可靠性。",
+      "source_name": "SyncedReview",
+      "source_url": "https://syncedreview.com/2025/08/14/which-agent-causes-task-failures-and-whenresearchers-from-psu-and-duke-explores-automated-failure-attribution-of-llm-multi-agent-systems/",
+      "published_at": "2025-08-14T06:31:20+00:00",
+      "category": "研究前沿",
+      "subcategory": "多智能体系统",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "宾夕法尼亚州立大学",
+          "杜克大学"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "多智能体系统",
+          "故障归因",
+          "LLM"
+        ]
+      },
+      "tags": [
+        "多智能体",
+        "故障归因",
+        "LLM",
+        "可靠性",
+        "学术研究"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "47b9e0e3c8b1",
+      "title_zh": "字节跳动推出Astra：面向自主机器人导航的双模型架构",
+      "title_en": "ByteDance Introduces Astra: A Dual-Model Architecture for Autonomous Robot Navigation",
+      "summary_zh": "字节跳动推出Astra双模型架构，专为复杂室内环境中的机器人自主导航设计。该架构创新性地结合两种模型，有望提升机器人在复杂场景下的导航能力。",
+      "source_name": "SyncedReview",
+      "source_url": "https://syncedreview.com/2025/06/24/bytedance-introduces-astra-a-dual-model-architecture-for-autonomous-robot-navigation/",
+      "published_at": "2025-06-24T09:17:01+00:00",
+      "category": "研究前沿",
+      "subcategory": "机器人导航",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "字节跳动"
+        ],
+        "models": [
+          "Astra"
+        ],
+        "people": [],
+        "technologies": [
+          "双模型架构",
+          "机器人导航",
+          "自主导航"
+        ]
+      },
+      "tags": [
+        "字节跳动",
+        "Astra",
+        "机器人",
+        "导航",
+        "双模型架构"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "b17a564d9d9f",
+      "title_zh": "MIT推出SEAL：迈向自我改进AI的新一步",
+      "title_en": "MIT Researchers Unveil \"SEAL\": A New Step Towards Self-Improving AI",
+      "summary_zh": "MIT研究者推出SEAL框架，使大语言模型能够通过强化学习自我编辑和更新权重。这一突破为构建可自我改进的AI系统开辟了新路径，是自进化AI领域的重要进展。",
+      "source_name": "SyncedReview",
+      "source_url": "https://syncedreview.com/2025/06/16/mit-researchers-unveil-seal-a-new-step-towards-self-improving-ai/",
+      "published_at": "2025-06-16T12:58:37+00:00",
+      "category": "研究前沿",
+      "subcategory": "自进化AI",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "麻省理工学院"
+        ],
+        "models": [
+          "SEAL"
+        ],
+        "people": [],
+        "technologies": [
+          "强化学习",
+          "自改进AI",
+          "权重更新"
+        ]
+      },
+      "tags": [
+        "MIT",
+        "SEAL",
+        "自我改进",
+        "强化学习",
+        "大语言模型",
+        "自进化"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "06b6ffd353d1",
+      "title_zh": "PSU与杜克大学提出多智能体系统自动化故障归因方法",
+      "title_en": "Researchers from PSU and Duke introduce \"Multi-Agent Systems Automated Failure Attribution\"",
+      "summary_zh": "宾州州立大学与杜克大学研究者提出多智能体系统自动化故障归因方法，将识别\"出了什么问题、谁该负责\"从令人困惑的谜题转变为可量化分析的问题，对多智能体系统开发至关重要。",
+      "source_name": "SyncedReview",
+      "source_url": "https://syncedreview.com/2025/06/16/researchers-from-psu-and-duke-introduce-multi-agent-systems-automated-failure-attribution/",
+      "published_at": "2025-06-16T07:39:46+00:00",
+      "category": "研究前沿",
+      "subcategory": "多智能体系统",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "宾夕法尼亚州立大学",
+          "杜克大学"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "多智能体系统",
+          "自动化故障归因"
+        ]
+      },
+      "tags": [
+        "多智能体",
+        "故障归因",
+        "自动化",
+        "学术研究",
+        "系统可靠性"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "d07eb2ae65a2",
+      "title_zh": "Adobe Research利用状态空间模型解锁视频世界模型长期记忆",
+      "title_en": "Adobe Research Unlocking Long-Term Memory in Video World Models with State-Space Models",
+      "summary_zh": "Adobe Research将状态空间模型与密集局部注意力相结合，并采用扩散强制和帧局部注意力等训练策略，成功攻克视频生成中长期记忆的难题，为视频世界模型带来重要突破。",
+      "source_name": "SyncedReview",
+      "source_url": "https://syncedreview.com/2025/05/28/adobe-research-unlocking-long-term-memory-in-video-world-models-with-state-space-models/",
+      "published_at": "2025-05-28T09:31:27+00:00",
+      "category": "研究前沿",
+      "subcategory": "视频生成",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Adobe"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "状态空间模型",
+          "视频世界模型",
+          "扩散强制",
+          "长期记忆"
+        ]
+      },
+      "tags": [
+        "Adobe",
+        "视频生成",
+        "状态空间模型",
+        "长期记忆",
+        "世界模型"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "02e0e9b25a0c",
+      "title_zh": "DeepSeek-V3新论文发布：通过硬件感知协同设计揭秘低成本大模型训练",
+      "title_en": "DeepSeek-V3 New Paper is coming! Unveiling the Secrets of Low-Cost Large Model Training through Hardware-Aware Co-design",
+      "summary_zh": "DeepSeek-V3团队发布14页技术论文，CEO梁文锋为共同作者，深入探讨AI架构的扩展挑战与硬件反思。论文揭示了通过硬件感知协同设计实现低成本大模型训练的关键方法。",
+      "source_name": "SyncedReview",
+      "source_url": "https://syncedreview.com/2025/05/15/deepseek-v3-new-paper-is-coming-unveiling-the-secrets-of-low-cost-large-model-training-through-hardware-aware-co-design/",
+      "published_at": "2025-05-15T17:58:00+00:00",
+      "category": "研究前沿",
+      "subcategory": "训练方法",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "DeepSeek"
+        ],
+        "models": [
+          "DeepSeek-V3"
+        ],
+        "people": [
+          "梁文锋"
+        ],
+        "technologies": [
+          "硬件感知协同设计",
+          "低成本训练",
+          "AI架构"
+        ]
+      },
+      "tags": [
+        "DeepSeek",
+        "DeepSeek-V3",
+        "低成本训练",
+        "硬件协同设计",
+        "梁文锋",
+        "论文"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "8a68a59017f4",
+      "title_zh": "DeepSeek发布DeepSeek-Prover-V2：递归证明搜索推进神经定理证明",
+      "title_en": "DeepSeek Unveils DeepSeek-Prover-V2: Advancing Neural Theorem Proving with Recursive Proof Search and a New Benchmark",
+      "summary_zh": "DeepSeek AI发布开源LLM DeepSeek-Prover-V2，用于Lean 4定理证明。该模型采用递归证明搜索，利用DeepSeek-V3生成训练数据并结合强化学习，在MiniF2F基准上取得顶尖成绩。",
+      "source_name": "SyncedReview",
+      "source_url": "https://syncedreview.com/2025/04/30/deepseek-unveils-deepseek-prover-v2-advancing-neural-theorem-proving-with-recursive-proof-search-and-a-new-benchmark/",
+      "published_at": "2025-04-30T15:46:20+00:00",
+      "category": "模型发布",
+      "subcategory": "数学推理模型",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "DeepSeek"
+        ],
+        "models": [
+          "DeepSeek-Prover-V2",
+          "DeepSeek-V3"
+        ],
+        "people": [],
+        "technologies": [
+          "递归证明搜索",
+          "强化学习",
+          "Lean 4",
+          "神经定理证明"
+        ]
+      },
+      "tags": [
+        "DeepSeek",
+        "定理证明",
+        "Lean 4",
+        "开源模型",
+        "数学推理",
+        "Prover-V2"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "5ff53418fc80",
+      "title_zh": "快手AI的SRPO框架能否让GRPO效率提升10倍？",
+      "title_en": "Can GRPO be 10x Efficient? Kwai AI's SRPO Suggests Yes with SRPO",
+      "summary_zh": "快手AI推出SRPO框架，将LLM强化学习后训练步骤减少90%，同时在数学和代码任务上匹配DeepSeek-R1性能。该两阶段RL方法结合历史重采样，克服了GRPO的局限性。",
+      "source_name": "SyncedReview",
+      "source_url": "https://syncedreview.com/2025/04/23/can-grpo-be-10x-efficient-kwai-ais-srpo-suggests-yes-with-srpo/",
+      "published_at": "2025-04-24T02:30:16+00:00",
+      "category": "研究前沿",
+      "subcategory": "强化学习",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "快手"
+        ],
+        "models": [
+          "SRPO",
+          "GRPO",
+          "DeepSeek-R1"
+        ],
+        "people": [],
+        "technologies": [
+          "强化学习",
+          "历史重采样",
+          "RL后训练"
+        ]
+      },
+      "tags": [
+        "快手",
+        "SRPO",
+        "GRPO",
+        "强化学习",
+        "效率优化",
+        "后训练"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "6c267b10d32c",
+      "title_zh": "智谱AI开源高速GLM模型并全球扩张，或为IPO铺路",
+      "title_en": "Zhipu.AI's Open-Source Power Play: Blazing-Fast GLM Models & Global Expansion Ahead of Potential IPO",
+      "summary_zh": "智谱AI开源速度提升8倍的GLM模型，并推出Z.ai平台，瞄准全球市场扩张。此举可能是在潜在IPO前的战略布局，展现了中国AI公司在开源和国际化方面的积极姿态。",
+      "source_name": "SyncedReview",
+      "source_url": "https://syncedreview.com/2025/04/16/zhipu-ais-open-source-power-play-blazing-fast-glm-models-global-expansion-ahead-of-potential-ipo/",
+      "published_at": "2025-04-16T12:23:00+00:00",
+      "category": "投融资",
+      "subcategory": "IPO与战略",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "智谱AI"
+        ],
+        "models": [
+          "GLM"
+        ],
+        "people": [],
+        "technologies": [
+          "开源模型"
+        ]
+      },
+      "tags": [
+        "智谱AI",
+        "GLM",
+        "开源",
+        "IPO",
+        "全球化",
+        "Z.ai"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "859ef647d112",
+      "title_zh": "DeepSeek预告下一代R2模型，发布SPCT推理扩展新方法",
+      "title_en": "DeepSeek Signals Next-Gen R2 Model, Unveils Novel Approach to Scaling Inference with SPCT",
+      "summary_zh": "DeepSeek发布研究论文，提出SPCT新技术以提升通用奖励模型在推理阶段的可扩展性，同时暗示下一代R2模型即将推出，引发业界对其新模型能力的广泛关注。",
+      "source_name": "SyncedReview",
+      "source_url": "https://syncedreview.com/2025/04/11/deepseek-signals-next-gen-r2-model-unveils-novel-approach-to-scaling-inference-with-spct/",
+      "published_at": "2025-04-11T14:43:45+00:00",
+      "category": "研究前沿",
+      "subcategory": "推理优化",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "DeepSeek"
+        ],
+        "models": [
+          "DeepSeek R2",
+          "SPCT"
+        ],
+        "people": [],
+        "technologies": [
+          "通用奖励模型",
+          "推理扩展",
+          "GRM"
+        ]
+      },
+      "tags": [
+        "DeepSeek",
+        "R2",
+        "SPCT",
+        "推理扩展",
+        "奖励模型",
+        "大语言模型",
+        "模型发布预告"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    }
+  ],
+  "stats": {
+    "sources_count": 5,
+    "total_collected_raw": 61,
+    "total_after_dedup": 61,
+    "total_published": 61,
+    "api_tokens_input": 17405,
+    "api_tokens_output": 16669,
+    "api_cost_estimate_usd": 0.0071
+  }
+}
