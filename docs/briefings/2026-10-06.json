@@ -1,0 +1,1280 @@
+{
+  "date": "2026-10-06",
+  "generated_at": "2026-10-06T09:38:25+08:00",
+  "model": "deepseek-chat",
+  "briefing_summary": "今日AI领域动态：研究前沿迎来里程碑式突破——2026年诺贝尔生理学或医学奖授予光遗传学，彰显AI与生命科学的深度融合；Hinton发表首篇递归自我改进（RSI）论文，为AI自主进化敲响理论警钟。应用层面，开源生态持续爆发，claude-mem、Agent-Reach、OpenMontage及Cloudflare代理工作空间相继涌现，AI代理正从“对话”走向“执行”。商业赛道热度不减：马斯克Terafab芯片制造或联手台积电，Meshy借GPT-6东风ARR破亿，智谱AI开源GLM模型并加速全球扩张，Jev估值飙至100亿美元。与此同时，OpenAI安全团队持续动荡，负责人离职、员工公开批评“文化崩坏”，与特朗普“超级智能部队”计划形成微妙张力。DeepSeek则密集发布Prover-V2、SPCT方法并预告R2，低成本训练路径愈发清晰。整体来看，技术突破与治理焦虑并行，AI正加速重塑科研、商业与安全边界。",
+  "total_items": 36,
+  "categories": {
+    "模型发布": {
+      "count": 1,
+      "items": [
+        "8a68a59017f4"
+      ]
+    },
+    "应用产品": {
+      "count": 11,
+      "items": [
+        "cc91d561e817",
+        "63926783c63c",
+        "e9d9134bf899",
+        "be73e635cd50",
+        "3c48312fe169",
+        "2d6fe7bfd83e",
+        "32a586486cd5",
+        "f3f1c18171f1",
+        "5015a3eff275",
+        "2e2b0b0a116c",
+        "d6f95c09d8b8"
+      ]
+    },
+    "研究前沿": {
+      "count": 7,
+      "items": [
+        "b2558d25d8c5",
+        "f00a225f9533",
+        "765e9e3ad43b",
+        "d07eb2ae65a2",
+        "02e0e9b25a0c",
+        "5ff53418fc80",
+        "859ef647d112"
+      ]
+    },
+    "投融资": {
+      "count": 1,
+      "items": [
+        "d51c7587b454"
+      ]
+    },
+    "政策监管": {
+      "count": 5,
+      "items": [
+        "1ed152348f46",
+        "1e5a15fb70fb",
+        "93a1dabfbe30",
+        "743c438dfba3",
+        "614a63a7cfa2"
+      ]
+    },
+    "商业商机": {
+      "count": 11,
+      "items": [
+        "5566a8ccad23",
+        "e3fbd6581189",
+        "cca32a96d48b",
+        "719c19facc96",
+        "bde9121888d8",
+        "a4adc5830821",
+        "9075b954aac3",
+        "20afc12912ce",
+        "6b41f9dec7c6",
+        "d2bfe8891793",
+        "6c267b10d32c"
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "cc91d561e817",
+      "title_zh": "claude-mem：为AI代理提供跨会话持久记忆",
+      "title_en": "thedotmack/claude-mem (TypeScript, ★96,643)",
+      "summary_zh": "开源项目claude-mem为AI代理提供跨会话持久上下文能力，可捕获代理会话中的所有操作，用AI压缩后注入未来会话，兼容Claude Code、Codex、Gemini、Copilot等多种代理工具。",
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/thedotmack/claude-mem",
+      "published_at": "2026-10-06T01:36:48.826340+00:00",
+      "category": "应用产品",
+      "subcategory": "AI代理工具",
+      "importance": 4,
+      "entities": {
+        "companies": [],
+        "models": [
+          "Claude Code",
+          "OpenClaw",
+          "Codex",
+          "Gemini",
+          "Hermes",
+          "Copilot",
+          "OpenCode"
+        ],
+        "people": [],
+        "technologies": [
+          "持久上下文",
+          "上下文压缩",
+          "AI代理记忆"
+        ]
+      },
+      "tags": [
+        "AI代理",
+        "持久记忆",
+        "上下文管理",
+        "开源项目",
+        "Claude Code",
+        "开发者工具"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "63926783c63c",
+      "title_zh": "text-to-cad：赋予AI代理CAD建模超能力",
+      "title_en": "earthtojake/text-to-cad (Python, ★17,432)",
+      "summary_zh": "开源项目text-to-cad让AI代理具备CAD计算机辅助设计能力，通过自然语言即可生成CAD模型，为工程设计和制造领域的AI代理应用开辟新可能。",
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/earthtojake/text-to-cad",
+      "published_at": "2026-10-06T01:36:48.826340+00:00",
+      "category": "应用产品",
+      "subcategory": "AI设计工具",
+      "importance": 3,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "CAD",
+          "文本生成3D",
+          "AI代理"
+        ]
+      },
+      "tags": [
+        "CAD",
+        "AI代理",
+        "文本生成",
+        "工程设计",
+        "开源项目"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "e9d9134bf899",
+      "title_zh": "Agent-Reach：让AI代理免费读取全网信息",
+      "title_en": "Panniantong/Agent-Reach (Python, ★91,904)",
+      "summary_zh": "开源工具Agent-Reach为AI代理提供读取和搜索全互联网的能力，支持Twitter、Reddit、YouTube、GitHub、B站、小红书等平台，通过单一CLI实现零API费用访问。",
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/Panniantong/Agent-Reach",
+      "published_at": "2026-10-06T01:36:48.826340+00:00",
+      "category": "应用产品",
+      "subcategory": "AI代理工具",
+      "importance": 4,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "CLI",
+          "网络爬取",
+          "AI代理"
+        ]
+      },
+      "tags": [
+        "AI代理",
+        "网络搜索",
+        "开源项目",
+        "CLI工具",
+        "社交媒体",
+        "零API费用"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "be73e635cd50",
+      "title_zh": "OpenMontage：全球首个开源代理式视频制作系统",
+      "title_en": "calesthio/OpenMontage (Python, ★64,055)",
+      "summary_zh": "OpenMontage是全球首个开源代理式视频制作系统，包含12条制作流水线、100多个工具和700多个代理技能文件，可将AI编程助手转变为完整的视频制作工作室。",
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/calesthio/OpenMontage",
+      "published_at": "2026-10-06T01:36:48.826340+00:00",
+      "category": "应用产品",
+      "subcategory": "视频生成",
+      "importance": 4,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "AI代理",
+          "视频制作",
+          "多代理系统"
+        ]
+      },
+      "tags": [
+        "视频制作",
+        "AI代理",
+        "开源项目",
+        "自动化",
+        "内容创作"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "3c48312fe169",
+      "title_zh": "openGym：自托管健身与体重追踪工具",
+      "title_en": "DuarteSantos8/openGym (JavaScript, ★4,243)",
+      "summary_zh": "openGym是一款自托管的健身和体重追踪应用，支持制定训练计划、记录超级组和热身等训练内容、查看肌肉训练状态，可从FitNotes等应用导入数据，支持passkey登录。",
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/DuarteSantos8/openGym",
+      "published_at": "2026-10-06T01:36:48.826340+00:00",
+      "category": "应用产品",
+      "subcategory": "健康健身",
+      "importance": 2,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "自托管",
+          "passkey",
+          "数据导入"
+        ]
+      },
+      "tags": [
+        "健身追踪",
+        "自托管",
+        "开源项目",
+        "健康管理",
+        "数据隐私"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "2d6fe7bfd83e",
+      "title_zh": "Cloudflare发布代理工作空间cloudflare-os",
+      "title_en": "cloudflare/cloudflare-os (TypeScript, ★11,018)",
+      "summary_zh": "Cloudflare推出基于Cloudflare Workers的代理工作空间cloudflare-os，支持创建文档、构建应用和运行AI代理，可接入企业上下文和内部系统，实现企业级AI代理部署。",
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/cloudflare/cloudflare-os",
+      "published_at": "2026-10-06T01:36:48.826340+00:00",
+      "category": "应用产品",
+      "subcategory": "企业AI平台",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Cloudflare"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "Cloudflare Workers",
+          "AI代理",
+          "企业上下文"
+        ]
+      },
+      "tags": [
+        "Cloudflare",
+        "AI代理",
+        "企业应用",
+        "工作空间",
+        "Workers"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "b2558d25d8c5",
+      "title_zh": "2026诺贝尔生理学或医学奖颁给光遗传学",
+      "title_en": "刚刚，诺贝尔奖颁给光遗传学！",
+      "summary_zh": "2026年诺贝尔生理学或医学奖授予Karl Deisseroth、Peter Hegemann和Georg Nagel三位科学家，表彰他们在光控离子通道和光遗传学方面的发现，该技术可在毫秒级精准控制特定神经元。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/10/501720.html",
+      "published_at": "2026-10-05T10:37:01+00:00",
+      "category": "研究前沿",
+      "subcategory": "神经科学",
+      "importance": 5,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [
+          "Karl Deisseroth",
+          "Peter Hegemann",
+          "Georg Nagel"
+        ],
+        "technologies": [
+          "光遗传学",
+          "光控离子通道"
+        ]
+      },
+      "tags": [
+        "诺贝尔奖",
+        "光遗传学",
+        "神经科学",
+        "脑科学",
+        "科学研究"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "f00a225f9533",
+      "title_zh": "Hinton发表首篇递归自我改进（RSI）论文",
+      "title_en": "刚刚，Hinton发了首篇RSI论文",
+      "summary_zh": "AI教父Hinton发表首篇递归自我改进（RSI）论文，探讨AI大规模参与研发下一代AI是否会导致智能爆炸，论文由22位AI学界知名学者共同撰写，引发广泛关注。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/10/501705.html",
+      "published_at": "2026-10-05T04:42:52+00:00",
+      "category": "研究前沿",
+      "subcategory": "AI安全与对齐",
+      "importance": 5,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [
+          "Geoffrey Hinton"
+        ],
+        "technologies": [
+          "递归自我改进",
+          "RSI",
+          "智能爆炸"
+        ]
+      },
+      "tags": [
+        "Hinton",
+        "RSI",
+        "智能爆炸",
+        "AI安全",
+        "递归自我改进",
+        "论文"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "5566a8ccad23",
+      "title_zh": "OpenAI承诺28天内每日改进Codex否则重置额度",
+      "title_en": "限时28天！OpenAI承诺没新功能就重置，网友：只想要Opus",
+      "summary_zh": "OpenAI Codex负责人Tibo宣布未来28天每天二选一：要么交付对Codex/Work用户明显有用的改进，要么进行完整额度重置。此举被视为OpenAI在AI编程工具竞争中的激进策略。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/10/501700.html",
+      "published_at": "2026-10-05T02:50:46+00:00",
+      "category": "商业商机",
+      "subcategory": "AI编程",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "models": [
+          "Codex",
+          "Opus"
+        ],
+        "people": [
+          "Tibo"
+        ],
+        "technologies": [
+          "AI编程"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "AI编程",
+        "额度重置",
+        "产品策略"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "e3fbd6581189",
+      "title_zh": "马斯克Terafab芯片制造或与台积电合作",
+      "title_en": "AI算力硬合作，马斯克还是更相信中国制造",
+      "summary_zh": "马斯克确认正与台积电讨论Terafab芯片制造合作，此前英特尔是唯一被正式点名的合作伙伴。分析认为可能形成英特尔供先进工艺、台积电补工厂运营和封装的混搭模式。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/10/501605.html",
+      "published_at": "2026-10-04T06:12:22+00:00",
+      "category": "商业商机",
+      "subcategory": "AI芯片",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "特斯拉",
+          "台积电",
+          "英特尔",
+          "Terafab"
+        ],
+        "models": [],
+        "people": [
+          "马斯克"
+        ],
+        "technologies": [
+          "14A工艺",
+          "芯片制造",
+          "晶圆代工"
+        ]
+      },
+      "tags": [
+        "马斯克",
+        "台积电",
+        "英特尔",
+        "AI芯片",
+        "Terafab",
+        "算力"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "cca32a96d48b",
+      "title_zh": "最火AI岗位FDE：月薪5万的前线部署工程师",
+      "title_en": "最火AI岗位FDE：月薪5万，都干这些…",
+      "summary_zh": "FDE（前线部署工程师）成为最火AI岗位之一，国内大厂开出月薪三五万，海外基本年薪中位数约20万美元。该岗位需驻扎客户现场部署软件并解决实际问题，从业者工作内容差异较大。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/10/501506.html",
+      "published_at": "2026-10-04T06:05:35+00:00",
+      "category": "商业商机",
+      "subcategory": "AI人才",
+      "importance": 3,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "FDE",
+          "Forward Deployed Engineer"
+        ]
+      },
+      "tags": [
+        "FDE",
+        "AI岗位",
+        "人才招聘",
+        "前线部署工程师",
+        "职业发展"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "719c19facc96",
+      "title_zh": "GPT-6冲击3D行业？Meshy两年ARR破1亿美元",
+      "title_en": "GPT-6要“吃掉”3D公司？这家公司不到2年ARR翻百倍，破1亿美元",
+      "summary_zh": "GPT-6 Astra发布后展现强大3D生成能力，但专业3D生成公司Meshy在细节还原上仍具优势。Meshy不到两年ARR翻百倍突破1亿美元，显示专业3D模型在通用大模型时代反而更稀缺。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/10/501451.html",
+      "published_at": "2026-10-04T00:53:29+00:00",
+      "category": "商业商机",
+      "subcategory": "3D生成",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Meshy",
+          "OpenAI"
+        ],
+        "models": [
+          "GPT-6 Astra",
+          "Meshy"
+        ],
+        "people": [],
+        "technologies": [
+          "3D生成",
+          "Blender",
+          "Unreal Engine 5",
+          "MCP"
+        ]
+      },
+      "tags": [
+        "GPT-6",
+        "3D生成",
+        "Meshy",
+        "ARR",
+        "商业化",
+        "AI竞争"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "bde9121888d8",
+      "title_zh": "DeepSeek弹性计算团队大规模扩招资深工程师",
+      "title_en": "DeepSeek扩招！弹性计算团队大量HC，尤其需要资深工程师",
+      "summary_zh": "DeepSeek弹性计算团队大量招聘资深工程师，并发布DSec技术报告。其沙盒基础设施单分片约160台服务器、3万CPU核心和250TB内存，每天服务约300万个沙盒，高峰期超38万沙盒同时在线。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/10/501381.html",
+      "published_at": "2026-10-03T07:54:43+00:00",
+      "category": "商业商机",
+      "subcategory": "AI人才",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "DeepSeek"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "DSec",
+          "弹性计算",
+          "沙盒基础设施",
+          "Agent训练"
+        ]
+      },
+      "tags": [
+        "DeepSeek",
+        "招聘",
+        "弹性计算",
+        "Agent训练",
+        "沙盒",
+        "基础设施"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "1ed152348f46",
+      "title_zh": "OpenAI安全团队持续动荡：负责人离职三人被开",
+      "title_en": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
+      "summary_zh": "OpenAI安全系统团队安全透明度负责人David Robinson离职，同时三名员工因泄密被解雇。Robinson团队负责为每次重要模型发布撰写系统卡（风险说明书），其离职引发对OpenAI安全治理的担忧。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/10/501368.html",
+      "published_at": "2026-10-03T04:41:24+00:00",
+      "category": "政策监管",
+      "subcategory": "AI安全治理",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "models": [],
+        "people": [
+          "David Robinson"
+        ],
+        "technologies": [
+          "系统卡",
+          "AI安全",
+          "安全透明度"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "AI安全",
+        "人事变动",
+        "安全治理",
+        "系统卡"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "d51c7587b454",
+      "title_zh": "Jev估值达100亿美元，创始人Diogo Almeida问答",
+      "title_en": "Jev估值100亿美元！创始人Diogo Almeida回答一切",
+      "summary_zh": "AI公司Jev估值达到100亿美元，创始人Diogo Almeida参与问答活动回答外界提问。该估值显示资本市场对AI领域初创公司持续保持高度热情。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/10/500148.html",
+      "published_at": "2026-10-03T02:38:19+00:00",
+      "category": "投融资",
+      "subcategory": "AI初创融资",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Jev"
+        ],
+        "models": [],
+        "people": [
+          "Diogo Almeida"
+        ],
+        "technologies": []
+      },
+      "tags": [
+        "Jev",
+        "融资",
+        "估值",
+        "AI初创",
+        "Diogo Almeida"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "32a586486cd5",
+      "title_zh": "Hot Girl Hotline：AI时代的\"知心姐姐\"约会建议平台",
+      "title_en": "Hot Girl Hotline is like 'Dear Abby' for the AI era",
+      "summary_zh": "由两姐妹创立的Hot Girl Hotline利用AI为年轻女性提供个性化约会和情感关系建议，强调安全性和避免情感依赖。该平台定位为AI时代的\"Dear Abby\"专栏，旨在以安全方式为用户提供情感支持。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/",
+      "published_at": "2026-10-05T17:29:22+00:00",
+      "category": "应用产品",
+      "subcategory": "AI社交",
+      "importance": 2,
+      "entities": {
+        "companies": [
+          "Hot Girl Hotline"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "AI"
+        ]
+      },
+      "tags": [
+        "AI约会建议",
+        "情感AI",
+        "女性科技",
+        "AI应用",
+        "社交陪伴"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "f3f1c18171f1",
+      "title_zh": "HackerRank的AI面试官已完成超50万场面试",
+      "title_en": "HackerRank's AI interviewer offers a glimpse into what job interviews could become",
+      "summary_zh": "HackerRank推出的AI面试官已完成超过50万场面试，Snowflake、Snorkel和Capgemini等企业参与了早期测试。该产品展示了AI驱动招聘的未来形态，有望重塑技术岗位面试流程。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/",
+      "published_at": "2026-10-05T16:43:35+00:00",
+      "category": "应用产品",
+      "subcategory": "AI招聘",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "HackerRank",
+          "Snowflake",
+          "Snorkel",
+          "Capgemini"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "AI面试",
+          "自动化招聘"
+        ]
+      },
+      "tags": [
+        "AI面试",
+        "招聘科技",
+        "HR科技",
+        "自动化",
+        "技术招聘"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "a4adc5830821",
+      "title_zh": "OpenAI推出图像生成结果旁的视觉广告",
+      "title_en": "OpenAI launches visual ads that appear alongside image generation results",
+      "summary_zh": "OpenAI推出视觉广告功能，广告将出现在图像生成结果旁边。本月晚些时候率先在美国上线，初期仅面向一组测试广告商开放，展示其产品和服务。这标志着OpenAI商业化探索的重要一步。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
+      "published_at": "2026-10-05T15:14:24+00:00",
+      "category": "商业商机",
+      "subcategory": "AI广告变现",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "图像生成",
+          "视觉广告"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "广告变现",
+        "图像生成",
+        "商业化",
+        "视觉广告"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "9075b954aac3",
+      "title_zh": "开源还是闭源AI？创始人在TechCrunch Disrupt 2026上的选择",
+      "title_en": "Open or closed AI? How founders are choosing what to build on at TechCrunch Disrupt 2026",
+      "summary_zh": "TechCrunch Disrupt 2026大会将探讨创始人在开源与闭源AI之间的选择策略。活动聚焦创业者如何决定技术栈方向，注册可享最高100美元优惠及第二张门票五折。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/05/open-or-closed-ai-how-founders-are-choosing-what-to-build-on-at-techcrunch-disrupt-2026/",
+      "published_at": "2026-10-05T15:00:00+00:00",
+      "category": "商业商机",
+      "subcategory": "行业趋势",
+      "importance": 2,
+      "entities": {
+        "companies": [
+          "TechCrunch"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "开源AI",
+          "闭源AI"
+        ]
+      },
+      "tags": [
+        "开源AI",
+        "闭源AI",
+        "创业",
+        "TechCrunch Disrupt",
+        "技术选型"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "765e9e3ad43b",
+      "title_zh": "研究人员追踪到一个中国AI\"智能体集群\"",
+      "title_en": "Researchers are tracking a Chinese AI 'agent fleet'",
+      "summary_zh": "独立研究人员发现一个AI智能体集群，疑似运行在腾讯基础设施上，并以阿里巴巴旗下地图服务高德为目标。该发现引发对AI智能体自主行为和网络安全的新一轮关注。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
+      "published_at": "2026-10-05T14:35:09+00:00",
+      "category": "研究前沿",
+      "subcategory": "AI安全",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "腾讯",
+          "阿里巴巴"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "AI智能体",
+          "智能体集群"
+        ]
+      },
+      "tags": [
+        "AI智能体",
+        "网络安全",
+        "腾讯",
+        "阿里巴巴",
+        "高德地图"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "20afc12912ce",
+      "title_zh": "TechCrunch Disrupt 2026创业竞技场200强评委揭晓",
+      "title_en": "Meet the Startup Battlefield 200 judges who'll decide the winner at TechCrunch Disrupt 2026",
+      "summary_zh": "TechCrunch Disrupt 2026公布创业竞技场最终五位评委，他们将决定路演大赛的获胜者。活动提供最高100美元门票优惠及第二张五折优惠。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/05/meet-the-startup-battlefield-200-judges-wholl-decide-the-winner-at-techcrunch-disrupt-2026/",
+      "published_at": "2026-10-05T14:30:00+00:00",
+      "category": "商业商机",
+      "subcategory": "创业活动",
+      "importance": 1,
+      "entities": {
+        "companies": [
+          "TechCrunch"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": []
+      },
+      "tags": [
+        "TechCrunch Disrupt",
+        "创业竞技场",
+        "路演",
+        "创业大赛"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "6b41f9dec7c6",
+      "title_zh": "TechCrunch Disrupt 2026最终舞台阵容公布",
+      "title_en": "The final Disrupt Stage lineup: Three days of conversations you won't hear anywhere outside of TechCrunch Disrupt 2026",
+      "summary_zh": "TechCrunch Disrupt 2026完整舞台阵容揭晓，Max Hodak、Mark Wahlberg及Benchmark合伙人等嘉宾将参与为期三天的对话。注册可享最高100美元优惠及第二张门票五折。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/05/the-final-disrupt-stage-lineup-three-days-of-conversations-you-wont-hear-anywhere-outside-of-techcrunch-disrupt-2026/",
+      "published_at": "2026-10-05T14:00:00+00:00",
+      "category": "商业商机",
+      "subcategory": "行业活动",
+      "importance": 1,
+      "entities": {
+        "companies": [
+          "TechCrunch",
+          "Benchmark"
+        ],
+        "models": [],
+        "people": [
+          "Max Hodak",
+          "Mark Wahlberg"
+        ],
+        "technologies": []
+      },
+      "tags": [
+        "TechCrunch Disrupt",
+        "行业大会",
+        "科技活动",
+        "嘉宾阵容"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "5015a3eff275",
+      "title_zh": "Safeworld能否让公众相信生成式AI机器人不会伤害人类？",
+      "title_en": "Can Safeworld convince people that GenAI robots won't hurt them?",
+      "summary_zh": "Safeworld正在构建数字人类系统，以确保机器人不会伤害真实人类。该公司试图通过生成式AI技术解决人机安全共存的信任问题，回应公众对AI机器人安全性的担忧。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/",
+      "published_at": "2026-10-05T12:00:00+00:00",
+      "category": "应用产品",
+      "subcategory": "AI安全",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Safeworld"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "生成式AI",
+          "数字人类",
+          "机器人安全"
+        ]
+      },
+      "tags": [
+        "AI安全",
+        "机器人",
+        "数字人类",
+        "生成式AI",
+        "人机共存"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "1e5a15fb70fb",
+      "title_zh": "Google因AI提交量激增冻结开源漏洞赏金计划",
+      "title_en": "Google froze its open source bug bounty program due to a 'significant rise' in AI submissions",
+      "summary_zh": "Google因AI生成的漏洞报告提交量\"显著上升\"，被迫冻结其开源漏洞赏金计划。大量低质量AI生成内容（AI slop）正淹没漏洞赏金项目，凸显AI滥用对开源安全生态的冲击。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+      "published_at": "2026-10-04T20:31:07+00:00",
+      "category": "政策监管",
+      "subcategory": "AI安全治理",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "AI生成内容",
+          "漏洞赏金"
+        ]
+      },
+      "tags": [
+        "Google",
+        "漏洞赏金",
+        "AI滥用",
+        "开源安全",
+        "AI slop"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "93a1dabfbe30",
+      "title_zh": "\"超级智能\"与非约束性安全协议能否解决AI形象问题？",
+      "title_en": "Can 'super intelligence' and a non-binding safety pact solve AI's image problem?",
+      "summary_zh": "在Equity播客中，主持人讨论了特朗普政府试图重塑AI公众形象的举措，包括推动\"超级智能\"概念和非约束性安全协议。这些努力旨在缓解公众对AI风险的担忧。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
+      "published_at": "2026-10-04T20:08:34+00:00",
+      "category": "政策监管",
+      "subcategory": "AI政策",
+      "importance": 3,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [
+          "特朗普"
+        ],
+        "technologies": [
+          "超级智能"
+        ]
+      },
+      "tags": [
+        "AI政策",
+        "超级智能",
+        "AI安全",
+        "特朗普政府",
+        "公众形象"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "743c438dfba3",
+      "title_zh": "特朗普公布新\"超级智能部队\"计划",
+      "title_en": "Trump unveils his new Super Intelligence Force",
+      "summary_zh": "特朗普公布新的\"超级智能部队\"计划，这是其对AI安全辩论的最新回应。该特别工作组旨在应对AI安全挑战，反映美国政府在AI治理领域的政策动向。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+      "published_at": "2026-10-04T15:15:10+00:00",
+      "category": "政策监管",
+      "subcategory": "AI政策",
+      "importance": 4,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [
+          "特朗普"
+        ],
+        "technologies": [
+          "超级智能"
+        ]
+      },
+      "tags": [
+        "特朗普",
+        "超级智能部队",
+        "AI安全",
+        "政策",
+        "特别工作组"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "d2bfe8891793",
+      "title_zh": "亚马逊回应数据中心争议，称已不再使用保密协议",
+      "title_en": "Amazon responds to data center backlash, says it no longer uses NDAs",
+      "summary_zh": "亚马逊AWS CEO回应外界对数据中心的广泛质疑，表示公司已不再使用保密协议。此举旨在缓解社区对数据中心扩张的抵触情绪，改善与地方政府和居民的关系。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+      "published_at": "2026-10-03T18:43:57+00:00",
+      "category": "商业商机",
+      "subcategory": "数据中心",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "亚马逊",
+          "Amazon Web Services"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "数据中心"
+        ]
+      },
+      "tags": [
+        "亚马逊",
+        "AWS",
+        "数据中心",
+        "保密协议",
+        "社区关系"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "614a63a7cfa2",
+      "title_zh": "OpenAI安全员工辞职，称公司\"文化已崩坏\"",
+      "title_en": "OpenAI safety employee resigns, claiming the company's 'culture is broken'",
+      "summary_zh": "OpenAI安全团队成员David Robinson宣布辞职，声称公司\"文化已崩坏\"。他在离职时发出严厉警告，成为又一位从领先AI公司离职并公开表达担忧的员工。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+      "published_at": "2026-10-03T16:30:01+00:00",
+      "category": "政策监管",
+      "subcategory": "AI安全治理",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "models": [],
+        "people": [
+          "David Robinson"
+        ],
+        "technologies": []
+      },
+      "tags": [
+        "OpenAI",
+        "安全团队",
+        "员工离职",
+        "公司文化",
+        "AI安全"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "2e2b0b0a116c",
+      "title_zh": "可以\"住\"在你短信里的AI智能体大盘点",
+      "title_en": "All the AI agents that can live in your text messages",
+      "summary_zh": "文章盘点了最值得关注的短信AI智能体，涵盖通用助手以及面向家庭、旅行和工作场景的专用智能体。这些AI代理通过短信界面提供便捷服务，展示了AI融入日常通讯的趋势。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "published_at": "2026-10-03T14:00:00+00:00",
+      "category": "应用产品",
+      "subcategory": "AI助手",
+      "importance": 3,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "AI智能体",
+          "短信助手"
+        ]
+      },
+      "tags": [
+        "AI智能体",
+        "短信助手",
+        "AI助手",
+        "通讯AI",
+        "生活助手"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "d6f95c09d8b8",
+      "title_zh": "Meta希望你的下一款设备融入Muse技术",
+      "title_en": "Meta wants your next gadget to be Muse-infused",
+      "summary_zh": "Meta希望将Muse技术融入电视、烤面包机等各类设备，并免费开放相关代码。此举旨在推动Muse成为智能设备的核心AI能力，扩大Meta在消费级AI硬件生态的影响力。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+      "published_at": "2026-10-03T00:45:39+00:00",
+      "category": "应用产品",
+      "subcategory": "AI硬件",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "models": [
+          "Muse"
+        ],
+        "people": [],
+        "technologies": [
+          "AI硬件",
+          "智能设备"
+        ]
+      },
+      "tags": [
+        "Meta",
+        "Muse",
+        "AI硬件",
+        "智能设备",
+        "开源"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "d07eb2ae65a2",
+      "title_zh": "Adobe Research利用状态空间模型解锁视频世界模型长期记忆",
+      "title_en": "Adobe Research Unlocking Long-Term Memory in Video World Models with State-Space Models",
+      "summary_zh": "Adobe Research团队结合状态空间模型（SSM）与密集局部注意力，并采用扩散强制和帧局部注意力等训练策略，成功克服了视频生成中长期记忆的难题，为视频世界模型带来突破。",
+      "source_name": "SyncedReview",
+      "source_url": "https://syncedreview.com/2025/05/28/adobe-research-unlocking-long-term-memory-in-video-world-models-with-state-space-models/",
+      "published_at": "2025-05-28T09:31:27+00:00",
+      "category": "研究前沿",
+      "subcategory": "视频生成",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Adobe Research"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "State-Space Models",
+          "diffusion forcing",
+          "frame local attention"
+        ]
+      },
+      "tags": [
+        "视频生成",
+        "长期记忆",
+        "状态空间模型",
+        "注意力机制",
+        "扩散模型"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "02e0e9b25a0c",
+      "title_zh": "DeepSeek-V3新论文发布：通过硬件感知协同设计揭示低成本大模型训练秘诀",
+      "title_en": "DeepSeek-V3 New Paper is coming! Unveiling the Secrets of Low-Cost Large Model Training through Hardware-Aware Co-design",
+      "summary_zh": "DeepSeek-V3团队发布14页技术论文，CEO梁文锋为共同作者，深入探讨AI架构的扩展挑战与硬件反思，揭示通过硬件感知协同设计实现低成本大模型训练的方法。",
+      "source_name": "SyncedReview",
+      "source_url": "https://syncedreview.com/2025/05/15/deepseek-v3-new-paper-is-coming-unveiling-the-secrets-of-low-cost-large-model-training-through-hardware-aware-co-design/",
+      "published_at": "2025-05-15T17:58:00+00:00",
+      "category": "研究前沿",
+      "subcategory": "训练方法",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "DeepSeek"
+        ],
+        "models": [
+          "DeepSeek-V3"
+        ],
+        "people": [
+          "Wenfeng Liang"
+        ],
+        "technologies": [
+          "hardware-aware co-design"
+        ]
+      },
+      "tags": [
+        "DeepSeek-V3",
+        "低成本训练",
+        "硬件协同设计",
+        "大模型",
+        "技术论文"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "8a68a59017f4",
+      "title_zh": "DeepSeek发布DeepSeek-Prover-V2：递归证明搜索推进神经定理证明并推出新基准",
+      "title_en": "DeepSeek Unveils DeepSeek-Prover-V2: Advancing Neural Theorem Proving with Recursive Proof Search and a New Benchmark",
+      "summary_zh": "DeepSeek AI发布开源大模型DeepSeek-Prover-V2，专为Lean 4定理证明设计。该模型利用DeepSeek-V3进行递归证明搜索生成训练数据，并结合强化学习，在MiniF2F基准上取得顶尖成绩。",
+      "source_name": "SyncedReview",
+      "source_url": "https://syncedreview.com/2025/04/30/deepseek-unveils-deepseek-prover-v2-advancing-neural-theorem-proving-with-recursive-proof-search-and-a-new-benchmark/",
+      "published_at": "2025-04-30T15:46:20+00:00",
+      "category": "模型发布",
+      "subcategory": "大语言模型",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "DeepSeek"
+        ],
+        "models": [
+          "DeepSeek-Prover-V2",
+          "DeepSeek-V3"
+        ],
+        "people": [],
+        "technologies": [
+          "recursive proof search",
+          "reinforcement learning",
+          "Lean 4"
+        ]
+      },
+      "tags": [
+        "定理证明",
+        "开源模型",
+        "递归搜索",
+        "强化学习",
+        "Lean 4"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "5ff53418fc80",
+      "title_zh": "GRPO能提升10倍效率？快手AI的SRPO框架给出肯定答案",
+      "title_en": "Can GRPO be 10x Efficient? Kwai AI’s SRPO Suggests Yes with SRPO",
+      "summary_zh": "快手AI提出SRPO框架，通过两阶段强化学习与历史重采样，将大模型RL后训练步骤减少90%，同时在数学和代码任务上匹配DeepSeek-R1性能，克服了GRPO的局限性。",
+      "source_name": "SyncedReview",
+      "source_url": "https://syncedreview.com/2025/04/23/can-grpo-be-10x-efficient-kwai-ais-srpo-suggests-yes-with-srpo/",
+      "published_at": "2025-04-24T02:30:16+00:00",
+      "category": "研究前沿",
+      "subcategory": "强化学习",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Kwai AI"
+        ],
+        "models": [
+          "SRPO",
+          "DeepSeek-R1"
+        ],
+        "people": [],
+        "technologies": [
+          "GRPO",
+          "reinforcement learning",
+          "history resampling"
+        ]
+      },
+      "tags": [
+        "强化学习",
+        "后训练",
+        "效率提升",
+        "GRPO",
+        "SRPO"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "6c267b10d32c",
+      "title_zh": "智谱AI开源闪电般快速的GLM模型并全球扩张，或为IPO铺路",
+      "title_en": "Zhipu.AI’s Open-Source Power Play: Blazing-Fast GLM Models & Global Expansion Ahead of Potential IPO",
+      "summary_zh": "智谱AI开源了速度提升8倍的GLM模型，并推出Z.ai平台，旨在全球扩张，此举可能是在潜在IPO前的战略布局。",
+      "source_name": "SyncedReview",
+      "source_url": "https://syncedreview.com/2025/04/16/zhipu-ais-open-source-power-play-blazing-fast-glm-models-global-expansion-ahead-of-potential-ipo/",
+      "published_at": "2025-04-16T12:23:00+00:00",
+      "category": "商业商机",
+      "subcategory": "公司战略",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Zhipu.AI"
+        ],
+        "models": [
+          "GLM"
+        ],
+        "people": [],
+        "technologies": []
+      },
+      "tags": [
+        "智谱AI",
+        "开源",
+        "GLM",
+        "全球扩张",
+        "IPO"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "859ef647d112",
+      "title_zh": "DeepSeek预告下一代R2模型，并推出SPCT新方法扩展推理规模",
+      "title_en": "DeepSeek Signals Next-Gen R2 Model, Unveils Novel Approach to Scaling Inference with SPCT",
+      "summary_zh": "DeepSeek AI发布研究论文，提出SPCT新技术以增强通用奖励模型在推理阶段的可扩展性，同时暗示下一代R2模型即将到来。",
+      "source_name": "SyncedReview",
+      "source_url": "https://syncedreview.com/2025/04/11/deepseek-signals-next-gen-r2-model-unveils-novel-approach-to-scaling-inference-with-spct/",
+      "published_at": "2025-04-11T14:43:45+00:00",
+      "category": "研究前沿",
+      "subcategory": "推理优化",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "DeepSeek"
+        ],
+        "models": [
+          "R2",
+          "SPCT"
+        ],
+        "people": [],
+        "technologies": [
+          "SPCT",
+          "general reward models"
+        ]
+      },
+      "tags": [
+        "DeepSeek",
+        "R2",
+        "推理扩展",
+        "奖励模型",
+        "SPCT"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    }
+  ],
+  "stats": {
+    "sources_count": 6,
+    "total_collected_raw": 66,
+    "total_after_dedup": 66,
+    "total_published": 36,
+    "api_tokens_input": 22930,
+    "api_tokens_output": 22063,
+    "api_cost_estimate_usd": 0.0094
+  }
+}
