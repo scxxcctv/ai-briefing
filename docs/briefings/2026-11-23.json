@@ -1,0 +1,3168 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T09:19:31+08:00",
+  "model": "deepseek-chat",
+  "briefing_summary": "今日AI领域动态呈现研究突破、资本狂欢与监管博弈交织的格局。研究前沿最为瞩目：GPT-6.2 Astra在具身智能16项任务上成功率较前代翻倍，Anthropic数学家借助Claude攻克千禧年数学难题并催生940页人类手稿，AI更宣称解决167年黎曼猜想，引发学界震动。资本层面，Anthropic七位创始人在破纪录IPO中套现近20亿美元，其IPO或为慈善事业带来1560亿美元，但安全优先模式的可持续性亦引发讨论。模型侧，谷歌Gemini 4 Neon多项基准超越Claude Opus 5.5，竞争白热化。政策监管方面，美国批准向中国出售87.9万颗英伟达和AMD芯片，地缘博弈出现松动；联合国“杀手机器人”规则谈判未果，Signal则限制截图以抵御AI监控。应用端，港大CLI-Anything让所有软件原生支持智能体，苹果与谷歌竞相布局Mac操控智能体。英伟达财报亮眼却深陷CEO风波，构成今日最具张力的商业叙事。",
+  "total_items": 89,
+  "categories": {
+    "模型发布": {
+      "count": 11,
+      "items": [
+        "35e306b44900",
+        "5b87557c6efe",
+        "6c983d67f337",
+        "6d3580321804",
+        "61410051c04a",
+        "127fdeedace1",
+        "3468b3da8d7c",
+        "0b37295b0aa9",
+        "03ef0e6d0fb8",
+        "ed8fbe1a6624",
+        "8a68a59017f4"
+      ]
+    },
+    "应用产品": {
+      "count": 21,
+      "items": [
+        "14dfcd70356e",
+        "5e3d9d73303e",
+        "38a55532cf56",
+        "5787cc54e047",
+        "3d0bbec1130e",
+        "1dd2951cc8ca",
+        "361bd1934143",
+        "9f6ea6832478",
+        "ac69f1bee673",
+        "0fdf75e5edbd",
+        "7fd7a386e978",
+        "0e0eae38ce09",
+        "f318028a3a12",
+        "6478a226e93c",
+        "80ef99262584",
+        "b9f7414c4a74",
+        "7bc44b4f5a79",
+        "3a13397463af",
+        "7e91c888ffcd",
+        "66f9d0acf34e",
+        "6aa448a2417c"
+      ]
+    },
+    "研究前沿": {
+      "count": 18,
+      "items": [
+        "48f797019081",
+        "a81dc361fcbb",
+        "f8b10234f0e9",
+        "80ff158306f8",
+        "dbe793fbc83b",
+        "59afc871ac31",
+        "bd53160da7c4",
+        "7373aff18057",
+        "ac51be14bbea",
+        "f62eb207d525",
+        "27eae25938b8",
+        "47b9e0e3c8b1",
+        "b17a564d9d9f",
+        "06b6ffd353d1",
+        "d07eb2ae65a2",
+        "02e0e9b25a0c",
+        "5ff53418fc80",
+        "859ef647d112"
+      ]
+    },
+    "投融资": {
+      "count": 8,
+      "items": [
+        "106f1c3e9a6e",
+        "67f6066a1e92",
+        "f66d3545a3c5",
+        "c880af8c0a49",
+        "f1056cc422e6",
+        "9c8c63f906d3",
+        "9b0eeb518c0e",
+        "6c267b10d32c"
+      ]
+    },
+    "政策监管": {
+      "count": 11,
+      "items": [
+        "36808f1fb7cb",
+        "6a5d5da4308b",
+        "716b34bd4887",
+        "0f8a78c0d173",
+        "cd98bf101885",
+        "45b535312ec6",
+        "c6a68734fa94",
+        "afadad4b5b70",
+        "05d88b005173",
+        "81facedbe517",
+        "50f2904489e3"
+      ]
+    },
+    "商业商机": {
+      "count": 20,
+      "items": [
+        "393a8763853e",
+        "5046e4a2ef1a",
+        "cf3ababe5455",
+        "9cd32f09614b",
+        "3b667931908c",
+        "6e3c694f0d6e",
+        "6545e1465af9",
+        "badecaeada8a",
+        "b3fd83f06a3e",
+        "706048b2a2a4",
+        "0a2632b4ec3e",
+        "9e800e0fba2e",
+        "8b0f88eb2722",
+        "705594858e67",
+        "501acbbd19a4",
+        "0a51e780132b",
+        "c48f17b9242a",
+        "8229f04462fc",
+        "d2b72d9b31fb",
+        "1019ad34590b"
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "14dfcd70356e",
+      "title_zh": "Claude-BugHunter：82项技能的红队漏洞挖掘工具包",
+      "title_en": "elementalsouls/Claude-BugHunter (Python, ★17,853)",
+      "summary_zh": "开源项目Claude-BugHunter发布，为Claude Code提供82项技能、15个斜杠命令及681个已披露报告模式，覆盖24类核心漏洞，并包含企业身份与基础设施攻击矩阵，面向漏洞挖掘与外部红队工作。",
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "published_at": "2026-11-23T01:17:09.818441+00:00",
+      "category": "应用产品",
+      "subcategory": "AI安全",
+      "importance": 3,
+      "entities": {
+        "companies": [],
+        "models": [
+          "Claude Code"
+        ],
+        "people": [],
+        "technologies": [
+          "Agent Skills",
+          "红队测试",
+          "漏洞挖掘"
+        ]
+      },
+      "tags": [
+        "Claude Code",
+        "红队",
+        "漏洞挖掘",
+        "AI安全",
+        "开源工具",
+        "Agent技能"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "5e3d9d73303e",
+      "title_zh": "港大CLI-Anything：让所有软件原生支持智能体",
+      "title_en": "HKUDS/CLI-Anything (Python, ★62,786)",
+      "summary_zh": "香港大学数据科学团队开源CLI-Anything项目，提出让所有软件成为智能体原生（Agent-Native）的方案，并配套CLI-Hub平台，旨在打通AI智能体与各类软件工具的调用链路。",
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/HKUDS/CLI-Anything",
+      "published_at": "2026-11-23T01:17:09.818441+00:00",
+      "category": "应用产品",
+      "subcategory": "AI智能体",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "香港大学"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "Agent-Native",
+          "CLI",
+          "AI智能体"
+        ]
+      },
+      "tags": [
+        "AI智能体",
+        "CLI",
+        "开源",
+        "香港大学",
+        "工具调用",
+        "Agent-Native"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "48f797019081",
+      "title_zh": "minimind：两小时从零训练64M大模型",
+      "title_en": "jingyaogong/minimind (Python, ★68,666)",
+      "summary_zh": "开源项目minimind提供完整的大模型训练流程，用户可在两小时内从零训练出64M参数的小型语言模型，降低了LLM训练门槛，适合学习与研究用途。",
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/jingyaogong/minimind",
+      "published_at": "2026-11-23T01:17:09.818441+00:00",
+      "category": "研究前沿",
+      "subcategory": "模型训练",
+      "importance": 3,
+      "entities": {
+        "companies": [],
+        "models": [
+          "minimind"
+        ],
+        "people": [
+          "jingyaogong"
+        ],
+        "technologies": [
+          "LLM训练",
+          "小参数模型"
+        ]
+      },
+      "tags": [
+        "minimind",
+        "大模型训练",
+        "开源",
+        "64M模型",
+        "教育",
+        "从零训练"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "38a55532cf56",
+      "title_zh": "Firecrawl：为智能体提供知识基础设施的抓取平台",
+      "title_en": "firecrawl/firecrawl (TypeScript, ★207,054)",
+      "summary_zh": "Firecrawl定位为智能体的知识基础设施，通过统一API提供搜索、抓取能力，并接入550余家数据提供商，帮助AI智能体获取更丰富、更准确的外部数据。",
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/firecrawl/firecrawl",
+      "published_at": "2026-11-23T01:17:09.818441+00:00",
+      "category": "应用产品",
+      "subcategory": "数据基础设施",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Firecrawl"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "网页抓取",
+          "API",
+          "知识基础设施"
+        ]
+      },
+      "tags": [
+        "Firecrawl",
+        "数据抓取",
+        "AI智能体",
+        "API",
+        "知识库",
+        "开源"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "5787cc54e047",
+      "title_zh": "last30days-skill：跨平台话题研究智能体技能",
+      "title_en": "mvanhorn/last30days-skill (Python, ★72,729)",
+      "summary_zh": "开源AI智能体技能last30days-skill可跨Reddit、X、YouTube、Hacker News、Polymarket及全网研究任意话题，并综合生成有依据的摘要，适合趋势追踪与舆情分析。",
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/mvanhorn/last30days-skill",
+      "published_at": "2026-11-23T01:17:09.818441+00:00",
+      "category": "应用产品",
+      "subcategory": "AI智能体",
+      "importance": 3,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [
+          "mvanhorn"
+        ],
+        "technologies": [
+          "Agent Skills",
+          "多源信息聚合",
+          "摘要生成"
+        ]
+      },
+      "tags": [
+        "AI智能体",
+        "话题研究",
+        "信息聚合",
+        "开源",
+        "趋势分析",
+        "Agent技能"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "3d0bbec1130e",
+      "title_zh": "谷歌Stitch Skills：兼容多编码智能体的技能库",
+      "title_en": "google-labs-code/stitch-skills (TypeScript, ★11,926)",
+      "summary_zh": "谷歌实验室开源Stitch Skills技能库，基于Agent Skills开放标准，可与Stitch MCP服务器配合，兼容Antigravity、Gemini CLI、Claude Code、Cursor等编码智能体。",
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/google-labs-code/stitch-skills",
+      "published_at": "2026-11-23T01:17:09.818441+00:00",
+      "category": "应用产品",
+      "subcategory": "AI编程",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "models": [
+          "Gemini CLI",
+          "Claude Code",
+          "Cursor"
+        ],
+        "people": [],
+        "technologies": [
+          "Agent Skills",
+          "MCP",
+          "Stitch"
+        ]
+      },
+      "tags": [
+        "Google",
+        "Stitch",
+        "AI编程",
+        "Agent Skills",
+        "MCP",
+        "开源"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "1dd2951cc8ca",
+      "title_zh": "opensre：面向CI/CD可靠性的开源智能体",
+      "title_en": "Tracer-Cloud/opensre (Python, ★14,431)",
+      "summary_zh": "Tracer-Cloud开源opensre项目，定位为CI/CD可靠性智能体，利用AI自动检测与诊断持续集成和持续交付流程中的问题，提升软件交付稳定性。",
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/Tracer-Cloud/opensre",
+      "published_at": "2026-11-23T01:17:09.818441+00:00",
+      "category": "应用产品",
+      "subcategory": "AI运维",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Tracer-Cloud"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "CI/CD",
+          "AI智能体",
+          "运维自动化"
+        ]
+      },
+      "tags": [
+        "CI/CD",
+        "AI运维",
+        "开源",
+        "智能体",
+        "可靠性",
+        "DevOps"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "361bd1934143",
+      "title_zh": "AFFiNE：隐私优先的开源知识库与协作平台",
+      "title_en": "toeverything/AFFiNE (TypeScript, ★76,833)",
+      "summary_zh": "AFFiNE是一款隐私优先的开源知识库工具，融合规划、整理与创作功能，被视为Notion与Miro的替代方案，支持高度定制，并逐步引入AI能力。",
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/toeverything/AFFiNE",
+      "published_at": "2026-11-23T01:17:09.818441+00:00",
+      "category": "应用产品",
+      "subcategory": "生产力工具",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Toeverything"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "知识库",
+          "开源",
+          "隐私保护"
+        ]
+      },
+      "tags": [
+        "AFFiNE",
+        "知识库",
+        "开源",
+        "生产力工具",
+        "Notion替代",
+        "隐私"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "9f6ea6832478",
+      "title_zh": "AutoClip：一键将长视频自动剪成短视频的开源工具",
+      "title_en": "zhouxiaoka/autoclip (Python, ★13,455)",
+      "summary_zh": "开源AI视频剪辑桌面工具AutoClip支持一键将播客、访谈、课程等长视频自动剪辑为短视频，并生成字幕、封面与发布文案，适配抖音、小红书、TikTok、Reels与YouTube Shorts。",
+      "source_name": "GitHub Trending",
+      "source_url": "https://github.com/zhouxiaoka/autoclip",
+      "published_at": "2026-11-23T01:17:09.818441+00:00",
+      "category": "应用产品",
+      "subcategory": "视频生成",
+      "importance": 3,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [
+          "zhouxiaoka"
+        ],
+        "technologies": [
+          "AI视频剪辑",
+          "自动字幕",
+          "内容再创作"
+        ]
+      },
+      "tags": [
+        "AutoClip",
+        "AI视频剪辑",
+        "短视频",
+        "开源",
+        "内容创作",
+        "自动化"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "a81dc361fcbb",
+      "title_zh": "Nature：葡萄糖发电刺激迷走神经，糖尿病大鼠恢复正常血糖",
+      "title_en": "Nature：糖尿病大鼠成功恢复正常血糖！用电刺激迷走神经控糖",
+      "summary_zh": "新加坡国立大学与南京邮电大学团队在Nature发表研究，开发出NeuroAxis植入装置，利用葡萄糖发电刺激迷走神经，使二型糖尿病大鼠两周内血糖接近健康水平，一型大鼠八周后恢复控糖并观察到胰岛β细胞增殖。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/11/511904.html",
+      "published_at": "2026-11-22T06:21:47+00:00",
+      "category": "研究前沿",
+      "subcategory": "生物医学AI",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "新加坡国立大学",
+          "南京邮电大学"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "NeuroAxis",
+          "迷走神经刺激",
+          "葡萄糖发电",
+          "神经免疫调节"
+        ]
+      },
+      "tags": [
+        "Nature",
+        "糖尿病",
+        "迷走神经",
+        "生物电子",
+        "血糖控制",
+        "植入装置"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "f8b10234f0e9",
+      "title_zh": "Anthropic数学家用Claude再证千禧难题，催生940页人类手稿",
+      "title_en": "A社数学家用Claude又证明另一千禧难题，逼出一份写了12年的940页纯人类手稿",
+      "summary_zh": "Anthropic数学家借助Claude在千禧难题证明上取得新进展，相关研究还促成一份耗时12年、长达940页的纯人类手稿，凸显AI在数学前沿研究中的辅助价值。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/11/511870.html",
+      "published_at": "2026-11-22T06:03:54+00:00",
+      "category": "研究前沿",
+      "subcategory": "AI数学",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "models": [
+          "Claude"
+        ],
+        "people": [],
+        "technologies": [
+          "AI数学证明",
+          "大语言模型"
+        ]
+      },
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "千禧难题",
+        "数学证明",
+        "AI科研",
+        "手稿"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "ac69f1bee673",
+      "title_zh": "AI现场为乐队生成MV：黑客松与音乐节的碰撞",
+      "title_en": "AI给乐队现场搓MV，这是黑客松还是音乐节啊",
+      "summary_zh": "一场活动将黑客松与音乐节结合，参与者利用AI技术为乐队现场演出实时生成MV，展示了生成式AI在音乐与视觉创作场景中的即时应用潜力。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/11/511855.html",
+      "published_at": "2026-11-21T14:14:09+00:00",
+      "category": "应用产品",
+      "subcategory": "视频生成",
+      "importance": 2,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "生成式AI",
+          "MV生成",
+          "实时渲染"
+        ]
+      },
+      "tags": [
+        "AI音乐",
+        "MV生成",
+        "黑客松",
+        "音乐节",
+        "生成式AI",
+        "现场创作"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "393a8763853e",
+      "title_zh": "中国计算走出新的登峰之路",
+      "title_en": "中国计算，走出新的登峰之路",
+      "summary_zh": "文章回顾中国计算产业的发展历程，探讨在AI时代背景下中国算力基础设施与计算技术的突破路径，展望自主创新与产业升级的新方向。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/11/511849.html",
+      "published_at": "2026-11-21T14:09:59+00:00",
+      "category": "商业商机",
+      "subcategory": "算力基础设施",
+      "importance": 3,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "计算技术",
+          "算力基础设施"
+        ]
+      },
+      "tags": [
+        "中国计算",
+        "算力",
+        "产业趋势",
+        "自主创新",
+        "基础设施"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "80ff158306f8",
+      "title_zh": "腾讯元宝与KCL发布首个基于群聊的Agent记忆基准",
+      "title_en": "8万条群聊消息做成考卷：腾讯元宝×KCL发布首个基于群聊构建的Agent记忆基准",
+      "summary_zh": "腾讯元宝与伦敦国王学院联合发布首个基于群聊构建的Agent记忆基准，使用8万条群聊消息作为测试集，评估AI智能体在真实社交场景中的长期记忆与信息检索能力。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/11/511841.html",
+      "published_at": "2026-11-21T11:40:11+00:00",
+      "category": "研究前沿",
+      "subcategory": "Agent评测",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "腾讯",
+          "伦敦国王学院"
+        ],
+        "models": [
+          "腾讯元宝"
+        ],
+        "people": [],
+        "technologies": [
+          "Agent记忆",
+          "基准测试",
+          "群聊数据"
+        ]
+      },
+      "tags": [
+        "腾讯元宝",
+        "KCL",
+        "Agent记忆",
+        "基准测试",
+        "群聊",
+        "评测"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "5046e4a2ef1a",
+      "title_zh": "Grok工程师分享如何月提交3000个PR",
+      "title_en": "全网疯传！Grok一姐教你如何月提交3000个PR",
+      "summary_zh": "一篇关于Grok团队工程师月提交3000个PR的分享在全网热传，介绍其借助AI工具提升代码贡献效率的工作方法与流程，引发开发者社区对AI辅助编程的广泛讨论。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/11/511830.html",
+      "published_at": "2026-11-21T11:34:18+00:00",
+      "category": "商业商机",
+      "subcategory": "AI编程",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "xAI"
+        ],
+        "models": [
+          "Grok"
+        ],
+        "people": [],
+        "technologies": [
+          "AI编程",
+          "Pull Request",
+          "代码生成"
+        ]
+      },
+      "tags": [
+        "Grok",
+        "AI编程",
+        "PR",
+        "开发效率",
+        "xAI",
+        "工作流"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "35e306b44900",
+      "title_zh": "反超Gemini后Karpo再开源，浏览器Agent实现速度与效果双赢",
+      "title_en": "反超Gemini之后，Karpo新作再开源，浏览器Agent速效双赢",
+      "summary_zh": "Karpo在反超Gemini后再度开源新作，推出浏览器Agent，在速度与效果上实现双赢，展现其在AI Agent领域的技术实力。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/11/511791.html",
+      "published_at": "2026-11-21T11:24:29+00:00",
+      "category": "模型发布",
+      "subcategory": "AI Agent",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Karpo"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "浏览器Agent"
+        ]
+      },
+      "tags": [
+        "Karpo",
+        "浏览器Agent",
+        "开源",
+        "Gemini",
+        "AI Agent"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "dbe793fbc83b",
+      "title_zh": "GPT-6.2 Astra具身智能突破：16项任务成功率较GPT-6翻倍",
+      "title_en": "GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍",
+      "summary_zh": "XDOF实测显示，GPT-6.2 Astra操控双臂机器人完成16项任务综合成功率从19.6%升至41.2%，翻倍有余，并首次通关打结、展开T恤等操作。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/11/511779.html",
+      "published_at": "2026-11-21T06:35:59+00:00",
+      "category": "研究前沿",
+      "subcategory": "具身智能",
+      "importance": 5,
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "XDOF"
+        ],
+        "models": [
+          "GPT-6.2 Astra",
+          "GPT-6 Astra"
+        ],
+        "people": [
+          "Greg Brockman"
+        ],
+        "technologies": [
+          "具身智能",
+          "双臂机器人"
+        ]
+      },
+      "tags": [
+        "GPT-6.2 Astra",
+        "具身智能",
+        "机器人",
+        "OpenAI",
+        "XDOF"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "0fdf75e5edbd",
+      "title_zh": "DeepSeek V1作者创业项目曝光：推出开源个人Agent Linger",
+      "title_en": "刚刚，DeepSeek V1作者创业项目曝光：开源Agent",
+      "summary_zh": "前DeepSeek V1作者Tony Zhang公布创业项目Linger，专注个人Personal Agent，优先面向电脑端，可操作网页、邮件、日历，并针对本地LLM优化。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/11/511570.html",
+      "published_at": "2026-11-21T06:32:31+00:00",
+      "category": "应用产品",
+      "subcategory": "AI Agent",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "DeepSeek"
+        ],
+        "models": [
+          "Linger"
+        ],
+        "people": [
+          "Tony Zhang"
+        ],
+        "technologies": [
+          "Personal Agent",
+          "本地LLM"
+        ]
+      },
+      "tags": [
+        "Linger",
+        "DeepSeek",
+        "个人Agent",
+        "开源",
+        "本地部署"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "5b87557c6efe",
+      "title_zh": "姚顺雨与混元团队Reddit答疑，Hy小模型已列入路线图",
+      "title_en": "姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图",
+      "summary_zh": "姚顺雨与腾讯混元团队在Reddit举行AMA，围绕Hy4和Hy4 flash答疑，透露Hy小模型及面向24GB显存模型已列入路线图，并分享训练秘诀。",
+      "source_name": "量子位",
+      "source_url": "https://www.qbitai.com/2026/11/511757.html",
+      "published_at": "2026-11-21T06:30:55+00:00",
+      "category": "模型发布",
+      "subcategory": "多模态模型",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "腾讯"
+        ],
+        "models": [
+          "Hy4",
+          "Hy4 flash"
+        ],
+        "people": [
+          "姚顺雨"
+        ],
+        "technologies": [
+          "多模态模型"
+        ]
+      },
+      "tags": [
+        "腾讯混元",
+        "Hy4",
+        "姚顺雨",
+        "Reddit AMA",
+        "小模型"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "36808f1fb7cb",
+      "title_zh": "重大技术故障尚未结束，更多中断或将到来",
+      "title_en": "We haven't seen the last of the major tech outages",
+      "summary_zh": "近期美国出现FAA全国停飞、Outlook多日中断及摩根大通银行故障，国家情报总监警告未来还将有更多大规模技术中断。",
+      "source_name": "The Verge - AI",
+      "source_url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+      "published_at": "2026-11-22T17:48:02-05:00",
+      "category": "政策监管",
+      "subcategory": "基础设施安全",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "JPMorgan Chase",
+          "Microsoft"
+        ],
+        "models": [],
+        "people": [
+          "Jay Clayton"
+        ],
+        "technologies": []
+      },
+      "tags": [
+        "技术故障",
+        "Outlook",
+        "基础设施",
+        "网络安全",
+        "FAA"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "6a5d5da4308b",
+      "title_zh": "《以撒的结合》开发者移除Repentance Plus中的AI音乐",
+      "title_en": "Binding of Isaac developer removes AI music from Repentance Plus",
+      "summary_zh": "《以撒的结合：Repentance Plus》因使用Suno生成的AI音乐遭Steam差评轰炸，开发者已移除相关曲目。",
+      "source_name": "The Verge - AI",
+      "source_url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "published_at": "2026-11-22T12:25:20-05:00",
+      "category": "政策监管",
+      "subcategory": "AI版权与伦理",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Suno",
+          "Steam"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "AI音乐生成"
+        ]
+      },
+      "tags": [
+        "AI音乐",
+        "Suno",
+        "游戏",
+        "版权",
+        "Steam"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "cf3ababe5455",
+      "title_zh": "氛围编程革命将席卷各类智能设备",
+      "title_en": "The vibe-coding revolution is coming to all the gadgets",
+      "summary_zh": "The Verge专栏探讨vibe-coding趋势正从软件扩展至电视、摄像头等各类硬件设备，AI编程正在重塑消费电子产品。",
+      "source_name": "The Verge - AI",
+      "source_url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+      "published_at": "2026-11-22T08:00:00-05:00",
+      "category": "商业商机",
+      "subcategory": "行业趋势",
+      "importance": 3,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [
+          "David Pierce"
+        ],
+        "technologies": [
+          "vibe-coding"
+        ]
+      },
+      "tags": [
+        "vibe-coding",
+        "AI编程",
+        "智能硬件",
+        "行业趋势",
+        "消费电子"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "716b34bd4887",
+      "title_zh": "联合国未能就“杀手机器人”监管规则达成一致",
+      "title_en": "The UN fails to agree on rules regulating 'killer robots'",
+      "summary_zh": "日内瓦联合国会议就自主武器（“杀手机器人”）监管规则谈判未果，代表们仅同意“开始讨论选项”，未取得实质进展。",
+      "source_name": "The Verge - AI",
+      "source_url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+      "published_at": "2026-11-21T15:03:37-05:00",
+      "category": "政策监管",
+      "subcategory": "AI武器治理",
+      "importance": 4,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "自主武器"
+        ]
+      },
+      "tags": [
+        "联合国",
+        "杀手机器人",
+        "自主武器",
+        "AI治理",
+        "监管"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "106f1c3e9a6e",
+      "title_zh": "Anthropic能否承担安全优先的代价？IPO后引发讨论",
+      "title_en": "Can Anthropic afford to put safety first?",
+      "summary_zh": "The Verge播客讨论Anthropic登陆纳斯达克后的IPO，探讨其坚持安全优先战略与商业压力之间的平衡问题。",
+      "source_name": "The Verge - AI",
+      "source_url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "published_at": "2026-11-21T10:00:00-05:00",
+      "category": "投融资",
+      "subcategory": "IPO",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Anthropic",
+          "OpenAI",
+          "Nvidia"
+        ],
+        "models": [
+          "Claude"
+        ],
+        "people": [
+          "Hayden Field"
+        ],
+        "technologies": []
+      },
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "AI安全",
+        "Claude",
+        "纳斯达克"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "7fd7a386e978",
+      "title_zh": "Chess.com推出经典游戏中心，涵盖麻将、数独等",
+      "title_en": "Chess.com's next move is a new hub for classic games, from mahjong to sudoku",
+      "summary_zh": "Chess.com在推出扑克平台Gambit后，新增10款经典游戏，包括麻将、数独、围棋等，打造Classic Games平台。",
+      "source_name": "The Verge - AI",
+      "source_url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+      "published_at": "2026-11-21T09:00:00-05:00",
+      "category": "应用产品",
+      "subcategory": "游戏平台",
+      "importance": 2,
+      "entities": {
+        "companies": [
+          "Chess.com"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": []
+      },
+      "tags": [
+        "Chess.com",
+        "经典游戏",
+        "麻将",
+        "数独",
+        "游戏平台"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "0f8a78c0d173",
+      "title_zh": "特朗普威胁对在海外建设AI数据中心征收“巨额税”",
+      "title_en": "Trump threatens 'tremendous tax' for moving AI data centers outside the US",
+      "summary_zh": "特朗普表示将对在海外建设数据中心的公司征收“巨额税”，强调不允许美国企业将数据中心建在境外。",
+      "source_name": "The Verge - AI",
+      "source_url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+      "published_at": "2026-11-20T13:50:19-05:00",
+      "category": "政策监管",
+      "subcategory": "AI基础设施政策",
+      "importance": 4,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [
+          "Donald Trump"
+        ],
+        "technologies": [
+          "AI数据中心"
+        ]
+      },
+      "tags": [
+        "特朗普",
+        "数据中心",
+        "税收",
+        "AI基础设施",
+        "政策"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "59afc871ac31",
+      "title_zh": "Anthropic数学家称借助Claude解决千禧年数学难题",
+      "title_en": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+      "summary_zh": "Anthropic数学家Levent Alpöge声称借助Claude证明了黎曼猜想这一千禧年难题，若获验证将是AI在数学领域的重大突破。",
+      "source_name": "The Verge - AI",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+      "published_at": "2026-11-20T11:34:13-05:00",
+      "category": "研究前沿",
+      "subcategory": "AI数学推理",
+      "importance": 5,
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "models": [
+          "Claude"
+        ],
+        "people": [
+          "Levent Alpöge"
+        ],
+        "technologies": [
+          "AI数学推理"
+        ]
+      },
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "黎曼猜想",
+        "千禧年难题",
+        "AI数学"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "9cd32f09614b",
+      "title_zh": "一周内技术世界接连崩溃：Outlook、航空、银行故障频发",
+      "title_en": "The week everything fell apart",
+      "summary_zh": "The Verge播客回顾一周内Outlook多日中断、FAA全国停飞、银行与iCloud故障，探讨技术系统脆弱性及潜在更大危机。",
+      "source_name": "The Verge - AI",
+      "source_url": "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast",
+      "published_at": "2026-11-20T09:06:59-05:00",
+      "category": "商业商机",
+      "subcategory": "行业趋势",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Microsoft",
+          "Apple"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": []
+      },
+      "tags": [
+        "技术故障",
+        "Outlook",
+        "系统脆弱性",
+        "基础设施",
+        "Vergecast"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "cd98bf101885",
+      "title_zh": "Signal阻止Gemini和Siri读取用户屏幕内容",
+      "title_en": "Signal is blocking Gemini and Siri AI from reading your screen",
+      "summary_zh": "Signal在Android和iOS上限制截图功能，防止Gemini、Siri等AI Agent读取用户消息，称系统级AI能力损害其隐私保障。",
+      "source_name": "The Verge - AI",
+      "source_url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+      "published_at": "2026-11-20T07:30:47-05:00",
+      "category": "政策监管",
+      "subcategory": "隐私安全",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Signal"
+        ],
+        "models": [
+          "Gemini",
+          "Siri"
+        ],
+        "people": [],
+        "technologies": [
+          "AI Agent",
+          "屏幕读取"
+        ]
+      },
+      "tags": [
+        "Signal",
+        "隐私",
+        "Gemini",
+        "Siri",
+        "AI Agent"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "45b535312ec6",
+      "title_zh": "OpenAI首席科学家谈如何为AI发展设定限速",
+      "title_en": "OpenAI's chief scientist has thoughts on how to limit AI development",
+      "summary_zh": "OpenAI首席科学家就限制AI发展速度发表看法，指出设定“限速”的前提是各方就如何衡量发展速度达成共识。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+      "published_at": "2026-11-22T21:14:07+00:00",
+      "category": "政策监管",
+      "subcategory": "AI安全治理",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": []
+      },
+      "tags": [
+        "OpenAI",
+        "AI安全",
+        "发展限速",
+        "治理",
+        "首席科学家"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "3b667931908c",
+      "title_zh": "为何数据中心成为大型科技公司遭抵制风暴的中心",
+      "title_en": "Why data centers are at the center of the Big Tech backlash",
+      "summary_zh": "记者Paris Marx在新书《Hyperscale》中剖析数据中心如何成为大型科技公司遭受公众抵制与社会批评的核心焦点，探讨超大规模基础设施扩张背后的社会与政治张力。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+      "published_at": "2026-11-22T18:08:43+00:00",
+      "category": "商业商机",
+      "subcategory": "行业趋势分析",
+      "importance": 3,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [
+          "Paris Marx"
+        ],
+        "technologies": [
+          "data centers",
+          "hyperscale infrastructure"
+        ]
+      },
+      "tags": [
+        "数据中心",
+        "大型科技公司",
+        "公众抵制",
+        "基础设施",
+        "行业批评"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "c6a68734fa94",
+      "title_zh": "Signal限制移动端截图以应对AI监控的生存威胁",
+      "title_en": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+      "summary_zh": "加密通讯应用Signal在Android和iOS版本中限制用户截图功能，以应对AI监控带来的生存威胁，此举反映隐私工具在AI时代面临的前所未有压力。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "published_at": "2026-11-21T21:37:10+00:00",
+      "category": "政策监管",
+      "subcategory": "隐私与安全治理",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Signal"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "AI surveillance",
+          "encryption"
+        ]
+      },
+      "tags": [
+        "Signal",
+        "隐私保护",
+        "AI监控",
+        "截图限制",
+        "加密通讯"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "6e3c694f0d6e",
+      "title_zh": "两个截然不同的英伟达：财报亮眼与CEO风波并存",
+      "title_en": "A tale of two Nvidias",
+      "summary_zh": "英伟达最新财报显示健康增长，但与此同时科技高管公开呼吁黄仁勋回归，公司正面临财报业绩与领导层风波交织的复杂局面。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+      "published_at": "2026-11-21T21:07:42+00:00",
+      "category": "商业商机",
+      "subcategory": "公司动态",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Nvidia"
+        ],
+        "models": [],
+        "people": [
+          "Jensen Huang"
+        ],
+        "technologies": []
+      },
+      "tags": [
+        "英伟达",
+        "财报",
+        "黄仁勋",
+        "领导层风波",
+        "芯片"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "0e0eae38ce09",
+      "title_zh": "可驻留短信中的热门AI智能体盘点",
+      "title_en": "Here are the top AI agents that can live in your text messages",
+      "summary_zh": "TechCrunch盘点可在短信中运行的知名AI智能体，涵盖通用助手以及面向家庭、旅行和工作场景的专用智能体，展示短信作为AI交互入口的新趋势。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "published_at": "2026-11-21T17:00:00+00:00",
+      "category": "应用产品",
+      "subcategory": "AI智能体",
+      "importance": 3,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "AI agents",
+          "text messaging"
+        ]
+      },
+      "tags": [
+        "AI智能体",
+        "短信",
+        "通用助手",
+        "旅行助手",
+        "交互入口"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "f318028a3a12",
+      "title_zh": "向微短剧初创出售AI面部版权会是好莱坞的未来吗",
+      "title_en": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+      "summary_zh": "一名演员将其面部版权授权给微短剧初创公司，这一在中国已流行的趋势引发专家对好莱坞长期后果的质疑，涉及肖像权与AI替代的伦理争议。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "published_at": "2026-11-21T16:00:00+00:00",
+      "category": "应用产品",
+      "subcategory": "AI内容创作",
+      "importance": 3,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "AI face licensing",
+          "digital likeness"
+        ]
+      },
+      "tags": [
+        "AI换脸",
+        "肖像授权",
+        "微短剧",
+        "好莱坞",
+        "数字人"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "67f6066a1e92",
+      "title_zh": "Daniel Ek投资AI研究者的聚变能源初创公司",
+      "title_en": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+      "summary_zh": "Spotify创始人Daniel Ek投资由AI研究者创立的聚变能源初创公司Europa Fusion，该公司致力于探索聚变发电技术，体现AI人才向能源领域跨界。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+      "published_at": "2026-11-20T19:53:41+00:00",
+      "category": "投融资",
+      "subcategory": "能源科技融资",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Spotify",
+          "Europa Fusion"
+        ],
+        "models": [],
+        "people": [
+          "Daniel Ek"
+        ],
+        "technologies": [
+          "fusion power"
+        ]
+      },
+      "tags": [
+        "聚变能源",
+        "Daniel Ek",
+        "融资",
+        "AI研究者",
+        "清洁能源"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "bd53160da7c4",
+      "title_zh": "AI宣称解决167年黎曼猜想，人类也同步给出方案",
+      "title_en": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+      "summary_zh": "AI声称解决了悬而未决167年的黎曼猜想，与此同时一位人类数学家也提出竞争性解法，这一AI驱动的数学成果令数学界震惊并引发广泛讨论。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+      "published_at": "2026-11-20T19:32:08+00:00",
+      "category": "研究前沿",
+      "subcategory": "AI数学推理",
+      "importance": 5,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "AI reasoning",
+          "mathematical proof"
+        ]
+      },
+      "tags": [
+        "黎曼猜想",
+        "数学推理",
+        "AI科研",
+        "数学突破",
+        "人机竞争"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "6545e1465af9",
+      "title_zh": "芯片能承受太空环境，其融资模式能承受吗",
+      "title_en": "Chips can survive the space environment — can their financing?",
+      "summary_zh": "太空数据中心面临独特融资难题：贷款机构不愿让SpaceX将抵押品送入轨道，文章探讨这一困境对太空数据中心整体发展的影响。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+      "published_at": "2026-11-20T17:40:01+00:00",
+      "category": "商业商机",
+      "subcategory": "太空基础设施",
+      "importance": 2,
+      "entities": {
+        "companies": [
+          "SpaceX"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "space data centers",
+          "chips"
+        ]
+      },
+      "tags": [
+        "太空数据中心",
+        "芯片",
+        "融资",
+        "SpaceX",
+        "抵押品"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "badecaeada8a",
+      "title_zh": "英伟达黄仁勋风波余波持续发酵",
+      "title_en": "The fallout from Nvidia’s Jensen Huang scandal continues",
+      "summary_zh": "播客讨论英伟达罢免CEO黄仁勋后的余波：公司发布健康财报并承诺好时光延续，同时宣布停止在中国销售H200芯片并驳回相关呼吁。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+      "published_at": "2026-11-20T14:55:44+00:00",
+      "category": "商业商机",
+      "subcategory": "公司动态",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Nvidia"
+        ],
+        "models": [
+          "H200"
+        ],
+        "people": [
+          "Jensen Huang"
+        ],
+        "technologies": []
+      },
+      "tags": [
+        "英伟达",
+        "黄仁勋",
+        "H200",
+        "中国市场",
+        "财报"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "6478a226e93c",
+      "title_zh": "六款让家庭办公更智能的AI设备",
+      "title_en": "Six AI-powered gadgets that could make your home office smarter",
+      "summary_zh": "TechCrunch推荐六款AI驱动的家庭办公设备，从智能记事本到网络摄像头，帮助用户升级工作空间，提升远程办公效率与体验。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
+      "published_at": "2026-11-20T14:00:00+00:00",
+      "category": "应用产品",
+      "subcategory": "AI硬件",
+      "importance": 2,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "AI gadgets",
+          "webcams",
+          "notetakers"
+        ]
+      },
+      "tags": [
+        "AI硬件",
+        "家庭办公",
+        "智能设备",
+        "生产力工具",
+        "网络摄像头"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "80ef99262584",
+      "title_zh": "苹果或正开发可操控Mac的自主AI智能体",
+      "title_en": "Apple may be developing its own AI agent that runs your Mac",
+      "summary_zh": "苹果似乎正在构建可操控Mac的AI智能体，有望与Meta Muse、Instinct、Claude和OpenAI Dots等产品竞争，标志苹果在AI智能体领域的布局。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "published_at": "2026-11-20T00:56:01+00:00",
+      "category": "应用产品",
+      "subcategory": "AI智能体",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Apple",
+          "Meta",
+          "OpenAI",
+          "Anthropic"
+        ],
+        "models": [
+          "Muse",
+          "Instinct",
+          "Claude",
+          "OpenAI Dots"
+        ],
+        "people": [],
+        "technologies": [
+          "AI agents"
+        ]
+      },
+      "tags": [
+        "苹果",
+        "AI智能体",
+        "Mac",
+        "操作系统",
+        "竞争格局"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "f66d3545a3c5",
+      "title_zh": "Anthropic七位创始人在破纪录IPO中套现近20亿美元",
+      "title_en": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "summary_zh": "Anthropic以每股83美元的IPO价格上市，七位创始人各套现2.8亿美元，合计近20亿美元，公司募资近1050亿美元，创下纪录性IPO。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+      "published_at": "2026-11-20T00:43:50+00:00",
+      "category": "投融资",
+      "subcategory": "IPO上市",
+      "importance": 5,
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": []
+      },
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "创始人套现",
+        "融资纪录",
+        "AI公司上市"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "b9f7414c4a74",
+      "title_zh": "Meta新款Muse Charm设备或定价300美元",
+      "title_en": "Meta’s new Muse Charm device may cost $300",
+      "summary_zh": "Meta未否认The Information的报道，仅表示即将分享更多关于其AI可穿戴设备Muse Charm的信息，该设备可能定价300美元。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+      "published_at": "2026-11-19T21:58:06+00:00",
+      "category": "应用产品",
+      "subcategory": "AI可穿戴设备",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "models": [
+          "Muse Charm"
+        ],
+        "people": [],
+        "technologies": [
+          "AI wearable"
+        ]
+      },
+      "tags": [
+        "Meta",
+        "Muse Charm",
+        "可穿戴设备",
+        "AI硬件",
+        "定价"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "7373aff18057",
+      "title_zh": "这些技术故障颇有千禧年危机风格，AI智能体版",
+      "title_en": "These tech outages are giving Y2K, AI agent style",
+      "summary_zh": "航空订票系统、银行平台和生产力平台近期接连出现故障，网络安全专家认为这并非巧合，背后可能与AI智能体相关的深层问题有关。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+      "published_at": "2026-11-19T21:42:31+00:00",
+      "category": "研究前沿",
+      "subcategory": "AI系统安全",
+      "importance": 3,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "AI agents",
+          "cybersecurity"
+        ]
+      },
+      "tags": [
+        "技术故障",
+        "AI智能体",
+        "网络安全",
+        "系统稳定性",
+        "千禧年危机"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "afadad4b5b70",
+      "title_zh": "黄仁勋风波时间线：婚外情与涉嫌中国间谍指控",
+      "title_en": "The unfolding Jensen Huang scandal: a timeline",
+      "summary_zh": "英伟达CEO黄仁勋因婚外情辞职，事件涉及涉嫌中国间谍的指控，在中美竞相发展先进AI基础设施的背景下可能产生国家安全层面的影响。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "published_at": "2026-11-19T20:18:49+00:00",
+      "category": "政策监管",
+      "subcategory": "国家安全与治理",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Nvidia"
+        ],
+        "models": [],
+        "people": [
+          "Jensen Huang"
+        ],
+        "technologies": [
+          "AI infrastructure"
+        ]
+      },
+      "tags": [
+        "黄仁勋",
+        "英伟达",
+        "国家安全",
+        "中美竞争",
+        "辞职风波"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "c880af8c0a49",
+      "title_zh": "Anthropic IPO或为慈善事业带来1560亿美元",
+      "title_en": "Anthropic’s IPO could deliver $156B to charity",
+      "summary_zh": "据测算，若Anthropic IPO股价达到95美元，其公共福利基金会、员工捐赠及公司配捐合计将达1560亿美元，有望成为科技史上最大规模慈善资金之一。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+      "published_at": "2026-11-19T19:10:45+00:00",
+      "category": "投融资",
+      "subcategory": "IPO",
+      "importance": 5,
+      "entities": {
+        "companies": [
+          "Anthropic"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": []
+      },
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "慈善基金",
+        "公共福利",
+        "AI公司估值",
+        "员工捐赠"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "7bc44b4f5a79",
+      "title_zh": "谷歌Gemini获准操控Mac，可代用户整理文件填表",
+      "title_en": "Google gives Gemini the ability to use your Mac for you",
+      "summary_zh": "谷歌Gemini最新更新为Mac引入AI智能体，可自动整理文件、填写表单并处理多步骤工作流，标志着桌面端AI代理能力进一步落地。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "published_at": "2026-11-19T18:09:11+00:00",
+      "category": "应用产品",
+      "subcategory": "AI智能体",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "models": [
+          "Gemini"
+        ],
+        "people": [],
+        "technologies": [
+          "AI Agent",
+          "桌面自动化"
+        ]
+      },
+      "tags": [
+        "Google",
+        "Gemini",
+        "Mac",
+        "AI智能体",
+        "工作流自动化",
+        "桌面助手"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "05d88b005173",
+      "title_zh": "Meta AI智能体Muse被曝混淆对话并泄露隐私数据",
+      "title_en": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+      "summary_zh": "报道称Meta的AI智能体Muse出现对话混淆问题，向员工展示其从未发起的育儿请求、未咨询的职业建议及他人银行账户余额，引发隐私泄露担忧。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+      "published_at": "2026-11-19T17:38:40+00:00",
+      "category": "政策监管",
+      "subcategory": "AI安全与隐私",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Meta"
+        ],
+        "models": [
+          "Muse"
+        ],
+        "people": [],
+        "technologies": [
+          "AI Agent",
+          "隐私保护"
+        ]
+      },
+      "tags": [
+        "Meta",
+        "Muse",
+        "隐私泄露",
+        "AI安全",
+        "数据混淆",
+        "智能体风险"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "f1056cc422e6",
+      "title_zh": "前阿里高管创办Everful融资4850万美元，连接零售商与中国工厂",
+      "title_en": "Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories",
+      "summary_zh": "由前阿里巴巴高管创立的Everful完成4850万美元融资，用于扩展工厂直采平台，帮助海外零售商直接对接中国制造商进行产品采购。",
+      "source_name": "TechCrunch - AI",
+      "source_url": "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/",
+      "published_at": "2026-11-19T17:00:00+00:00",
+      "category": "投融资",
+      "subcategory": "早期融资",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Everful",
+          "Alibaba"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "工厂直采平台",
+          "供应链"
+        ]
+      },
+      "tags": [
+        "Everful",
+        "融资",
+        "跨境电商",
+        "供应链",
+        "工厂直采",
+        "阿里巴巴"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "b3fd83f06a3e",
+      "title_zh": "从Raye到Coldplay：AI黄牛如何抬高演唱会票价",
+      "title_en": "From Raye to Coldplay, How AI Scalpers are Pricing You Out of Concert Tickets",
+      "summary_zh": "AI技术使票务欺诈更易实施，从虚假预订到自动化批量购票，正推高演唱会票价，迫使票务平台加强验票与转售防护机制。",
+      "source_name": "Analytics India Mag",
+      "source_url": "https://analyticsindiamag.com/ai-features/from-raye-to-coldplay-how-ai-scalpers-are-pricing-you-out-of-concert-tickets",
+      "published_at": "2026-11-22T05:30:00+00:00",
+      "category": "商业商机",
+      "subcategory": "行业趋势",
+      "importance": 3,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [
+          "Raye",
+          "Coldplay"
+        ],
+        "technologies": [
+          "自动化购票",
+          "AI黄牛"
+        ]
+      },
+      "tags": [
+        "AI黄牛",
+        "票务欺诈",
+        "演唱会",
+        "自动化购票",
+        "反欺诈",
+        "票务平台"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "81facedbe517",
+      "title_zh": "印度果阿邦计划培养5万名AI技能毕业生",
+      "title_en": "Goa Wants to Train 50,000 Graduates in AI Skills",
+      "summary_zh": "果阿邦内阁批准2026年AI政策，计划2026至2029年培养5万名AI技能毕业生，并建设孔卡尼语大模型、AI研究中心，扶持初创与中小微企业应用。",
+      "source_name": "Analytics India Mag",
+      "source_url": "https://analyticsindiamag.com/ai-news/goa-cabinet-approves-ai-policy-2026-puts-60-towards-skilling",
+      "published_at": "2026-11-20T13:22:38+00:00",
+      "category": "政策监管",
+      "subcategory": "AI政策与人才培养",
+      "importance": 3,
+      "entities": {
+        "companies": [],
+        "models": [
+          "Konkani语言模型"
+        ],
+        "people": [],
+        "technologies": [
+          "AI技能培训",
+          "语言模型"
+        ]
+      },
+      "tags": [
+        "果阿邦",
+        "AI政策",
+        "人才培养",
+        "孔卡尼语模型",
+        "印度AI",
+        "初创扶持"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "706048b2a2a4",
+      "title_zh": "AI迫使印度中型IT企业重写并购策略",
+      "title_en": "Forget Organic Growth, AI is Forcing Mid-Cap Indian IT to Reinvent M&A Playbook",
+      "summary_zh": "AI正迫使印度中型IT公司放弃有机增长路径，转而通过并购获取专业技能、技术与客户，其二季度业绩显示这些交易正重塑其竞争力。",
+      "source_name": "Analytics India Mag",
+      "source_url": "https://analyticsindiamag.com/it-services/ai-is-forcing-mid-tier-indian-it-companies-to-rethink-their-competitive-advantage",
+      "published_at": "2026-11-20T12:29:56+00:00",
+      "category": "商业商机",
+      "subcategory": "行业趋势",
+      "importance": 3,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "AI转型",
+          "并购整合"
+        ]
+      },
+      "tags": [
+        "印度IT",
+        "并购",
+        "AI转型",
+        "中型企业",
+        "行业趋势",
+        "竞争力"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "0a2632b4ec3e",
+      "title_zh": "Logic Pursuits获评最佳数据工程师雇主",
+      "title_en": "Logic Pursuits Certified as Best Firm for Data Engineers",
+      "summary_zh": "Analytics India Magazine认证Logic Pursuits为数据工程师最佳雇主，肯定其云原生能力、全球交付模式及在数据工程领域的人才培养实践。",
+      "source_name": "Analytics India Mag",
+      "source_url": "https://analyticsindiamag.com/ai-highlights/logic-pursuits-certified-as-best-firm-for-data-engineers",
+      "published_at": "2026-11-20T11:36:20+00:00",
+      "category": "商业商机",
+      "subcategory": "企业动态",
+      "importance": 2,
+      "entities": {
+        "companies": [
+          "Logic Pursuits",
+          "Analytics India Magazine"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "云原生",
+          "数据工程"
+        ]
+      },
+      "tags": [
+        "Logic Pursuits",
+        "数据工程师",
+        "雇主认证",
+        "云原生",
+        "全球交付"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "9e800e0fba2e",
+      "title_zh": "银行为何押注AI编排而非完全自主",
+      "title_en": "Why Banks Are Betting on AI Orchestration Over Autonomy",
+      "summary_zh": "金融服务业更看重AI编排能力而非任务自动化本身，强调在充分理由与灵活性前提下部署AI，以兼顾效率与合规可控。",
+      "source_name": "Analytics India Mag",
+      "source_url": "https://analyticsindiamag.com/ai-highlights/why-banks-are-betting-on-ai-orchestration-over-autonomy",
+      "published_at": "2026-11-20T11:29:44+00:00",
+      "category": "商业商机",
+      "subcategory": "金融AI",
+      "importance": 3,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "AI编排",
+          "自动化",
+          "智能体"
+        ]
+      },
+      "tags": [
+        "银行",
+        "AI编排",
+        "金融科技",
+        "自动化",
+        "合规",
+        "智能体"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "8b0f88eb2722",
+      "title_zh": "英伟达危机才刚开始，黄仁勋魅力难救场",
+      "title_en": "NVIDIA's Crisis Has Only Just Begun, and There's No Jensen Charm to Save It",
+      "summary_zh": "文章认为英伟达面临AI基础设施支出放缓、出口管制收紧、数据中心扩张受阻及超大规模客户自研芯片等多重压力，危机才刚刚开始。",
+      "source_name": "Analytics India Mag",
+      "source_url": "https://analyticsindiamag.com/global-tech/nvidias-crisis-has-only-just-begun-and-theres-no-jensen-charm-to-save-it",
+      "published_at": "2026-11-20T09:19:29+00:00",
+      "category": "商业商机",
+      "subcategory": "行业趋势",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "models": [],
+        "people": [
+          "Jensen Huang"
+        ],
+        "technologies": [
+          "AI基础设施",
+          "GPU"
+        ]
+      },
+      "tags": [
+        "英伟达",
+        "黄仁勋",
+        "AI基础设施",
+        "出口管制",
+        "数据中心",
+        "自研芯片"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "6c983d67f337",
+      "title_zh": "Soket AI融资400万美元并推出EKA-1模型",
+      "title_en": "Soket AI Secures $4 Mn as it Rolls Out EKA-1 Model",
+      "summary_zh": "Soket AI获400万美元融资，并发布260亿参数的EKA-1基础模型，隶属其主权AI旗舰项目EKA，聚焦数学、代码与推理能力。",
+      "source_name": "Analytics India Mag",
+      "source_url": "https://analyticsindiamag.com/ai-news/soket-ai-secures-usd-4-million-as-it-rolls-out-its-eka-1-model",
+      "published_at": "2026-11-20T08:04:27+00:00",
+      "category": "模型发布",
+      "subcategory": "大语言模型",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Soket AI"
+        ],
+        "models": [
+          "EKA-1"
+        ],
+        "people": [],
+        "technologies": [
+          "基础模型",
+          "主权AI",
+          "推理"
+        ]
+      },
+      "tags": [
+        "Soket AI",
+        "EKA-1",
+        "融资",
+        "主权AI",
+        "基础模型",
+        "推理"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "3a13397463af",
+      "title_zh": "Zerodha将Kite用户偏好存储从SSDB迁移至开源SQLite系统",
+      "title_en": "Zerodha Migrates Kite's User Preference Storage From SSDB to Open-Source SQLite-Based System",
+      "summary_zh": "Zerodha将Kite的用户偏好存储从已停止维护且仅支持单机的SSDB迁移至基于SQLite的开源系统，解决维护与扩展性限制。",
+      "source_name": "Analytics India Mag",
+      "source_url": "https://analyticsindiamag.com/ai-news/zerodha-migrates-kites-user-preference-storage-from-ssdb-to-open-source-sqlite-system",
+      "published_at": "2026-11-20T06:39:24+00:00",
+      "category": "应用产品",
+      "subcategory": "技术架构",
+      "importance": 2,
+      "entities": {
+        "companies": [
+          "Zerodha"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "SSDB",
+          "SQLite",
+          "Kite"
+        ]
+      },
+      "tags": [
+        "Zerodha",
+        "Kite",
+        "SSDB",
+        "SQLite",
+        "存储迁移",
+        "开源"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "705594858e67",
+      "title_zh": "三星电子在存储需求激增之际调整芯片业务领导层",
+      "title_en": "Samsung Electronics Shakes Up Chips Leadership Amid Soaring Memory Demand",
+      "summary_zh": "三星电子更换存储、系统LSI及移动业务负责人，旨在强化半导体业务并在AI时代提升竞争力，背景是存储芯片需求持续高涨。",
+      "source_name": "Analytics India Mag",
+      "source_url": "https://analyticsindiamag.com/ai-news/samsung-electronics-names-new-heads-for-memory-system-lsi-and-mobile-businesses",
+      "published_at": "2026-11-20T06:36:10+00:00",
+      "category": "商业商机",
+      "subcategory": "企业动态",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Samsung Electronics"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "存储芯片",
+          "半导体"
+        ]
+      },
+      "tags": [
+        "三星电子",
+        "芯片",
+        "领导层调整",
+        "存储需求",
+        "半导体",
+        "AI时代"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "501acbbd19a4",
+      "title_zh": "台积电据报在分配芯片产能前评估客户财务状况",
+      "title_en": "TSMC Looks at Client Balance Sheets Before Allocating Chips: Report",
+      "summary_zh": "据报道台积电在分配晶圆产能前会评估AI客户的财务健康度，对超出信用额度的订单可能要求现金支付或预付款以确保产能预留。",
+      "source_name": "Analytics India Mag",
+      "source_url": "https://analyticsindiamag.com/ai-news/tsmc-reportedly-weighs-ai-customers-financial-health-before-allocating-chip-capacity",
+      "published_at": "2026-11-20T06:32:48+00:00",
+      "category": "商业商机",
+      "subcategory": "供应链",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "TSMC"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "晶圆代工",
+          "芯片产能"
+        ]
+      },
+      "tags": [
+        "台积电",
+        "芯片产能",
+        "客户信用",
+        "预付款",
+        "供应链",
+        "AI芯片"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "0a51e780132b",
+      "title_zh": "Skyroot携手HEX20、Exolaunch与OhmSpace开展第二次Vikram-1飞行",
+      "title_en": "Skyroot Partners With HEX20, Exolaunch, OhmSpace For Second Vikram-1 Flight",
+      "summary_zh": "Skyroot宣布与HEX20、Exolaunch及OhmSpace合作执行第二次Vikram-1飞行任务，将搭载两颗立方星并在轨测试意大利研发的推进系统。",
+      "source_name": "Analytics India Mag",
+      "source_url": "https://analyticsindiamag.com/ai-news/skyroot-partners-with-hex20-exolaunch-ohmspace-for-second-vikram-1-flight",
+      "published_at": "2026-11-20T06:24:51+00:00",
+      "category": "商业商机",
+      "subcategory": "航天科技",
+      "importance": 2,
+      "entities": {
+        "companies": [
+          "Skyroot",
+          "HEX20",
+          "Exolaunch",
+          "OhmSpace"
+        ],
+        "models": [
+          "Vikram-1"
+        ],
+        "people": [],
+        "technologies": [
+          "立方星",
+          "推进系统",
+          "卫星发射"
+        ]
+      },
+      "tags": [
+        "Skyroot",
+        "Vikram-1",
+        "航天",
+        "立方星",
+        "推进系统",
+        "卫星发射"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "50f2904489e3",
+      "title_zh": "美国批准向中国出售87.9万颗英伟达和AMD芯片",
+      "title_en": "US Agreed to Sell 879,000 NVIDIA and AMD Chips to China",
+      "summary_zh": "美国议员披露已批准向中国出口87.9万颗英伟达与AMD芯片，其中英伟达申请中包含向阿里巴巴供应61万颗芯片，中国被列为最终目的地。",
+      "source_name": "Analytics India Mag",
+      "source_url": "https://analyticsindiamag.com/ai-news/us-lawmakers-disclose-approvals-for-879000-nvidia-and-amd-chips-to-china",
+      "published_at": "2026-11-20T06:21:47+00:00",
+      "category": "政策监管",
+      "subcategory": "出口管制",
+      "importance": 5,
+      "entities": {
+        "companies": [
+          "NVIDIA",
+          "AMD",
+          "Alibaba Group"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "AI芯片"
+        ]
+      },
+      "tags": [
+        "出口管制",
+        "英伟达",
+        "AMD",
+        "阿里巴巴",
+        "中美贸易",
+        "AI芯片"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "9c8c63f906d3",
+      "title_zh": "Cyient半导体获GlobalFoundries 1000万美元投资",
+      "title_en": "Cyient Semiconductors Secures $10 Mn Investment From GlobalFoundries",
+      "summary_zh": "总部位于海得拉巴的芯片公司Cyient Semiconductors获GlobalFoundries 1000万美元投资，估值达5.1亿美元，资金将用于定制芯片与ASIC业务。",
+      "source_name": "Analytics India Mag",
+      "source_url": "https://analyticsindiamag.com/ai-news/cyient-semiconductors-secures-10-mn-investment-from-globalfoundries",
+      "published_at": "2026-11-19T14:07:46+00:00",
+      "category": "投融资",
+      "subcategory": "半导体投资",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Cyient Semiconductors",
+          "GlobalFoundries"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "ASIC",
+          "定制芯片"
+        ]
+      },
+      "tags": [
+        "半导体",
+        "融资",
+        "GlobalFoundries",
+        "ASIC",
+        "定制芯片",
+        "印度"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "9b0eeb518c0e",
+      "title_zh": "卡纳塔克邦获24家风投105亿卢比深科技投资",
+      "title_en": "Karnataka Sees ₹1,050 Cr Deeptech Investment From 24 VCs",
+      "summary_zh": "卡纳塔克邦从24家风投机构获得105亿卢比深科技投资，较去年班加罗尔科技峰会的40亿卢比承诺大幅增长，重点投向AI与深科技初创企业。",
+      "source_name": "Analytics India Mag",
+      "source_url": "https://analyticsindiamag.com/ai-news/karnataka-sees-1050-cr-deep-tech-investment-from-24-vcs",
+      "published_at": "2026-11-19T14:05:43+00:00",
+      "category": "投融资",
+      "subcategory": "风险投资",
+      "importance": 3,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "深科技",
+          "人工智能"
+        ]
+      },
+      "tags": [
+        "卡纳塔克邦",
+        "风险投资",
+        "深科技",
+        "印度",
+        "AI初创",
+        "融资"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "c48f17b9242a",
+      "title_zh": "印孚瑟斯携手NTT Docomo合资拓展日本AI业务",
+      "title_en": "Infosys Expands AI Footprint in Japan With Telecom JV",
+      "summary_zh": "印孚瑟斯以AI合作伙伴身份加入NTT Docomo元宇宙合资企业，将收购该日本合资公司10.1%股份，聚焦数字孪生、沉浸式体验与虚拟商务。",
+      "source_name": "Analytics India Mag",
+      "source_url": "https://analyticsindiamag.com/ai-news/infosys-joins-ntt-docomo-metaverse-venture-as-ai-partner",
+      "published_at": "2026-11-19T13:57:42+00:00",
+      "category": "商业商机",
+      "subcategory": "企业AI合作",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Infosys",
+          "NTT Docomo"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "数字孪生",
+          "沉浸式体验",
+          "虚拟商务"
+        ]
+      },
+      "tags": [
+        "印孚瑟斯",
+        "NTT Docomo",
+        "日本",
+        "合资",
+        "数字孪生",
+        "元宇宙"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "8229f04462fc",
+      "title_zh": "报告：卡纳塔克邦拥有印度近半数AI卓越中心",
+      "title_en": "Karnataka Hosts Nearly Half of India's AI CoEs: Zinnov-KDEM Report",
+      "summary_zh": "Zinnov-KDEM报告显示，卡纳塔克邦在100多个全球能力中心内设有逾120个AI/ML卓越中心，拥有11.1万名AI/ML专业人才，占印度近半数。",
+      "source_name": "Analytics India Mag",
+      "source_url": "https://analyticsindiamag.com/ai-news/karnataka-hosts-nearly-half-of-indias-ai-centres-of-excellence-zinnov-kdem-report-says",
+      "published_at": "2026-11-19T12:35:05+00:00",
+      "category": "商业商机",
+      "subcategory": "行业报告",
+      "importance": 2,
+      "entities": {
+        "companies": [
+          "Zinnov",
+          "KDEM"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "AI/ML",
+          "全球能力中心"
+        ]
+      },
+      "tags": [
+        "卡纳塔克邦",
+        "卓越中心",
+        "印度",
+        "AI人才",
+        "行业报告",
+        "GCC"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "6d3580321804",
+      "title_zh": "谷歌Gemini 4 Neon多项基准超越Claude Opus 5.5",
+      "title_en": "Google's New Gemini 4 Neon Outperforms Claude Opus 5.5 on Several Benchmarks",
+      "summary_zh": "谷歌发布Gemini 4系列新成员Neon，延续元素命名传统（Carbon、Hydrogen、Argon之后），在多项基准测试中超越Claude Opus 5.5。",
+      "source_name": "Analytics India Mag",
+      "source_url": "https://analyticsindiamag.com/ai-news/googles-new-gemini-4-neon-outperforms-claude-opus-55-on-several-benchmarks",
+      "published_at": "2026-11-19T12:15:24+00:00",
+      "category": "模型发布",
+      "subcategory": "大语言模型",
+      "importance": 5,
+      "entities": {
+        "companies": [
+          "Google",
+          "Anthropic"
+        ],
+        "models": [
+          "Gemini 4 Neon",
+          "Claude Opus 5.5",
+          "Gemini 4 Carbon",
+          "Gemini 4 Hydrogen",
+          "Gemini 4 Argon"
+        ],
+        "people": [],
+        "technologies": [
+          "大语言模型"
+        ]
+      },
+      "tags": [
+        "谷歌",
+        "Gemini 4",
+        "Neon",
+        "Claude Opus",
+        "基准测试",
+        "模型发布"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "d2b72d9b31fb",
+      "title_zh": "美国AI吸金千亿，印度初创企业艰难求生",
+      "title_en": "America is Flooding AI With Billions. Indian Startups are Fighting for Survival",
+      "summary_zh": "全球风险资本向美国AI公司集中，印度初创企业面临更严峻的融资环境，投资者要求更强的商业化能力与盈利路径。",
+      "source_name": "Analytics India Mag",
+      "source_url": "https://analyticsindiamag.com/ai-startups/america-is-flooding-ai-with-billions-indian-startups-are-fighting-for-survival",
+      "published_at": "2026-11-19T12:12:46+00:00",
+      "category": "商业商机",
+      "subcategory": "市场趋势",
+      "importance": 3,
+      "entities": {
+        "companies": [],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "人工智能"
+        ]
+      },
+      "tags": [
+        "印度初创",
+        "风险投资",
+        "融资环境",
+        "美国AI",
+        "市场趋势",
+        "商业化"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "7e91c888ffcd",
+      "title_zh": "Wadhwani AI联合领英培训2000名东北部中小企业主",
+      "title_en": "Wadhwani AI Joins LinkedIn to Train 2,000 Northeast SMEs in AI",
+      "summary_zh": "Wadhwani AI与领英合作开展为期12个月的项目，帮助印度东北五邦2000名小微创业者将AI应用于营销、客户互动与业务运营。",
+      "source_name": "Analytics India Mag",
+      "source_url": "https://analyticsindiamag.com/ai-news/wadhwani-ai-and-linkedin-partner-to-train-2000-northeast-entrepreneurs",
+      "published_at": "2026-11-19T10:49:28+00:00",
+      "category": "应用产品",
+      "subcategory": "AI教育",
+      "importance": 2,
+      "entities": {
+        "companies": [
+          "Wadhwani AI",
+          "LinkedIn"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "人工智能"
+        ]
+      },
+      "tags": [
+        "AI培训",
+        "中小企业",
+        "领英",
+        "印度东北",
+        "数字技能",
+        "AI教育"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "1019ad34590b",
+      "title_zh": "苏黎世保险2028年前海得拉巴中心扩招至千人",
+      "title_en": "Zurich Insurance to Expand Hyderabad GCC With 1,000 Employees By 2028",
+      "summary_zh": "苏黎世保险集团计划到2028年将海得拉巴全球能力中心扩至1000人，招聘涵盖云工程、数据与AI、应用开发及网络安全岗位。",
+      "source_name": "Analytics India Mag",
+      "source_url": "https://analyticsindiamag.com/ai-news/zurich-to-expand-hyderabad-centre-with-1000-employees-by-2028",
+      "published_at": "2026-11-19T09:56:22+00:00",
+      "category": "商业商机",
+      "subcategory": "企业扩张",
+      "importance": 2,
+      "entities": {
+        "companies": [
+          "Zurich Insurance Group"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "云计算",
+          "人工智能",
+          "网络安全"
+        ]
+      },
+      "tags": [
+        "苏黎世保险",
+        "海得拉巴",
+        "GCC",
+        "招聘",
+        "AI岗位",
+        "企业扩张"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "61410051c04a",
+      "title_zh": "英伟达发布Alpamayo 2 Edge：面向DRIVE Thor的20亿参数推理VLA",
+      "title_en": "NVIDIA Releases Alpamayo 2 Edge: A 2B Reasoning VLA for DRIVE Thor",
+      "summary_zh": "英伟达发布20亿参数级推理视觉-语言-动作模型Alpamayo 2 Edge，可在DRIVE AGX Thor上规划并解释驾驶轨迹，像素到轨迹延迟仅160-190毫秒。",
+      "source_name": "MarkTechPost",
+      "source_url": "https://www.marktechpost.com/2026/11/22/nvidia-alpamayo-2-edge-2b-reasoning-vla-drive-thor/",
+      "published_at": "2026-11-22T18:37:57+00:00",
+      "category": "模型发布",
+      "subcategory": "多模态模型",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "models": [
+          "Alpamayo 2 Edge",
+          "DRIVE AGX Thor"
+        ],
+        "people": [],
+        "technologies": [
+          "视觉-语言-动作模型",
+          "自动驾驶",
+          "边缘推理"
+        ]
+      },
+      "tags": [
+        "英伟达",
+        "Alpamayo",
+        "VLA",
+        "自动驾驶",
+        "DRIVE Thor",
+        "边缘计算"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "66f9d0acf34e",
+      "title_zh": "2026年最佳个人AI智能体横评：记忆、安全与成本对比",
+      "title_en": "Best Personal AI Agents in 2026: OpenClaw, Hermes Agent, Gemini Spark and More, Compared on Memory, Security and Cost",
+      "summary_zh": "MarkTechPost对比2026年主流个人AI智能体，包括Hermes Agent、OpenClaw、Gemini Spark、OpenAI dots、Meta Muse与Perplexity Personal Computer，从记忆、安全默认设置与实际成本维度排名。",
+      "source_name": "MarkTechPost",
+      "source_url": "https://www.marktechpost.com/2026/11/22/best-personal-ai-agents-2026/",
+      "published_at": "2026-11-22T10:36:17+00:00",
+      "category": "应用产品",
+      "subcategory": "AI智能体",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "OpenAI",
+          "Google",
+          "Meta",
+          "Perplexity"
+        ],
+        "models": [
+          "OpenClaw",
+          "Hermes Agent",
+          "Gemini Spark",
+          "OpenAI dots",
+          "Meta Muse",
+          "Perplexity Personal Computer"
+        ],
+        "people": [],
+        "technologies": [
+          "AI智能体",
+          "记忆机制"
+        ]
+      },
+      "tags": [
+        "AI智能体",
+        "产品对比",
+        "记忆",
+        "安全",
+        "成本",
+        "2026"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "6aa448a2417c",
+      "title_zh": "谷歌Gemini API预览工具检索功能，支持大型工具库",
+      "title_en": "Google AI Previews Tool Retrieval in the Gemini API for Large Tool Libraries",
+      "summary_zh": "谷歌在Gemini API中预览推出工具检索功能，智能体可保留大型工具库并按需加载参数模式，全部在单次Interactions API请求内完成。",
+      "source_name": "MarkTechPost",
+      "source_url": "https://www.marktechpost.com/2026/11/22/google-gemini-api-tool-retrieval/",
+      "published_at": "2026-11-22T10:03:54+00:00",
+      "category": "应用产品",
+      "subcategory": "开发者工具",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Google"
+        ],
+        "models": [
+          "Gemini API"
+        ],
+        "people": [],
+        "technologies": [
+          "工具检索",
+          "智能体",
+          "Interactions API"
+        ]
+      },
+      "tags": [
+        "谷歌",
+        "Gemini API",
+        "工具检索",
+        "智能体",
+        "开发者工具",
+        "API"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "ac51be14bbea",
+      "title_zh": "哥伦比亚大学与CertiK推出TensorLean形式化验证GPU内核",
+      "title_en": "A Team of Researchers from Columbia and CertiK Introduce TensorLean for Formal Verification of GPU Kernels",
+      "summary_zh": "哥伦比亚大学与CertiK提出TensorLean，基于Lean在PTX层面对生产级GPU内核进行形式化验证，检测149个内核实例，证明83个正确，并在FlashAttention、DeepGEMM等中发现38个缺陷。",
+      "source_name": "MarkTechPost",
+      "source_url": "https://www.marktechpost.com/2026/11/21/columbia-certik-tensorlean-formal-verification-gpu-kernels/",
+      "published_at": "2026-11-22T01:51:43+00:00",
+      "category": "研究前沿",
+      "subcategory": "形式化验证",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Columbia University",
+          "CertiK"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "TensorLean",
+          "Lean",
+          "PTX",
+          "GPU内核",
+          "形式化验证",
+          "FlashAttention",
+          "DeepGEMM"
+        ]
+      },
+      "tags": [
+        "形式化验证",
+        "GPU内核",
+        "TensorLean",
+        "Lean",
+        "FlashAttention",
+        "研究论文"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "127fdeedace1",
+      "title_zh": "Thinking Machines发布Inkling 2 Mini：26B循环MoE可跑32GB Mac",
+      "title_en": "Meet Thinking Machines Inkling 2 Mini: 26B Looped MoE Runs on a 32GB Mac",
+      "summary_zh": "Thinking Machines发布Inkling 2 Mini，264亿参数循环MoE Transformer，激活参数34亿，可在32GB Mac或单台DGX Spark运行，SWE-bench Verified得分79.2%。",
+      "source_name": "MarkTechPost",
+      "source_url": "https://www.marktechpost.com/2026/11/21/thinking-machines-inkling-2-mini-looped-transformer/",
+      "published_at": "2026-11-21T12:13:50+00:00",
+      "category": "模型发布",
+      "subcategory": "开源模型",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Thinking Machines"
+        ],
+        "models": [
+          "Inkling 2 Mini"
+        ],
+        "people": [],
+        "technologies": [
+          "循环Transformer",
+          "MoE",
+          "SWE-bench"
+        ]
+      },
+      "tags": [
+        "Thinking Machines",
+        "Inkling 2 Mini",
+        "MoE",
+        "循环Transformer",
+        "端侧模型",
+        "SWE-bench"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "3468b3da8d7c",
+      "title_zh": "OpenAI发布GPT-Live-1.1语音智能体，空闲成本降至每分钟0.02美元",
+      "title_en": "OpenAI Ships GPT-Live-1.1 for Voice Agents, Cuts Idle Cost to $0.02/Min",
+      "summary_zh": "OpenAI在API中发布全双工语音模型GPT-Live-1.1，改进多语言口音与转写能力，并推出待机模式，将空闲WebRTC时长计费从每分钟0.05美元降至0.02美元。",
+      "source_name": "MarkTechPost",
+      "source_url": "https://www.marktechpost.com/2026/11/21/openai-gpt-live-1-1-api-standby-mode/",
+      "published_at": "2026-11-21T11:46:17+00:00",
+      "category": "模型发布",
+      "subcategory": "语音模型",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "OpenAI"
+        ],
+        "models": [
+          "GPT-Live-1.1"
+        ],
+        "people": [],
+        "technologies": [
+          "全双工语音",
+          "WebRTC",
+          "语音智能体"
+        ]
+      },
+      "tags": [
+        "OpenAI",
+        "GPT-Live",
+        "语音智能体",
+        "全双工",
+        "API",
+        "成本优化"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "0b37295b0aa9",
+      "title_zh": "Baseten发布Bison-1与Groundhog-1决策模型，登顶决策模型指数",
+      "title_en": "Baseten Releases Bison-1 and Groundhog-1, Topping Decision Model Index",
+      "summary_zh": "Baseten发布基于Gemma 4构建的开源权重决策模型Bison-1和Groundhog-1，其中Bison-1在AA决策指数v2.1上得分76，两款模型均支持128k上下文和图像输入。",
+      "source_name": "MarkTechPost",
+      "source_url": "https://www.marktechpost.com/2026/11/20/baseten-bison-1-groundhog-1-gemma-4-decision-models/",
+      "published_at": "2026-11-21T04:01:04+00:00",
+      "category": "模型发布",
+      "subcategory": "决策模型",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Baseten"
+        ],
+        "models": [
+          "Bison-1",
+          "Groundhog-1",
+          "Gemma 4"
+        ],
+        "people": [],
+        "technologies": [
+          "开源权重",
+          "多模态输入",
+          "长上下文"
+        ]
+      },
+      "tags": [
+        "Baseten",
+        "决策模型",
+        "Gemma 4",
+        "开源模型",
+        "AA决策指数",
+        "多模态"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "03ef0e6d0fb8",
+      "title_zh": "RadixArk推出DaisyRose-27B：纯强化学习训练的智能体编程模型",
+      "title_en": "RadixArk Ships DaisyRose-27B, a 27B Agentic Coding Model Trained With Reinforcement Learning Only",
+      "summary_zh": "RadixArk发布Apache 2.0许可的智能体编程模型DaisyRose-27B，基于Qwen3.8-27B仅用强化学习后训练，Terminal Bench 4.1通过率翻倍至12.0，可在单GPU运行。",
+      "source_name": "MarkTechPost",
+      "source_url": "https://www.marktechpost.com/2026/11/20/radixark-daisyrose-27b-agentic-model/",
+      "published_at": "2026-11-20T17:42:29+00:00",
+      "category": "模型发布",
+      "subcategory": "AI编程",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "RadixArk"
+        ],
+        "models": [
+          "DaisyRose-27B",
+          "Qwen3.8-27B"
+        ],
+        "people": [],
+        "technologies": [
+          "强化学习",
+          "智能体编程",
+          "后训练"
+        ]
+      },
+      "tags": [
+        "RadixArk",
+        "DaisyRose-27B",
+        "AI编程",
+        "强化学习",
+        "开源模型",
+        "单GPU"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "ed8fbe1a6624",
+      "title_zh": "英伟达发布Nemotron-Labs-Sigma连续扩散语言模型，含14个检查点",
+      "title_en": "NVIDIA AI Releases Nemotron-Labs-Sigma, a Continuous Diffusion Language Model with 14 checkpoints at 3B/8B",
+      "summary_zh": "英伟达发布Nemotron-Labs-Sigma，共14个3B/8B连续扩散语言模型检查点，在16维嵌入空间去噪文本，可蒸馏为少步采样器，解码速度最高达自回归的4.20倍。",
+      "source_name": "MarkTechPost",
+      "source_url": "https://www.marktechpost.com/2026/11/20/nvidia-nemotron-labs-sigma-continuous-diffusion-language-model/",
+      "published_at": "2026-11-20T14:44:52+00:00",
+      "category": "模型发布",
+      "subcategory": "扩散语言模型",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "NVIDIA"
+        ],
+        "models": [
+          "Nemotron-Labs-Sigma"
+        ],
+        "people": [],
+        "technologies": [
+          "连续扩散",
+          "语言模型",
+          "少步采样",
+          "嵌入空间去噪"
+        ]
+      },
+      "tags": [
+        "英伟达",
+        "扩散语言模型",
+        "Nemotron",
+        "开源模型",
+        "推理加速",
+        "检查点"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "f62eb207d525",
+      "title_zh": "Meta FAIR自改进记忆在持续学习基准上达56.0分",
+      "title_en": "Meta FAIR Self-Improving Memory Hits 56.0 on Continual Learning Bench",
+      "summary_zh": "Meta FAIR提出自改进记忆方法，让Kimi-K2.6自行编写LOAD与OFFLOAD记忆提示并蒸馏进权重，优化后提示在持续学习基准上得分56.0，远超人工最佳方案的44.6。",
+      "source_name": "MarkTechPost",
+      "source_url": "https://www.marktechpost.com/2026/11/19/meta-fair-self-improving-memory-harness-distillation/",
+      "published_at": "2026-11-19T21:46:22+00:00",
+      "category": "研究前沿",
+      "subcategory": "持续学习",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "Meta FAIR"
+        ],
+        "models": [
+          "Kimi-K2.6"
+        ],
+        "people": [],
+        "technologies": [
+          "自改进记忆",
+          "提示蒸馏",
+          "持续学习",
+          "权重蒸馏"
+        ]
+      },
+      "tags": [
+        "Meta FAIR",
+        "持续学习",
+        "自改进",
+        "记忆机制",
+        "提示蒸馏",
+        "Kimi"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "27eae25938b8",
+      "title_zh": "哪个智能体导致任务失败？PSU与杜克大学探索多智能体系统自动故障归因",
+      "title_en": "Which Agent Causes Task Failures and When?Researchers from PSU and Duke explores automated failure attribution of LLM Multi-Agent Systems",
+      "summary_zh": "宾州州立大学与杜克大学研究者探索LLM多智能体系统的自动故障归因，将“哪里出错、谁该负责”从难以捉摸的谜题转化为可量化分析的问题。",
+      "source_name": "SyncedReview",
+      "source_url": "https://syncedreview.com/2025/08/14/which-agent-causes-task-failures-and-whenresearchers-from-psu-and-duke-explores-automated-failure-attribution-of-llm-multi-agent-systems/",
+      "published_at": "2025-08-14T06:31:20+00:00",
+      "category": "研究前沿",
+      "subcategory": "多智能体系统",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "宾夕法尼亚州立大学",
+          "杜克大学"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "多智能体系统",
+          "故障归因",
+          "LLM"
+        ]
+      },
+      "tags": [
+        "多智能体",
+        "故障归因",
+        "LLM",
+        "可解释性",
+        "学术研究"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "47b9e0e3c8b1",
+      "title_zh": "字节跳动推出Astra：面向自主机器人导航的双模型架构",
+      "title_en": "ByteDance Introduces Astra: A Dual-Model Architecture for Autonomous Robot Navigation",
+      "summary_zh": "字节跳动推出Astra双模型架构，旨在革新复杂室内环境下的机器人导航能力，为自主机器人导航提供创新解决方案。",
+      "source_name": "SyncedReview",
+      "source_url": "https://syncedreview.com/2025/06/24/bytedance-introduces-astra-a-dual-model-architecture-for-autonomous-robot-navigation/",
+      "published_at": "2025-06-24T09:17:01+00:00",
+      "category": "研究前沿",
+      "subcategory": "机器人导航",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "字节跳动"
+        ],
+        "models": [
+          "Astra"
+        ],
+        "people": [],
+        "technologies": [
+          "双模型架构",
+          "机器人导航",
+          "自主导航"
+        ]
+      },
+      "tags": [
+        "字节跳动",
+        "Astra",
+        "机器人导航",
+        "双模型架构",
+        "具身智能"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "b17a564d9d9f",
+      "title_zh": "MIT推出SEAL框架：迈向自我改进AI的新一步",
+      "title_en": "MIT Researchers Unveil “SEAL”: A New Step Towards Self-Improving AI",
+      "summary_zh": "MIT提出SEAL框架，使大语言模型能够通过强化学习自我编辑并更新自身权重，向自我改进型AI迈出重要一步。",
+      "source_name": "SyncedReview",
+      "source_url": "https://syncedreview.com/2025/06/16/mit-researchers-unveil-seal-a-new-step-towards-self-improving-ai/",
+      "published_at": "2025-06-16T12:58:37+00:00",
+      "category": "研究前沿",
+      "subcategory": "自我改进",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "MIT"
+        ],
+        "models": [
+          "SEAL"
+        ],
+        "people": [],
+        "technologies": [
+          "自我改进",
+          "强化学习",
+          "权重更新",
+          "自编辑"
+        ]
+      },
+      "tags": [
+        "MIT",
+        "SEAL",
+        "自我改进",
+        "强化学习",
+        "大语言模型"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "06b6ffd353d1",
+      "title_zh": "PSU与杜克大学提出多智能体系统自动故障归因方法",
+      "title_en": "Researchers from PSU and Duke introduce “Multi-Agent Systems Automated Failure Attribution",
+      "summary_zh": "宾州州立大学与杜克大学研究者提出多智能体系统自动故障归因方法，有望将识别“哪里出错、谁该负责”的难题转变为可量化、可分析的问题。",
+      "source_name": "SyncedReview",
+      "source_url": "https://syncedreview.com/2025/06/16/researchers-from-psu-and-duke-introduce-multi-agent-systems-automated-failure-attribution/",
+      "published_at": "2025-06-16T07:39:46+00:00",
+      "category": "研究前沿",
+      "subcategory": "多智能体系统",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "宾夕法尼亚州立大学",
+          "杜克大学"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "多智能体系统",
+          "自动故障归因"
+        ]
+      },
+      "tags": [
+        "多智能体",
+        "故障归因",
+        "自动化",
+        "学术研究",
+        "系统可靠性"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "d07eb2ae65a2",
+      "title_zh": "Adobe Research用状态空间模型解锁视频世界模型长期记忆",
+      "title_en": "Adobe Research Unlocking Long-Term Memory in Video World Models with State-Space Models",
+      "summary_zh": "Adobe Research结合状态空间模型进行高效长程依赖建模与稠密局部注意力保持连贯性，并采用扩散强制等训练策略，成功攻克视频生成中长期记忆的难题。",
+      "source_name": "SyncedReview",
+      "source_url": "https://syncedreview.com/2025/05/28/adobe-research-unlocking-long-term-memory-in-video-world-models-with-state-space-models/",
+      "published_at": "2025-05-28T09:31:27+00:00",
+      "category": "研究前沿",
+      "subcategory": "视频生成",
+      "importance": 3,
+      "entities": {
+        "companies": [
+          "Adobe Research"
+        ],
+        "models": [],
+        "people": [],
+        "technologies": [
+          "状态空间模型",
+          "视频世界模型",
+          "扩散强制",
+          "局部注意力",
+          "长期记忆"
+        ]
+      },
+      "tags": [
+        "Adobe",
+        "视频生成",
+        "状态空间模型",
+        "长期记忆",
+        "世界模型"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "02e0e9b25a0c",
+      "title_zh": "DeepSeek-V3新论文发布：硬件感知协同设计揭秘低成本大模型训练",
+      "title_en": "DeepSeek-V3 New Paper is coming! Unveiling the Secrets of Low-Cost Large Model Training through Hardware-Aware Co-design",
+      "summary_zh": "DeepSeek-V3团队发布14页技术论文，CEO梁文锋为共同作者，阐述AI架构的扩展挑战与硬件思考，揭示通过硬件感知协同设计实现低成本大模型训练的秘密。",
+      "source_name": "SyncedReview",
+      "source_url": "https://syncedreview.com/2025/05/15/deepseek-v3-new-paper-is-coming-unveiling-the-secrets-of-low-cost-large-model-training-through-hardware-aware-co-design/",
+      "published_at": "2025-05-15T17:58:00+00:00",
+      "category": "研究前沿",
+      "subcategory": "训练方法",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "DeepSeek"
+        ],
+        "models": [
+          "DeepSeek-V3"
+        ],
+        "people": [
+          "梁文锋"
+        ],
+        "technologies": [
+          "硬件感知协同设计",
+          "低成本训练",
+          "AI架构"
+        ]
+      },
+      "tags": [
+        "DeepSeek",
+        "DeepSeek-V3",
+        "硬件协同设计",
+        "低成本训练",
+        "技术论文"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "8a68a59017f4",
+      "title_zh": "DeepSeek发布Prover-V2：递归证明搜索推进神经定理证明",
+      "title_en": "DeepSeek Unveils DeepSeek-Prover-V2: Advancing Neural Theorem Proving with Recursive Proof Search and a New Benchmark",
+      "summary_zh": "DeepSeek发布开源LLM DeepSeek-Prover-V2，用于Lean 4定理证明，采用递归证明搜索并以DeepSeek-V3生成训练数据，结合强化学习在MiniF2F上取得领先成绩。",
+      "source_name": "SyncedReview",
+      "source_url": "https://syncedreview.com/2025/04/30/deepseek-unveils-deepseek-prover-v2-advancing-neural-theorem-proving-with-recursive-proof-search-and-a-new-benchmark/",
+      "published_at": "2025-04-30T15:46:20+00:00",
+      "category": "模型发布",
+      "subcategory": "数学推理",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "DeepSeek"
+        ],
+        "models": [
+          "DeepSeek-Prover-V2",
+          "DeepSeek-V3"
+        ],
+        "people": [],
+        "technologies": [
+          "神经定理证明",
+          "递归证明搜索",
+          "强化学习",
+          "Lean 4"
+        ]
+      },
+      "tags": [
+        "DeepSeek",
+        "定理证明",
+        "Lean 4",
+        "开源模型",
+        "强化学习",
+        "数学推理"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "5ff53418fc80",
+      "title_zh": "GRPO能否提效10倍？快手SRPO框架给出肯定答案",
+      "title_en": "Can GRPO be 10x Efficient? Kwai AI’s SRPO Suggests Yes with SRPO",
+      "summary_zh": "快手AI提出SRPO框架，通过两阶段强化学习与历史重采样克服GRPO局限，将LLM强化学习后训练步骤削减90%，同时在数学与代码任务上匹配DeepSeek-R1表现。",
+      "source_name": "SyncedReview",
+      "source_url": "https://syncedreview.com/2025/04/23/can-grpo-be-10x-efficient-kwai-ais-srpo-suggests-yes-with-srpo/",
+      "published_at": "2025-04-24T02:30:16+00:00",
+      "category": "研究前沿",
+      "subcategory": "强化学习",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "快手"
+        ],
+        "models": [
+          "SRPO",
+          "DeepSeek-R1"
+        ],
+        "people": [],
+        "technologies": [
+          "强化学习",
+          "GRPO",
+          "历史重采样",
+          "后训练"
+        ]
+      },
+      "tags": [
+        "快手",
+        "SRPO",
+        "GRPO",
+        "强化学习",
+        "后训练效率",
+        "DeepSeek-R1"
+      ],
+      "is_trending": false,
+      "related_item_ids": []
+    },
+    {
+      "id": "6c267b10d32c",
+      "title_zh": "智谱AI开源提速GLM模型并推Z.ai，IPO前加速全球扩张",
+      "title_en": "Zhipu.AI’s Open-Source Power Play: Blazing-Fast GLM Models & Global Expansion Ahead of Potential IPO",
+      "summary_zh": "智谱AI开源速度提升8倍的GLM模型，推出海外平台Z.ai，在潜在IPO前加速全球扩张布局。",
+      "source_name": "SyncedReview",
+      "source_url": "https://syncedreview.com/2025/04/16/zhipu-ais-open-source-power-play-blazing-fast-glm-models-global-expansion-ahead-of-potential-ipo/",
+      "published_at": "2025-04-16T12:23:00+00:00",
+      "category": "投融资",
+      "subcategory": "IPO与上市",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "智谱AI"
+        ],
+        "models": [
+          "GLM"
+        ],
+        "people": [],
+        "technologies": [
+          "开源模型",
+          "模型加速"
+        ]
+      },
+      "tags": [
+        "智谱AI",
+        "GLM",
+        "开源",
+        "IPO",
+        "全球化",
+        "Z.ai"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    },
+    {
+      "id": "859ef647d112",
+      "title_zh": "DeepSeek预告下一代R2模型，SPCT新方法扩展推理能力",
+      "title_en": "DeepSeek Signals Next-Gen R2 Model, Unveils Novel Approach to Scaling Inference with SPCT",
+      "summary_zh": "DeepSeek发布研究论文，提出SPCT新技术以增强通用奖励模型在推理阶段的扩展性，同时释放下一代R2模型信号。",
+      "source_name": "SyncedReview",
+      "source_url": "https://syncedreview.com/2025/04/11/deepseek-signals-next-gen-r2-model-unveils-novel-approach-to-scaling-inference-with-spct/",
+      "published_at": "2025-04-11T14:43:45+00:00",
+      "category": "研究前沿",
+      "subcategory": "推理扩展",
+      "importance": 4,
+      "entities": {
+        "companies": [
+          "DeepSeek"
+        ],
+        "models": [
+          "DeepSeek-R2"
+        ],
+        "people": [],
+        "technologies": [
+          "SPCT",
+          "通用奖励模型",
+          "推理扩展"
+        ]
+      },
+      "tags": [
+        "DeepSeek",
+        "R2",
+        "SPCT",
+        "推理扩展",
+        "奖励模型",
+        "大语言模型"
+      ],
+      "is_trending": true,
+      "related_item_ids": []
+    }
+  ],
+  "stats": {
+    "sources_count": 7,
+    "total_collected_raw": 89,
+    "total_after_dedup": 89,
+    "total_published": 89,
+    "api_tokens_input": 17851,
+    "api_tokens_output": 19246,
+    "api_cost_estimate_usd": 0.0079
+  }
+}
